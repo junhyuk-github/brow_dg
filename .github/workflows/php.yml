@@ -1,0 +1,25 @@
+name: server deploy
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+  workflow_dispatch:
+#메인 에 올리기4
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+
+      - name: SSH Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST_SERVER }}
+          username: ${{ secrets.SSH_USERNAME_SERVER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT_SERVER_DEV }}
+          script: |
+            cd /home/tfbrowDaegu/www
+            git pull https://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@github.com/triup-devteam/brow_dg.git main
