@@ -1,0 +1,14 @@
+# 컴파일된 파일 무시
+*.o
+*.out
+
+# 로그 파일 무시
+*.log
+
+# node_modules 디렉토리 무시
+node_modules/
+_session/
+saveLog/
+common/inc/dataSet.php
+common/classes/dbinfo.php
+common/classes/DBManager.class.php
