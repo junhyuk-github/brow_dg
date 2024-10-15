@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-11-17 22:40:34
+89rlvof0vk77nmf67d98eg1npb | 211.184.113.27 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25961, 25961, 0, 0, 'Contact us', 'NULL', '최수빈', PASSWORD(''), '01049969616', 'rara643125 @naver.com', '211.184.113.27', '헤어라인 빈 곳을 채우고 싶습니다. 가격을 알고 싶습니다.', '', '', 'N', 'N', 'W', 'W00075', '31', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'최수빈',
+										writerIP				=	'211.184.113.27',
+										writerPhone				=	'01049969616',
+										writerMail				=	'rara643125 @naver.com',
+										contents				=	'헤어라인 빈 곳을 채우고 싶습니다. 가격을 알고 싶습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

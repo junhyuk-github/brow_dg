@@ -1,0 +1,66 @@
+
+
+======================================================================
+2023-02-27 18:15:16
+lc4996fmja0mftev45poscqgik | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 318, 'jina___', PASSWORD('idoido22'), '신진아', '010-1111-1111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'신진아',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-27 18:15:26
+lc4996fmja0mftev45poscqgik | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23505, 23505, 0, 0, '수강생 실제후기', '318', '신진아', PASSWORD(''), '', '', '175.209.112.103', '처음 배우기 시작했을 때 매일 긴장하고
+손에도 힘이 너무 많이 들어가고 그래서
+진짜 내가 잘할 수 있을까... 멘탈이 무너졌었는데
+괜찮다고 할 수 있다고 연습 많이 하자고
+옆에서 응원해 주시고 진짜 꼼꼼하게
+알려주셔서 이후에는 제가 연습한 고무판만 봐도
+정말 많이 달라지고 발전한 게 보여서 너무 신기했어요.
+반영구 관련한 정보들, 창업에 유익한 노하우들도
+아낌없이 알려주시는 선생님들께 항상 감사합니다.
+항상 함께라는 생각에 든든합니다!!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'신진아',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음 배우기 시작했을 때 매일 긴장하고
+손에도 힘이 너무 많이 들어가고 그래서
+진짜 내가 잘할 수 있을까... 멘탈이 무너졌었는데
+괜찮다고 할 수 있다고 연습 많이 하자고
+옆에서 응원해 주시고 진짜 꼼꼼하게
+알려주셔서 이후에는 제가 연습한 고무판만 봐도
+정말 많이 달라지고 발전한 게 보여서 너무 신기했어요.
+반영구 관련한 정보들, 창업에 유익한 노하우들도
+아낌없이 알려주시는 선생님들께 항상 감사합니다.
+항상 함께라는 생각에 든든합니다!!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

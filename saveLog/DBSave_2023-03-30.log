@@ -1,0 +1,52 @@
+
+
+======================================================================
+2023-03-30 15:46:45
+k3tr9dn0b5b9ac3l11qun86qm9 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 341, 'jeong_', PASSWORD('idoido22'), '유정연', '010-111-111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'유정연',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-30 15:47:09
+k3tr9dn0b5b9ac3l11qun86qm9 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23817, 23817, 0, 0, '수강생 실제후기', '341', '유정연', PASSWORD(''), '', '', '175.209.112.103', '꼼꼼한 선생님 덕분에 실력이 금방 늘었어요!
+제가 특히나 어려워하는 부분들에 대해서 더 많이 봐주시려고 하고 
+항상 너무 감사해요~~~~! 진짜 톡스앤필 브로우 만족도 짱짱!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'유정연',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'꼼꼼한 선생님 덕분에 실력이 금방 늘었어요!
+제가 특히나 어려워하는 부분들에 대해서 더 많이 봐주시려고 하고 
+항상 너무 감사해요~~~~! 진짜 톡스앤필 브로우 만족도 짱짱!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

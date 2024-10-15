@@ -1,0 +1,162 @@
+
+
+======================================================================
+2023-07-04 14:54:39
+e7ftd4job00hk4tdqvitaok57q | 211.243.232.180 | /member/_findPWDProc.php
+
+
+									SELECT	userIdx, userID, userName, userMobile
+									FROM tbl_academyMember
+									WHERE userID = 'triup12' AND userMobile = '010-8489-1409' AND isOut = 'N'
+									
+
+
+======================================================================
+2023-07-04 14:57:20
+fug9svhh2fse6hk6frco4189h0 | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 362, 'tiqmekfn', PASSWORD('tkaclf23548'), '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '9', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이영환',
+										userPWD				=	PASSWORD('tkaclf23548'),
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'9',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업'
+									
+
+
+======================================================================
+2023-07-04 15:50:46
+fug9svhh2fse6hk6frco4189h0 | 211.243.232.180 | /member/_findPWDProc.php
+
+
+									SELECT	userIdx, userID, userName, userMobile
+									FROM tbl_academyMember
+									WHERE userID = 'tiqmekfn' AND userMobile = '010-6729-3233' AND isOut = 'N'
+									
+
+
+======================================================================
+2023-07-04 15:55:34
+fug9svhh2fse6hk6frco4189h0 | 211.243.232.180 | /member/_findPWDProc.php
+
+
+									SELECT	userIdx, userID, userName, userMobile
+									FROM tbl_academyMember
+									WHERE userID = 'tiqmekfn' AND userMobile = '010-6729-3233' AND isOut = 'N'
+									
+
+
+======================================================================
+2023-07-04 16:43:58
+m2mbh7sgqfjfupkjl28b5tn38r | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24738, 24738, 0, 0, 'Contact us', 'NULL', '이준혁테스트', PASSWORD(''), '01050059538', '', '211.243.232.180', '트라이업 테스트', '', '', 'N', 'N', 'M', 'W00075', '11,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이준혁테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01050059538',
+										writerMail				=	'',
+										contents				=	'트라이업 테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11,13',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-04 17:04:31
+m2mbh7sgqfjfupkjl28b5tn38r | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24741, 24741, 0, 0, 'Contact us', 'NULL', '트라이업테스트', PASSWORD(''), '01050059538', '', '211.243.232.180', '트라이업테스트', '', '', 'N', 'N', 'M', 'W00075', '20', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01050059538',
+										writerMail				=	'',
+										contents				=	'트라이업테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-04 17:15:32
+m2mbh7sgqfjfupkjl28b5tn38r | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24742, 24742, 0, 0, 'Contact us', 'NULL', '트라이업테스트2', PASSWORD(''), '01050059538', '', '211.243.232.180', '트라이업테스트2', '', '', 'N', 'N', 'M', 'W00075', '16,18,21', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업테스트2',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01050059538',
+										writerMail				=	'',
+										contents				=	'트라이업테스트2',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'16,18,21',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-04 17:23:12
+qu7ghq1igvo2ekr5iugeu2bsii | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24743, 24743, 0, 0, 'Contact us', 'NULL', '이승현테스트', PASSWORD(''), '010-8489-1409', '', '211.243.232.180', '수강문의 테스트', '', '', 'N', 'N', 'M', 'W00075', '15,16,17,18,19,20,21', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이승현테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'010-8489-1409',
+										writerMail				=	'',
+										contents				=	'수강문의 테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17,18,19,20,21',
+										bbsState				=	'200'
+									

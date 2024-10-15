@@ -1,0 +1,58 @@
+
+
+======================================================================
+2023-02-24 17:56:43
+kfbuedtcmrlhs215h3vep6bh6e | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 317, 'jyjyjy', PASSWORD('idoido22'), '이지연', '010-111-1111', '0000@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이지연',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-1111',
+										userMail			=	'0000@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-24 17:56:52
+kfbuedtcmrlhs215h3vep6bh6e | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23488, 23488, 0, 0, '수강생 실제후기', '317', '이지연', PASSWORD(''), '', '', '175.209.112.103', '항상 자신감을 가지라고 용기 불어넣어 주시는
+선생님들이 계셔서 겁먹고 손 벌벌 떨던 모습이 
+없어진 저를 발견했어요! 반영구 진짜 어렵게만 생각했는데 
+물론 쉽지는 않았지만 하나하나 배워가면 갈수록 
+더 재밌고 흥미를 가지게 되더라구요! 수강하는 기간 내내 
+즐거운 기억이 너무 많아요. 꼼꼼하게 케어해 주셔서 감사합니다!!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이지연',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'항상 자신감을 가지라고 용기 불어넣어 주시는
+선생님들이 계셔서 겁먹고 손 벌벌 떨던 모습이 
+없어진 저를 발견했어요! 반영구 진짜 어렵게만 생각했는데 
+물론 쉽지는 않았지만 하나하나 배워가면 갈수록 
+더 재밌고 흥미를 가지게 되더라구요! 수강하는 기간 내내 
+즐거운 기억이 너무 많아요. 꼼꼼하게 케어해 주셔서 감사합니다!!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

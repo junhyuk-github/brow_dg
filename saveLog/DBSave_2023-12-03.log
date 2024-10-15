@@ -1,0 +1,34 @@
+
+
+======================================================================
+2023-12-03 19:00:56
+skvdg0ornkc59n73rjs7be05ah | 61.253.123.162 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26115, 26115, 0, 0, 'Contact us', 'NULL', '김은주', PASSWORD(''), '01077219094', 'kkomazi@naver.com', '61.253.123.162', '교육은 주 몇 회이며 1회에 몇 시간 진행되나요?
+
+처음이라 고민도 많고 걱정도 되기는 합니다 ^^;', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김은주',
+										writerIP				=	'61.253.123.162',
+										writerPhone				=	'01077219094',
+										writerMail				=	'kkomazi@naver.com',
+										contents				=	'교육은 주 몇 회이며 1회에 몇 시간 진행되나요?
+
+처음이라 고민도 많고 걱정도 되기는 합니다 ^^;',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,34 @@
+
+
+======================================================================
+2023-11-18 07:40:57
+um625s1pdddr72ft40hvctkr6s | 114.207.242.12 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25962, 25962, 0, 0, 'Contact us', 'NULL', '서경아', PASSWORD(''), '01091441099', 'digili117@never.com', '114.207.242.12', '틴트입술문신을 하고 싶어서 알아보다가 여기까지 오게 됐습니다.
+제가 꽤나 표정때문에 지적을 많이 받아서요..
+입술을 시작으로 눈썹,아이라인,헤어라인까지 해보고 싶어져서요~', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'서경아',
+										writerIP				=	'114.207.242.12',
+										writerPhone				=	'01091441099',
+										writerMail				=	'digili117@never.com',
+										contents				=	'틴트입술문신을 하고 싶어서 알아보다가 여기까지 오게 됐습니다.
+제가 꽤나 표정때문에 지적을 많이 받아서요..
+입술을 시작으로 눈썹,아이라인,헤어라인까지 해보고 싶어져서요~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

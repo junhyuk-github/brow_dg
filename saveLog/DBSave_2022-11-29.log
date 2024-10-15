@@ -1,0 +1,37 @@
+
+
+======================================================================
+2022-11-29 13:34:15
+1u83ck71k3sl6vq4c60vpp7vlv | 112.150.246.109 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22519, 22519, 0, 0, 'Contact us', 'NULL', '나은혜', PASSWORD(''), '01022053044', '', '112.150.246.109', '강릉 거주 중이고, 37세 주부 입니다.
+바로 창업 예정은 아니고, 기술 습득 후 출장 및 방문 시술로 바로 
+사용 하고 싶습니다.
+반영구와 더불어 왁싱과. 속눈썹 펌 도 함께 배우길 원하며
+수강료, 재료비, 수강시간 및 기간, 사후 수강생 관리에 관한 내용 
+알려주세요.', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'나은혜',
+										writerIP				=	'112.150.246.109',
+										writerPhone				=	'01022053044',
+										writerMail				=	'',
+										contents				=	'강릉 거주 중이고, 37세 주부 입니다.
+바로 창업 예정은 아니고, 기술 습득 후 출장 및 방문 시술로 바로 
+사용 하고 싶습니다.
+반영구와 더불어 왁싱과. 속눈썹 펌 도 함께 배우길 원하며
+수강료, 재료비, 수강시간 및 기간, 사후 수강생 관리에 관한 내용 
+알려주세요.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

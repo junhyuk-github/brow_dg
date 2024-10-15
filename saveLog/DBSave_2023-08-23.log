@@ -1,0 +1,3193 @@
+
+
+======================================================================
+2023-08-23 09:38:01
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692751081115', NOW(), '2023-08-23 09:38:01', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 014387', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 014387', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 09:43:27
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692751407317', NOW(), '2023-08-23 09:43:27', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 976029', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 976029', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 09:48:35
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692751715296', NOW(), '2023-08-23 09:48:35', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 846998', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 846998', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 10:10:16
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','372','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 10:10:16
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 372, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 10:10:16
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e55c789388b','2023-08-23 10:10:16','2023-08-23 10:10:16','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 11:24:49
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','373','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 11:24:49
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 373, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 11:24:49
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e56df1b3b70','2023-08-23 11:24:49','2023-08-23 11:24:49','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 12:14:41
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','374','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 12:14:41
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 374, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 12:14:41
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e579a1e38ba','2023-08-23 12:14:41','2023-08-23 12:14:41','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 12:15:33
+2vocupvh9pegnohhul0jkic0qj | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 375, 'tiqmekfn33', PASSWORD('a123456'), '트라이업이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '9', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '3', '1', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업이영환',
+										userPWD				=	PASSWORD('a123456'),
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'9',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-23 12:16:52
+2vocupvh9pegnohhul0jkic0qj | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692760612136', NOW(), '2023-08-23 12:16:52', '01067293233', '이영환', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 649916', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 649916', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 12:18:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','376','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 12:18:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 376, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 12:18:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e57a92e9e6e','2023-08-23 12:18:42','2023-08-23 12:18:42','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon','W00075')
+
+
+======================================================================
+2023-08-23 12:19:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','377','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 12:19:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 377, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 12:19:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e57ac15c88e','2023-08-23 12:19:29','2023-08-23 12:19:29','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon','W00075')
+
+
+======================================================================
+2023-08-23 12:26:40
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','378','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 12:26:40
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 378, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 12:26:40
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e57c7023b63','2023-08-23 12:26:40','2023-08-23 12:26:40','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 12:43:11
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','379','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 12:43:11
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 379, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 12:43:12
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5804ff324b','2023-08-23 12:43:11','2023-08-23 12:43:11','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 14:02:28
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','376','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:02:28
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 376, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@naver.com', '961113', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '2ifqadoo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:04:26
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','377','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:04:26
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 377, 'thdwns1234', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '961113', '', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', 'kp3ir8g6', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:19:09
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692767949525', NOW(), '2023-08-23 14:19:09', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 808865', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 808865', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 14:19:50
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','378','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:19:50
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 378, 'thdwns12345', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon1@triupcorp.com', '4596', '6', '06098', '서울 강남구 언주로130길 14', '2', '2', '1', '', 'k7xra6wo', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:21:35
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692768095881', NOW(), '2023-08-23 14:21:35', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 117485', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 117485', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 14:22:05
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','379','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:22:05
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 379, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:22:05
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5977dcbaab','2023-08-23 14:22:05','2023-08-23 14:22:05','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 14:23:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','380','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:23:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 380, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:24:11
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','381','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:24:11
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 381, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:24:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','382','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:24:29
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 382, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:24:46
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','383','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:24:46
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 383, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:24:55
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','384','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:24:55
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 384, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:25:24
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','379','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:25:24
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 379, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:25:38
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('10','380','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:25:38
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 380, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:25:38
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e59852badb2','2023-08-23 14:25:38','2023-08-23 14:25:38','01086605737','송준','025374842','[{브랜드명} {지점명}]
+
+{고객명} 고객님, 반갑습니다.
+{예약시간}으로 예약이 변경되었습니다.
+
+저희 톡스앤필 강남본점은,  
+합리적인 가격으로 만족도 높은 시술을 제공하기위해 
+상담 및 시술이 지연되는 경우가 있습니다.
+대기시간이 발생할 수 있는 점 
+미리 양해 부탁드리며,
+고객님의 시간을 소중하게 생각하고 
+더 많이 노력하겠습니다 ♥
+※ 저희 지점의 혼잡시간은 17:00~19:30입니다 ^^
+
+[위치안내]
+{지점주소}
+{간략위치}
+
+[주차안내]
+{주차안내}
+
+[진료시간안내]
+평일 : 오전10시30분~ 오후 9시
+토요일 : 오전10시30분~ 오후 5시
+
+대표번호 : {지점대표번호}
+홈페이지 : {지점홈페이지}','bizp_2022022611470618311908538','b80ea24725b7411b7d720d32b4cc974eb0d50218','82','MMS','[{브랜드명} {지점명}]
+
+{고객명} 고객님, 반갑습니다.
+{예약시간}으로 예약이 변경되었습니다.
+
+저희 톡스앤필 강남본점은,  
+합리적인 가격으로 만족도 높은 시술을 제공하기위해 
+상담 및 시술이 지연되는 경우가 있습니다.
+대기시간이 발생할 수 있는 점 
+미리 양해 부탁드리며,
+고객님의 시간을 소중하게 생각하고 
+더 많이 노력하겠습니다 ♥
+※ 저희 지점의 혼잡시간은 17:00~19:30입니다 ^^
+
+[위치안내]
+{지점주소}
+{간략위치}
+
+[주차안내]
+{주차안내}
+
+[진료시간안내]
+평일 : 오전10시30분~ 오후 9시
+토요일 : 오전10시30분~ 오후 5시
+
+대표번호 : {지점대표번호}
+홈페이지 : {지점홈페이지}','qrButton_1273561.json','T00002')
+
+
+======================================================================
+2023-08-23 14:29:22
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 381, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:30:24
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 382, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:30:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 383, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:31:03
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 384, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:32:28
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','385','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:32:28
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 385, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:32:36
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','386','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:32:36
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 386, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:32:44
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','387','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:32:44
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 387, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:32:44
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e599fc55f94','2023-08-23 14:32:44','2023-08-23 14:32:44','01086605737','송준','0269534842','[{브랜드명} {지점명}]
+
+{고객명} 고객님♡
+{예약시간} 시술예약이 완료되었습니다.
+
+
+[위치안내]
+- 서울 마포구 양화로 141, (L7호텔 홍대) 3층
+- 2호선 홍대입구역 1번출구 100m
+
+
+[주차안내]
+- 건물 지하주차장 B3, B4 주차
+
+
+대표번호 : 02-6953-4842
+홈페이지 : http://www.toxnfill7.com/','bizp_2022072210264412115143855','1b49a1bb09cd119fbd9872f5c58080a63f3874e8','82','MMS','[{브랜드명} {지점명}]
+
+{고객명} 고객님♡
+{예약시간} 시술예약이 완료되었습니다.
+
+
+[위치안내]
+- 서울 마포구 양화로 141, (L7호텔 홍대) 3층
+- 2호선 홍대입구역 1번출구 100m
+
+
+[주차안내]
+- 건물 지하주차장 B3, B4 주차
+
+
+대표번호 : 02-6953-4842
+홈페이지 : http://www.toxnfill7.com/','qrButton_1271921.json','T00050')
+
+
+======================================================================
+2023-08-23 14:46:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','388','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:46:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 388, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:46:42
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e59d42bbb78','2023-08-23 14:46:42','2023-08-23 14:46:42','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 14:53:02
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','389','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 14:53:02
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 389, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 14:53:02
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e59ebe5ac52','2023-08-23 14:53:02','2023-08-23 14:53:02','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 15:02:03
+b5ge43de58bvimbj8u4ud0mthh | 106.102.142.131 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25160, 25160, 0, 0, 'Contact us', 'NULL', '한경진', PASSWORD(''), '01067421206', '', '106.102.142.131', '눈썹 반영구 문의드려요~', '', '', 'N', 'N', 'W', 'W00075', '22', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'한경진',
+										writerIP				=	'106.102.142.131',
+										writerPhone				=	'01067421206',
+										writerMail				=	'',
+										contents				=	'눈썹 반영구 문의드려요~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'22',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 15:03:35
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','390','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 15:03:35
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 390, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 15:03:35
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5a13762cde','2023-08-23 15:03:35','2023-08-23 15:03:35','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 15:07:03
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','391','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 15:07:03
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 391, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 15:07:33
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','392','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 15:07:33
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 392, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 15:07:33
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692770853700','2023-08-23 15:07:33','2023-08-23 15:07:33','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 15:15:17
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','376','2023-08-23','2023-09-07','817','1802')
+
+
+======================================================================
+2023-08-23 15:15:17
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 376, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 15:15:17
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692771317344','2023-08-23 15:15:17','2023-08-23 15:15:17','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 15:16:56
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','377','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 15:16:56
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 377, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 15:16:56
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692771416225','2023-08-23 15:16:56','2023-08-23 15:16:56','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 15:29:12
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','378','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 15:29:12
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 378, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 15:29:12
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692772152767','2023-08-23 15:29:12','2023-08-23 15:29:12','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+#송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : #첫 회원가입 - 영업사원
+▶사용 기간 : #2023-08-23 ~ #2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+#송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : #첫 회원가입 - 영업사원
+▶사용 기간 : #2023-08-23 ~ #2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','brow_newCoupon.json','W00075')
+
+
+======================================================================
+2023-08-23 16:20:48
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','379','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:20:48
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 379, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:20:48
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692775248578','2023-08-23 16:20:48','2023-08-23 16:20:48','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','triup_euckr.json','W00075')
+
+
+======================================================================
+2023-08-23 16:27:00
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','380','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:27:00
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 380, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:27:00
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692775620287','2023-08-23 16:27:00','2023-08-23 16:27:00','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:37:44
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','376','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:37:44
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 376, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:37:44
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','1692776264297','2023-08-23 16:37:44','2023-08-23 16:37:44','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:43:18
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692776598487', NOW(), '2023-08-23 16:43:18', '01084891409', '이승현테스트1', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #683710', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #683710', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 16:45:21
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','377','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:45:21
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 377, '이승현테스트1', PASSWORD('qwer1234'), '이승현테스트1', '010-8489-1409', '@naver.com', '', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', 'ge5izdip', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:45:21
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5b91110185','2023-08-23 16:45:21','2023-08-23 16:45:21','01084891409','이승현테스트1','025544842','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:45:25
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','378','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:45:25
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 378, '이승현테스트1', PASSWORD('qwer1234'), '이승현테스트1', '010-8489-1409', '@naver.com', '', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', 'ge5izdip', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:45:25
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5b91513aaf','2023-08-23 16:45:25','2023-08-23 16:45:25','01084891409','이승현테스트1','025544842','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:45:33
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','379','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:45:33
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 379, '이승현테스트1', PASSWORD('qwer1234'), '이승현테스트1', '010-8489-1409', '1409ggg@naver.com', '', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', 'ge5izdip', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:45:33
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5b91d78987','2023-08-23 16:45:33','2023-08-23 16:45:33','01084891409','이승현테스트1','025544842','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:45:42
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','380','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:45:42
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 380, '이승현테스트1', PASSWORD('qwer1234'), '이승현테스트1', '010-8489-1409', '1409ggg@naver.com', '', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', 'ge5izdip', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:45:42
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5b92628255','2023-08-23 16:45:42','2023-08-23 16:45:42','01084891409','이승현테스트1','025544842','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:46:19
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','381','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:46:19
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 381, '이승현테스트1', PASSWORD('qwer1234'), '이승현테스트1', '010-8489-1409', '1409ggg@naver.com', '', '1', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', 'ge5izdip', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:46:19
+37hie0i393isnn93rm49cr17eg | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5b94badb9b','2023-08-23 16:46:19','2023-08-23 16:46:19','01084891409','이승현테스트1','025544842','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현테스트1님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:50:43
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692777043588', NOW(), '2023-08-23 16:50:43', '01084891409', '이승현', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #835059', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #835059', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 16:52:26
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','377','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:52:26
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 377, '이승현테스트1', PASSWORD('qwer1234'), '이승현', '010-8489-1409', '1409ggg@naver.com', '', '2', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '0lueeq8b', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:52:26
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5baba7f2a1','2023-08-23 16:52:26','2023-08-23 16:52:26','01084891409','이승현','025544842','[쿠폰 발급 안내]
+
+이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:52:55
+fv5mij2tv5kbsnulnh65im1npa | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 378, 'suuuub', PASSWORD('subin0203'), '심수빈', '010-7335-1399', 'suuuub@naver.com', '', '', '08864', '서울 관악구 난곡로47길 17', '402호', '3', '1', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'심수빈',
+										userPWD				=	PASSWORD('subin0203'),
+										userMobile			=	'010-7335-1399',
+										userMail			=	'suuuub@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'08864',
+										userAddr1			=	'서울 관악구 난곡로47길 17',
+										userAddr2			=	'402호',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-23 16:56:34
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','379','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 16:56:34
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 379, 'thdwns123', PASSWORD('thdwns123'), '송준', '010-8660-5737', 'joon@triupcorp.com', '5737', '7', '06098', '서울 강남구 논현동 246-1', '2층', '2', '1', '', 'ibyldj8z', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 16:56:34
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5bbb2d9aa9','2023-08-23 16:56:34','2023-08-23 16:56:34','01086605737','송준','025544842','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+송준님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 16:58:02
+npd1vadf6pkikcrrr0495e2p0f | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25163, 25163, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '01024595246', '', '211.243.232.180', '내용내용', '', '', 'N', 'N', 'W', 'W00075', '15,16,17,18,19,20,21,22', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01024595246',
+										writerMail				=	'',
+										contents				=	'내용내용',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17,18,19,20,21,22',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 16:58:38
+npd1vadf6pkikcrrr0495e2p0f | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '50', 25164, 25164, 0, 0, 'Contact us', 'NULL', '김가맹', PASSWORD(''), '01024595246', '', '211.243.232.180', '내용내용', '', '', 'N', 'N', 'W', 'W00075', '', '가맹가맹', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김가맹',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01024595246',
+										writerMail				=	'',
+										contents				=	'내용내용',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'가맹가맹',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 16:59:08
+npd1vadf6pkikcrrr0495e2p0f | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25165, 25165, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '01024595246', '', '211.243.232.180', '내용', '', '', 'N', 'N', 'W', 'W00075', '31,32,33,34,35,36,37,38', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01024595246',
+										writerMail				=	'',
+										contents				=	'내용',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,32,33,34,35,36,37,38',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 16:59:20
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 380, 'wldudxptmxm', PASSWORD('wldud123'), 'wldudxptmxm', '010-2329-3527', 'hjiyoung@triupcorp.com', '', '', '06098', '서울 강남구 언주로130길 14', '', '3', '1', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'wldudxptmxm',
+										userPWD				=	PASSWORD('wldud123'),
+										userMobile			=	'010-2329-3527',
+										userMail			=	'hjiyoung@triupcorp.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-23 16:59:31
+npd1vadf6pkikcrrr0495e2p0f | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25166, 25166, 0, 0, 'Event', 'NULL', '이벤트', PASSWORD(''), '01024595246', '', '211.243.232.180', '내용내용', '', '', 'N', 'N', 'W', 'W00075', '', '', '오늘', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'이벤트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01024595246',
+										writerMail				=	'',
+										contents				=	'내용내용',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'오늘',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:00:51
+fv5mij2tv5kbsnulnh65im1npa | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25167, 25167, 0, 0, 'Contact us', '378', '심수빈테스트', PASSWORD(''), '01073351399', 'suuuub@naver.com', '211.243.232.180', '테스트 입니다.', '', '', 'N', 'N', 'W', 'W00075', '15', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'심수빈테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01073351399',
+										writerMail				=	'suuuub@naver.com',
+										contents				=	'테스트 입니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:02:52
+q0feg5o4dqvf3repu8ctlervho | 118.235.3.20 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692777772071', NOW(), '2023-08-23 17:02:52', '01084891409', '모바일이승현', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #289358', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #289358', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:03:00
+1ea5l5k6udjhns60ucog4gklm3 | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 381, 'wnsgur', PASSWORD('wnsgur132'), '이준혁', '010-5005-9538', 'wnsgur@triup.com', '950701', '3', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '3', '1', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이준혁',
+										userPWD				=	PASSWORD('wnsgur132'),
+										userMobile			=	'010-5005-9538',
+										userMail			=	'wnsgur@triup.com',
+										userBirth			=	'950701',
+										userJob				=	'3',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-23 17:03:53
+fv5mij2tv5kbsnulnh65im1npa | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25168, 25168, 0, 0, 'Event', '378', '심수빈테스트', PASSWORD(''), '01073351399', 'suuuub@naver.com', '211.243.232.180', '테스트', '', '', 'N', 'N', 'W', 'W00075', '', '', '12월', '911', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'심수빈테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01073351399',
+										writerMail				=	'suuuub@naver.com',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'12월',
+										hopeTreat				=	'911',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:05:15
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25169, 25169, 0, 0, 'Contact us', '380', '황지영테스트', PASSWORD(''), '01023293527', 'hjiyoung@triupcorp.com', '211.243.232.180', 'test', '', '', 'N', 'N', 'W', 'W00075', '15,16,17,18,19,20,21,22', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01023293527',
+										writerMail				=	'hjiyoung@triupcorp.com',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17,18,19,20,21,22',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:05:41
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.20 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692777941040', NOW(), '2023-08-23 17:05:41', '01084891409', '모바일이승현', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #930264', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #930264', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:07:43
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '50', 25170, 25170, 0, 0, 'Contact us', '380', '황지영테스트', PASSWORD(''), '01023293527', 'hjiyoung@triupcorp.com', '211.243.232.180', 'test', '', '', 'N', 'N', 'W', 'W00075', '', '서울', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01023293527',
+										writerMail				=	'hjiyoung@triupcorp.com',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'서울',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:07:49
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.20 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','382','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 17:07:49
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.20 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 382, '모바일이승현1', PASSWORD('qwer1234'), '모바일이승현', '010-8489-1409', '1409ggg@naver.com', '', '', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 17:07:49
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.20 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5be553d78f','2023-08-23 17:07:49','2023-08-23 17:07:49','01084891409','모바일이승현','025544842','[쿠폰 발급 안내]
+
+모바일이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+모바일이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 17:08:48
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25171, 25171, 0, 0, 'Event', '380', '황지영테스트', PASSWORD(''), '01023293527', 'hjiyoung@triupcorp.com', '211.243.232.180', 'test', '', '', 'N', 'N', 'W', 'W00075', '', '', '12', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01023293527',
+										writerMail				=	'hjiyoung@triupcorp.com',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'12',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:10:52
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '48', 25172, 25172, 0, 0, '수강생 실제후기', '380', 'wldudxptmxm', PASSWORD(''), '', '', '211.243.232.180', 'wewee', '', '', 'N', 'Y', '', '', '', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'wldudxptmxm',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'wewee',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-08-23 17:10:52
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '25172', 'NULL', '트라이업 로고.png', '20230823171052_img_1.png', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'트라이업 로고.png',
+													fileName				=	'20230823171052_img_1.png',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2023-08-23 17:11:30
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '25172'
+
+
+======================================================================
+2023-08-23 17:11:30
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '25172'
+
+
+======================================================================
+2023-08-23 17:11:30
+gpdoaeh8qtqh0tfk804ojad3bc | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '25172'
+
+
+======================================================================
+2023-08-23 17:19:43
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.116 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692778783243', NOW(), '2023-08-23 17:19:43', '01084891409', '모바일이승현', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #785137', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #785137', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:21:46
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.116 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('1','382','2023-08-23','2023-09-07','810','1802')
+
+
+======================================================================
+2023-08-23 17:21:46
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.116 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 382, '모바일이승현1', PASSWORD('qwer1234'), '모바일이승현', '010-8489-1409', '1409ggg@triupcorp.com', '', '', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '4uhyjzoc', '4hnwy8of')
+					
+
+
+======================================================================
+2023-08-23 17:21:46
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.116 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5c19aa75a1','2023-08-23 17:21:46','2023-08-23 17:21:46','01084891409','모바일이승현','025544842','[쿠폰 발급 안내]
+
+모바일이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+모바일이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 - 영업사원
+▶사용 기간 : 2023-08-23 ~ 2023-09-07
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 17:24:57
+b05eoukl4ok6h7ti074bak49tr | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692779097423', NOW(), '2023-08-23 17:24:57', '01092176225', '노병호', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #246405', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #246405', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:26:27
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692779187822', NOW(), '2023-08-23 17:26:27', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 813310', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 813310', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:27:44
+b05eoukl4ok6h7ti074bak49tr | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692779264570', NOW(), '2023-08-23 17:27:44', '01092176225', '노병호', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 867190', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 867190', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:31:42
+b05eoukl4ok6h7ti074bak49tr | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 383, 'shqudgh3', PASSWORD('qudgh185'), '노병호', '010-9217-6225', 'shqudgh3@nate.com', '960418', '3', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '83ntuc4s', '')
+					
+
+
+======================================================================
+2023-08-23 17:31:54
+b05eoukl4ok6h7ti074bak49tr | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 384, 'shqudgh3', PASSWORD('qudgh185'), '노병호', '010-9217-6225', 'shqudgh3@nate.com', '960418', '3', '06098', '서울 강남구 언주로130길 14', '2층', '2', '1', '', '6973vcv1', '')
+					
+
+
+======================================================================
+2023-08-23 17:32:30
+ns5s3jer9bit0gth616f2m1ii3 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '50', 25176, 25176, 0, 0, 'Contact us', 'NULL', '트라이업 김다빈', PASSWORD(''), '01038577955', 'kimdabin@gmail.com', '211.243.232.180', '가맹 문의 합니다 .', '', '', 'N', 'N', 'W', 'W00075', '', '트라이업근처', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업 김다빈',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01038577955',
+										writerMail				=	'kimdabin@gmail.com',
+										contents				=	'가맹 문의 합니다 .',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'트라이업근처',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:33:51
+ns5s3jer9bit0gth616f2m1ii3 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25177, 25177, 0, 0, 'Contact us', 'NULL', '트라이업 김다빈', PASSWORD(''), '01038577955', 'kimdabin@nate.com', '211.243.232.180', '시술 문의 합니다 .', '', '', 'N', 'N', 'W', 'W00075', '31,33,35', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업 김다빈',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01038577955',
+										writerMail				=	'kimdabin@nate.com',
+										contents				=	'시술 문의 합니다 .',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,33,35',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:34:03
+b05eoukl4ok6h7ti074bak49tr | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692779643869', NOW(), '2023-08-23 17:34:03', '01092176225', '노병호', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 055282', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 055282', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:37:19
+ns5s3jer9bit0gth616f2m1ii3 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25178, 25178, 0, 0, 'Event', 'NULL', '트라이업 김다빈', PASSWORD(''), '01038577955', 'kimdabin@naver.com', '211.243.232.180', '이벤트 신청', '', '', 'N', 'N', 'W', 'W00075', '', '', '내년 초 희망', '911', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'트라이업 김다빈',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01038577955',
+										writerMail				=	'kimdabin@naver.com',
+										contents				=	'이벤트 신청',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'내년 초 희망',
+										hopeTreat				=	'911',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:39:48
+9n8kfh7i3ardea8ij7it3rulrf | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692779988615', NOW(), '2023-08-23 17:39:48', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 048117', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 048117', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:49:44
+b05eoukl4ok6h7ti074bak49tr | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692780584047', NOW(), '2023-08-23 17:49:44', '01092176225', '노병호', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 273385', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 273385', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:50:13
+3325cs67k6jsihh9ejqjadbmqe | 106.101.131.62 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25180, 25180, 0, 0, 'Contact us', 'NULL', 'ㅂ', PASSWORD(''), '01011111111', '', '106.101.131.62', 'ㅂㅂ', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'ㅂ',
+										writerIP				=	'106.101.131.62',
+										writerPhone				=	'01011111111',
+										writerMail				=	'',
+										contents				=	'ㅂㅂ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:50:37
+3325cs67k6jsihh9ejqjadbmqe | 106.101.131.62 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '50', 25181, 25181, 0, 0, 'Contact us', 'NULL', 'ㅂ', PASSWORD(''), '01011111111', '', '106.101.131.62', 'ㅂㅂ', '', '', 'N', 'N', 'W', 'W00075', '', 'ㅂ', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'ㅂ',
+										writerIP				=	'106.101.131.62',
+										writerPhone				=	'01011111111',
+										writerMail				=	'',
+										contents				=	'ㅂㅂ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'ㅂ',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:50:56
+3325cs67k6jsihh9ejqjadbmqe | 106.101.131.62 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25182, 25182, 0, 0, 'Contact us', 'NULL', 'ㅂ', PASSWORD(''), '01011111', '', '106.101.131.62', 'ㅂ', '', '', 'N', 'N', 'W', 'W00075', '34', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'ㅂ',
+										writerIP				=	'106.101.131.62',
+										writerPhone				=	'01011111',
+										writerMail				=	'',
+										contents				=	'ㅂ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'34',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:51:21
+3325cs67k6jsihh9ejqjadbmqe | 106.101.131.62 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25183, 25183, 0, 0, 'Event', 'NULL', 'ㅂ', PASSWORD(''), '01011111111', '', '106.101.131.62', 'ㅂ', '', '', 'N', 'N', 'W', 'W00075', '', '', 'ㅂ', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'ㅂ',
+										writerIP				=	'106.101.131.62',
+										writerPhone				=	'01011111111',
+										writerMail				=	'',
+										contents				=	'ㅂ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'ㅂ',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 17:52:10
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692780730270', NOW(), '2023-08-23 17:52:10', '01084891409', '피씨이승현', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 718997', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 718997', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 17:53:17
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('3','385','2023-08-23','2023-08-25','810','1565')
+
+
+======================================================================
+2023-08-23 17:53:17
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 385, '피씨이승현1', PASSWORD('qwer1234'), '피씨이승현', '010-8489-1409', '1409ggg@naver.com', '', '1', '06098', '서울 강남구 언주로130길 14', '222', '2', '1', '', 'fn61ragk', '4uhyjzoc')
+					
+
+
+======================================================================
+2023-08-23 17:53:17
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5c8fd15ae8','2023-08-23 17:53:17','2023-08-23 17:53:17','01084891409','피씨이승현','025544842','[쿠폰 발급 안내]
+
+피씨이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 일반회원
+▶사용 기간 : 2023-08-23 ~ 2023-08-25
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+피씨이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 일반회원
+▶사용 기간 : 2023-08-23 ~ 2023-08-25
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 18:22:25
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692782545053', NOW(), '2023-08-23 18:22:25', '01084891409', '이승현', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 264853', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 264853', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 18:24:57
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('4','386','2023-08-23','2023-08-26','810','1565')
+
+
+======================================================================
+2023-08-23 18:24:57
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 386, '모바일이승현2', PASSWORD('qwer1234'), '이승현', '010-8489-1409', '1409ggg@naver.com', '', '', '06098', '서울 강남구 언주로130길 14', '', '2', '1', '', 'k853tbmw', '4uhyjzoc')
+					
+
+
+======================================================================
+2023-08-23 18:24:57
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5d069312cb','2023-08-23 18:24:57','2023-08-23 18:24:57','01084891409','이승현','025544842','[쿠폰 발급 안내]
+
+이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 수강생
+▶사용 기간 : 2023-08-23 ~ 2023-08-26
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+이승현님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 수강생
+▶사용 기간 : 2023-08-23 ~ 2023-08-26
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 18:42:09
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25186, 25186, 0, 0, 'Contact us', '385', '이승현피씨', PASSWORD(''), '01084891409', '', '211.243.232.180', '트라이업 테스트', '', '', 'N', 'N', 'W', 'W00075', '15,18,22', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이승현피씨',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'트라이업 테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,18,22',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 18:44:45
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '50', 25187, 25187, 0, 0, 'Contact us', '385', '이승현', PASSWORD(''), '01084891409', 'is-that-all@hanmail.net', '211.243.232.180', '가맹문의드려요', '', '', 'N', 'N', 'W', 'W00075', '', '서울이면 됨', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이승현',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'is-that-all@hanmail.net',
+										contents				=	'가맹문의드려요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'서울이면 됨',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 18:50:11
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25188, 25188, 0, 0, 'Contact us', '385', '피씨이승현', PASSWORD(''), '01084891409', '', '211.243.232.180', '테스트', '', '', 'N', 'N', 'W', 'W00075', '33,34,35,36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'피씨이승현',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'33,34,35,36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 18:58:44
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25189, 25189, 0, 0, 'Contact us', '386', '모바일이승현', PASSWORD(''), '01084891409', '', '118.235.3.134', '테스트입니다', '', '', 'N', 'N', 'W', 'W00075', '16,18', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'모바일이승현',
+										writerIP				=	'118.235.3.134',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트입니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16,18',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 19:02:04
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '50', 25190, 25190, 0, 0, 'Contact us', '386', '모바일이승현', PASSWORD(''), '01084891409', '1409ggg@naver.com', '118.235.3.134', '모바일', '', '', 'N', 'N', 'W', 'W00075', '', '경기도권', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'모바일이승현',
+										writerIP				=	'118.235.3.134',
+										writerPhone				=	'01084891409',
+										writerMail				=	'1409ggg@naver.com',
+										contents				=	'모바일',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'경기도권',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 19:03:12
+5hm820qpvjarm85rkagm71uvp8 | 118.235.3.134 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25191, 25191, 0, 0, 'Contact us', '386', '모바일이승현', PASSWORD(''), '01084891409', '1409ggg@naver.com', '118.235.3.134', '모바일', '', '', 'N', 'N', 'W', 'W00075', '32,33,34,35', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'모바일이승현',
+										writerIP				=	'118.235.3.134',
+										writerPhone				=	'01084891409',
+										writerMail				=	'1409ggg@naver.com',
+										contents				=	'모바일',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32,33,34,35',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 19:05:01
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25192, 25192, 0, 0, 'Event', '385', '이승현피씨', PASSWORD(''), '01084891409', '', '211.243.232.180', '사연 신청합니다', '', '', 'N', 'N', 'W', 'W00075', '', '', '8월 중 아무때나', '911', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'이승현피씨',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'사연 신청합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'8월 중 아무때나',
+										hopeTreat				=	'911',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 19:14:42
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692785682456', NOW(), '2023-08-23 19:14:42', '01084891409', '피씨이승현2', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 465750', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 465750', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-23 19:15:48
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_couponIssue
+							(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+							VALUES ('3','387','2023-08-23','2023-08-25','810','1565')
+
+
+======================================================================
+2023-08-23 19:15:48
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 387, '피씨이승현2', PASSWORD('qwer1234'), '피씨이승현2', '010-8489-1409', '1409ggg@naver.com', '', '1', '06098', '서울 강남구 언주로130길 10', '222', '2', '1', '', 'vfgqeysg', 'k853tbmw')
+					
+
+
+======================================================================
+2023-08-23 19:15:48
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e5dc54e2825','2023-08-23 19:15:48','2023-08-23 19:15:48','01084891409','피씨이승현2','025544842','[쿠폰 발급 안내]
+
+피씨이승현2님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 일반회원
+▶사용 기간 : 2023-08-23 ~ 2023-08-25
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+피씨이승현2님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 일반회원
+▶사용 기간 : 2023-08-23 ~ 2023-08-25
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-23 19:21:28
+5hm820qpvjarm85rkagm71uvp8 | 118.235.2.100 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25195, 25195, 0, 0, 'Event', '386', '모바일이승현', PASSWORD(''), '01084891409', '', '118.235.2.100', '전체 체크', '', '', 'N', 'N', 'W', 'W00075', '', '', '9월-10월 사이', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'모바일이승현',
+										writerIP				=	'118.235.2.100',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'전체 체크',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'9월-10월 사이',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-23 19:23:55
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '48', 25196, 25196, 0, 0, '수강생 실제후기', '387', '피씨이승현2', PASSWORD(''), '', '', '211.243.232.180', '꼼꼼하게 잘 챙겨주시고 너무 감사합니다! 주변에 추천했어요', '', '', 'N', 'Y', '', '', '', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'피씨이승현2',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'꼼꼼하게 잘 챙겨주시고 너무 감사합니다! 주변에 추천했어요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-08-23 19:23:55
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE idx = 'NULL'
+
+
+======================================================================
+2023-08-23 19:24:01
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '25196'
+
+
+======================================================================
+2023-08-23 19:24:01
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '25196'
+
+
+======================================================================
+2023-08-23 19:24:01
+9th7j6htm1cl7g3t99dhd96raa | 211.243.232.180 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '25196'

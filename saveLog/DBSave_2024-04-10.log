@@ -1,0 +1,32 @@
+
+
+======================================================================
+2024-04-10 13:27:15
+59nku4vf73shrop4lvclndgm6r | 58.29.213.240 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 27277, 27277, 0, 0, 'Contact us', 'NULL', '이재창', PASSWORD(''), '01080094738', 'jclee6747@Naver', '58.29.213.240', '시공이 맘에 안드러서 에이에스도 해준다는데 불안해서요
+언제 어디로 갈까요?', '', '', 'N', 'N', 'W', 'W00075', '37', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이재창',
+										writerIP				=	'58.29.213.240',
+										writerPhone				=	'01080094738',
+										writerMail				=	'jclee6747@Naver',
+										contents				=	'시공이 맘에 안드러서 에이에스도 해준다는데 불안해서요
+언제 어디로 갈까요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'37',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

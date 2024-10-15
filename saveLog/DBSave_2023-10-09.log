@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-10-09 20:51:49
+sq0ordctnb61llu7fevd6o1fcl | 101.235.110.124 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25653, 25653, 0, 0, 'Contact us', 'NULL', '홍기혁', PASSWORD(''), '01097460140', '', '101.235.110.124', '정수리 두피문신 가격문의', '', '', 'N', 'N', 'W', 'W00075', '32', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'홍기혁',
+										writerIP				=	'101.235.110.124',
+										writerPhone				=	'01097460140',
+										writerMail				=	'',
+										contents				=	'정수리 두피문신 가격문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

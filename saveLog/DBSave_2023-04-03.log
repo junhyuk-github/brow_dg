@@ -1,0 +1,54 @@
+
+
+======================================================================
+2023-04-03 10:37:34
+3713ipuj20d6h8bliil3pk8uqp | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 343, 'wogml_', PASSWORD('idoido22'), '김재희', '010-111-1111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김재희',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-1111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-04-03 10:50:56
+3713ipuj20d6h8bliil3pk8uqp | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23841, 23841, 0, 0, '수강생 실제후기', '343', '김재희', PASSWORD(''), '', '', '175.209.112.103', '처음 시작했을때는 생각보다 너무 어려워서 잘 못 따라가는거 같고 이제 앞으로 어떡해야하나 포기해야하나 걱정만 가득했는데 세심한 강사님 덕분에 그런 걱정 싹 날려버리고 요즘은 점점 자신감을 되찾고 있어요!!
+부족한 부분들 더 많이 연습할 수 있도록 피드백도 잘해주셔서 너무 든든합니다!!
+진짜 하나라도 더 알려주고 싶어하는 마음과 반영구에 대한 열정이 진심으로 느껴지는 원장님, 강사님!
+기술뿐만 아니라 여러가지로 많이 배우고 있어요 늘 감사합니다. 톡스앤필 브로우에 온 게 너무 잘한일 같아요. 앞으로도 잘 부탁드립니다~^^♡', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김재희',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음 시작했을때는 생각보다 너무 어려워서 잘 못 따라가는거 같고 이제 앞으로 어떡해야하나 포기해야하나 걱정만 가득했는데 세심한 강사님 덕분에 그런 걱정 싹 날려버리고 요즘은 점점 자신감을 되찾고 있어요!!
+부족한 부분들 더 많이 연습할 수 있도록 피드백도 잘해주셔서 너무 든든합니다!!
+진짜 하나라도 더 알려주고 싶어하는 마음과 반영구에 대한 열정이 진심으로 느껴지는 원장님, 강사님!
+기술뿐만 아니라 여러가지로 많이 배우고 있어요 늘 감사합니다. 톡스앤필 브로우에 온 게 너무 잘한일 같아요. 앞으로도 잘 부탁드립니다~^^♡',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

@@ -1,0 +1,158 @@
+
+
+======================================================================
+2023-08-17 11:50:55
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692240655513', NOW(), '2023-08-17 11:50:55', '01067293233', '이영환', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 851529', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 851529', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-17 11:59:32
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692241172160', NOW(), '2023-08-17 11:59:32', '01067293233', '이영환', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 057174', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 057174', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-17 12:02:36
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692241356580', NOW(), '2023-08-17 12:02:36', '01067293233', '이영환', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 838430', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 838430', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-17 12:36:30
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692243390723', NOW(), '2023-08-17 12:36:30', '0106723233', '이영환', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 551689', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 551689', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-17 12:43:24
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 367, 'tiqmekfn2', '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '3', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이영환',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'3',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업'
+									
+
+
+======================================================================
+2023-08-17 15:22:09
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 367, 'tiqmekfn2', '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '3', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이영환',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'3',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-17 15:25:23
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 367, 'tiqmekfn2', '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '3', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', '4hnwy8of')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이영환',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'3',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'4hnwy8of'
+									
+
+
+======================================================================
+2023-08-17 15:40:16
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 367, 'tiqmekfn2', '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '3', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', '4hnwy8of')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이영환',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'3',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'4hnwy8of'
+									
+
+
+======================================================================
+2023-08-17 15:51:39
+0drm1pbu85shjcnhj8jsdfdi8p | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692255099645', NOW(), '2023-08-17 15:51:39', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 829737', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 829737', '', 'W00075')
+									

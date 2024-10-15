@@ -1,0 +1,60 @@
+
+
+======================================================================
+2023-01-19 10:25:09
+6ed9pkg92gu8dhqqnua9p7dml9 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 305, 'yy_123', PASSWORD('idoido22'), '박연주', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'박연주',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-01-19 10:37:16
+6ed9pkg92gu8dhqqnua9p7dml9 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23078, 23078, 0, 0, '수강생 실제후기', '305', '박연주', PASSWORD(''), '', '', '175.209.112.103', '정말 똥손중에 똥손이어서 선하나 긋는것도 어려웠는데
+강사님께서 정말 디테일하게 알려주시고 괜찮다고 
+연습하면 잘할수있다고 항상 다독여주셨어요. 
+지속적인 피드백을 받고 연습도 많이 하니까
+몇달사이에 이렇게 실력이 늘어난게 너무 신기해요!  
+앞으로 목표를 위해 더 열심히 하겠습니다.
+저의 첫 시작을 함께해주셔서 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'박연주',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'정말 똥손중에 똥손이어서 선하나 긋는것도 어려웠는데
+강사님께서 정말 디테일하게 알려주시고 괜찮다고 
+연습하면 잘할수있다고 항상 다독여주셨어요. 
+지속적인 피드백을 받고 연습도 많이 하니까
+몇달사이에 이렇게 실력이 늘어난게 너무 신기해요!  
+앞으로 목표를 위해 더 열심히 하겠습니다.
+저의 첫 시작을 함께해주셔서 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

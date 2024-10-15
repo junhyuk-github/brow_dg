@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-11-22 16:38:59
+khhrul43b6pon5noai20cp2e3u | 211.234.181.218 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26009, 26009, 0, 0, 'Contact us', 'NULL', '김연후', PASSWORD(''), '01062969290', 'doramimong929@naver.com', '211.234.181.218', 'smp 수업 관련하여 커리큘럼, 시간, 비용 문의드립니다.', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김연후',
+										writerIP				=	'211.234.181.218',
+										writerPhone				=	'01062969290',
+										writerMail				=	'doramimong929@naver.com',
+										contents				=	'smp 수업 관련하여 커리큘럼, 시간, 비용 문의드립니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

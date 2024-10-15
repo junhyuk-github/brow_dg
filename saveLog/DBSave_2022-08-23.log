@@ -1,0 +1,60 @@
+
+
+======================================================================
+2022-08-23 10:56:12
+i4n1v4v7ffo31f4tdfh31j27j8 | 175.114.30.33 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21482, 21482, 0, 0, 'Contact us', 'NULL', '황수지', PASSWORD(''), '01090064356', '', '175.114.30.33', '안녕하세요.
+직장인이고, 직종변경하고싶어서 반영구 수강 알아보고 
+있습니다!
+혹시 금액은 어떻게 되는지 알 수 있을까요?', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황수지',
+										writerIP				=	'175.114.30.33',
+										writerPhone				=	'01090064356',
+										writerMail				=	'',
+										contents				=	'안녕하세요.
+직장인이고, 직종변경하고싶어서 반영구 수강 알아보고 
+있습니다!
+혹시 금액은 어떻게 되는지 알 수 있을까요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-08-23 11:51:42
+0h2ehqo67lbch70l5dk78bdi1t | 106.244.147.203 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21504, 21504, 0, 0, 'Contact us', 'NULL', '조해윤', PASSWORD(''), '01036440909', '', '106.244.147.203', '직장인인데 주말반도 있나요?', '', '', 'N', 'N', 'M', 'W00075', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'조해윤',
+										writerIP				=	'106.244.147.203',
+										writerPhone				=	'01036440909',
+										writerMail				=	'',
+										contents				=	'직장인인데 주말반도 있나요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12',
+										bbsState				=	'200'
+									

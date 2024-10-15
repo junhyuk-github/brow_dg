@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-02-21 15:38:46
+jbvgq77s9fft2c6qp1421t55hm | 180.224.50.148 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26814, 26814, 0, 0, 'Contact us', 'NULL', '이재선', PASSWORD(''), '01083210814', '', '180.224.50.148', '머리문신배우고싶어서요', '', '', 'N', 'N', 'W', 'W00075', '16,19', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이재선',
+										writerIP				=	'180.224.50.148',
+										writerPhone				=	'01083210814',
+										writerMail				=	'',
+										contents				=	'머리문신배우고싶어서요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16,19',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

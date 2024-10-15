@@ -1,0 +1,573 @@
+
+
+======================================================================
+2023-08-25 10:00:01
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 409, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:00:07
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 410, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:03:56
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 411, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:08:43
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 412, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:09:54
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 413, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:13:58
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 414, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:14:10
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 415, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:14:40
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 416, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:14:57
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 417, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:15:02
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 418, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:19:05
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 419, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:19:54
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692926394612', NOW(), '2023-08-25 10:19:54', '01067293233', '트라이업테스트88', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 992530', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 992530', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-25 10:20:40
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 420, 'tiqmekfn88', PASSWORD('a123456'), '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '2', '1', '', 'bupb3t3k', '')
+					
+
+
+======================================================================
+2023-08-25 10:21:58
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:22:39
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:24:08
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:24:20
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:24:37
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:25:00
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:25:54
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:26:26
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:35:22
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 421, 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '김다빈', '010-3857-7955', 'qazedcrfvtgb@naver.com', '', '', '', '', '', '2', '2', 'vlpnwqhb7BOkhYq-8m4_nKi060nKqVjHtRoyeTPf8XI', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'qazedcrfvtgb@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 10:35:43
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 420, 'tiqmekfn88', '트라이업테스트88', '010-6729-3233', 'lyhti@triupcorp.com', '970524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '', 'fn61ragk')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트88',
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'970524',
+										userJob				=	'5',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업',
+										recommenderCode		=	'fn61ragk'
+									
+
+
+======================================================================
+2023-08-25 10:35:43
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+INSERT INTO tbl_couponIssue
+								(tctIdx, tamMemberIdx, useStartDate, useEndDate, couponState, regDateIdx) 
+								VALUES ('5','420','2023-08-25','2023-11-25','810','1565')
+
+
+======================================================================
+2023-08-25 10:35:43
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/userModifyProc.php
+
+INSERT INTO BIZ_MSG
+		( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) 
+		VALUES ('6','64e8056f74b48','2023-08-25 10:35:43','2023-08-25 10:35:43','01067293233','트라이업테스트88','025544842','[쿠폰 발급 안내]
+
+트라이업테스트88님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 마스터
+▶사용 기간 : 2023-08-25 ~ 2023-11-25
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','bizp_2023080315443736759349651','0715afaff48d6958adf8cc5b153f3ddbffcc5e8e','82','MMS','[쿠폰 발급 안내]
+
+트라이업테스트88님, 신규 쿠폰이 발급되었어요!
+
+▶쿠폰명 : 첫 회원가입 > 추천인 코드 마스터
+▶사용 기간 : 2023-08-25 ~ 2023-11-25
+
+[브로우 상담문의]
+전화 : 02-554-4842
+홈페이지 : https://www.toxnfillbrow.com/contact/index.php
+
+※ 이 메시지는 이용약관(계약서) 동의에 따라 지급된 쿠폰 안내 메시지입니다.','newCoupon_brow.json','W00075')
+
+
+======================================================================
+2023-08-25 10:36:10
+mi22rpc6fg6iit9v60cac1jubd | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 422, '2982351961', '김다빈', '010-3857-7955', 'kimdabin@hanmail.net', '', '', '', '', '', '2', '3', '2982351961', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김다빈',
+										userMobile			=	'010-3857-7955',
+										userMail			=	'kimdabin@hanmail.net',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-08-25 11:35:30
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692930930284', NOW(), '2023-08-25 11:35:30', '01067293233', '이영환', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 082640', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 082640', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-25 11:36:11
+mhrse48hemnandcguug99893pr | 211.243.232.180 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 402, 'tiqmekfn', PASSWORD('a123456'), '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '980524', '5', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '2', '1', '', 'lhaxzgnt', '')
+					
+
+
+======================================================================
+2023-08-25 12:00:22
+1ea5l5k6udjhns60ucog4gklm3 | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 403, '2982333379', '이준혁', '010-5005-9538', 'wnsgur@triupcorp.com', '', '', '', '', '', '2', '3', '2982333379', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이준혁',
+										userMobile			=	'010-5005-9538',
+										userMail			=	'wnsgur@triupcorp.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									

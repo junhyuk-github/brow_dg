@@ -1,0 +1,32 @@
+
+
+======================================================================
+2023-11-06 14:51:22
+e6mug2rcu51j880pkeia3an4ot | 1.230.221.100 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25857, 25857, 0, 0, 'Contact us', 'NULL', '박주미', PASSWORD(''), '01090387648', 'boojooboo@naver.com', '1.230.221.100', '정수리.가르마라인 두피문신 상담받고 싶은데요 대략의 
+가격도 문의드립니다', '', '', 'N', 'N', 'W', 'W00075', '32,34', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박주미',
+										writerIP				=	'1.230.221.100',
+										writerPhone				=	'01090387648',
+										writerMail				=	'boojooboo@naver.com',
+										contents				=	'정수리.가르마라인 두피문신 상담받고 싶은데요 대략의 
+가격도 문의드립니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32,34',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

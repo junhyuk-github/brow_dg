@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-08-29 16:55:10
+0evaacsqm6m8jnfrbeqetb1unn | 118.235.2.144 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21582, 21582, 0, 0, 'Contact us', 'NULL', '지선영', PASSWORD(''), '01099858539', '', '118.235.2.144', '반영구 수강문의', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'지선영',
+										writerIP				=	'118.235.2.144',
+										writerPhone				=	'01099858539',
+										writerMail				=	'',
+										contents				=	'반영구 수강문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

@@ -1,0 +1,21 @@
+
+
+======================================================================
+2023-06-30 11:50:01
+17b57b4sq8hqm594f4s0mib57b | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 261, 'triup12', PASSWORD('qwer1234'), '트라이업', '010-8489-1409', '1409ggg@naver.com', '', 'default', '02137', '서울 중랑구 면목로91길 6', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업',
+										userPWD				=	PASSWORD('qwer1234'),
+										userMobile			=	'010-8489-1409',
+										userMail			=	'1409ggg@naver.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'02137',
+										userAddr1			=	'서울 중랑구 면목로91길 6',
+										userAddr2			=	''
+									

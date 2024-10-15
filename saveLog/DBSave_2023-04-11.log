@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-04-11 07:47:29
+sghj0ofclv5jbcqnisfkgs2s5b | 175.223.48.204 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23945, 23945, 0, 0, 'Contact us', 'NULL', '장리', PASSWORD(''), '01021968990', '', '175.223.48.204', 'SMP에 관심이 많아요 가격이 어데요?', '', '', 'N', 'N', 'M', 'W00075', '13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'장리',
+										writerIP				=	'175.223.48.204',
+										writerPhone				=	'01021968990',
+										writerMail				=	'',
+										contents				=	'SMP에 관심이 많아요 가격이 어데요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'13',
+										bbsState				=	'200'
+									

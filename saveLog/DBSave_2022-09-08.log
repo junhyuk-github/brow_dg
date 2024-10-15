@@ -1,0 +1,48 @@
+
+
+======================================================================
+2022-09-08 18:14:47
+khgmiurvjkhn4rebi72mpl3kbv | 125.176.212.62 | /m/member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 282, 'YoonK078', PASSWORD('yoon1031'), '김윤경', '010-8911-0696', 'kyk078@hanmail.net', '19780314', '9', '06720', '서울 서초구 서초중앙로 26', '2002호', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김윤경',
+										userPWD				=	PASSWORD('yoon1031'),
+										userMobile			=	'010-8911-0696',
+										userMail			=	'kyk078@hanmail.net',
+										userBirth			=	'19780314',
+										userJob				=	'9',
+										userZip				=	'06720',
+										userAddr1			=	'서울 서초구 서초중앙로 26',
+										userAddr2			=	'2002호'
+									
+
+
+======================================================================
+2022-09-08 18:29:35
+khgmiurvjkhn4rebi72mpl3kbv | 125.176.212.62 | /m/commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21690, 21690, 0, 0, '수강생 실제후기', '282', '김윤경', PASSWORD(''), '', '', '125.176.212.62', '반영구에 막연한 호기심만 있다가 여러학원 상담을 받았습니다 그러다가 선택한 톡스앤필아카데미! 처음방문에서 원장님의 열정과 세심함에 바로 등록했어요 모든과정을 배우고싶을만큼 탄탄한 수업스케줄이 만족스러워요^^ 지칠때마다 세심하게 지도해주시는 조영인선생님의 배려도 너무 만족합니다', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김윤경',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구에 막연한 호기심만 있다가 여러학원 상담을 받았습니다 그러다가 선택한 톡스앤필아카데미! 처음방문에서 원장님의 열정과 세심함에 바로 등록했어요 모든과정을 배우고싶을만큼 탄탄한 수업스케줄이 만족스러워요^^ 지칠때마다 세심하게 지도해주시는 조영인선생님의 배려도 너무 만족합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

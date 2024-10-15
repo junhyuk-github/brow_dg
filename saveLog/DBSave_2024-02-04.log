@@ -1,0 +1,42 @@
+
+
+======================================================================
+2024-02-04 09:25:21
+0o3dgul6laaml4v8sivpj4ah77 | 223.38.30.6 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 26682, 26682, 0, 0, 'Contact us', 'NULL', '임승환', PASSWORD(''), '01049453340', 'lswx22@naver.com', '223.38.30.6', '전체적으로 얇은 머리카락과 적은 머리숱으로 신경이 많이 
+쓰여서 최근 두피문신에 관한 정보들을 찾아보고 있습니다. 
+
+두피 전체적으로 시술을 했을 때 비용이 궁금하고, 문신 
+재료에 들어가는 원료나 부작용이 있는지에 대해 질문을 
+드리고 싶습니다. 추가적으로 유지기간과 관리도 필요한지도 
+궁금합니다!', '', '', 'N', 'N', 'W', 'W00075', '36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'임승환',
+										writerIP				=	'223.38.30.6',
+										writerPhone				=	'01049453340',
+										writerMail				=	'lswx22@naver.com',
+										contents				=	'전체적으로 얇은 머리카락과 적은 머리숱으로 신경이 많이 
+쓰여서 최근 두피문신에 관한 정보들을 찾아보고 있습니다. 
+
+두피 전체적으로 시술을 했을 때 비용이 궁금하고, 문신 
+재료에 들어가는 원료나 부작용이 있는지에 대해 질문을 
+드리고 싶습니다. 추가적으로 유지기간과 관리도 필요한지도 
+궁금합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

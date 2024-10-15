@@ -1,0 +1,59 @@
+
+
+======================================================================
+2023-10-24 17:03:17
+14uaal41f43sa8ii7v1b6b2vqq | 211.253.206.176 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 408, 'zVcf1QBKjSzYPMWbYqoEqi__GkwpGkbt5XH_ebzbqF8', '김태정', '010-2349-7882', 'love2mijin@naver.com', '', '', '', '', '', '2', '2', 'zVcf1QBKjSzYPMWbYqoEqi__GkwpGkbt5XH_ebzbqF8', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김태정',
+										userMobile			=	'010-2349-7882',
+										userMail			=	'love2mijin@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									
+
+
+======================================================================
+2023-10-24 19:41:47
+jcadnhi0onl1kd6ckm8gjsmm0l | 219.250.92.12 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25759, 25759, 0, 0, 'Contact us', 'NULL', '백승권', PASSWORD(''), '01039116038', '', '219.250.92.12', '두피문신에 대해서 배우고 싶습니다 
+강의가 어떻게 진행이 되는지 연습할때 마네킹만으로 하는지 사람한데 시술도 하는지 시술 받는 사람을 학원에서 해주는지 등등 
+기계 구입 가격은 어떤지 직접 제작하시는지 수입인지 등등 
+강의를 듣고 싶은데 가장 빠른 시간이 어떻게 되는지 궁굼합니다 
+다른 여러가지가 궁굼한데요', '', '', 'N', 'N', 'W', 'W00075', '15,16,17,18,19,20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'백승권',
+										writerIP				=	'219.250.92.12',
+										writerPhone				=	'01039116038',
+										writerMail				=	'',
+										contents				=	'두피문신에 대해서 배우고 싶습니다 
+강의가 어떻게 진행이 되는지 연습할때 마네킹만으로 하는지 사람한데 시술도 하는지 시술 받는 사람을 학원에서 해주는지 등등 
+기계 구입 가격은 어떤지 직접 제작하시는지 수입인지 등등 
+강의를 듣고 싶은데 가장 빠른 시간이 어떻게 되는지 궁굼합니다 
+다른 여러가지가 궁굼한데요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17,18,19,20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

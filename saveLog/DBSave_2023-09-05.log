@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-09-05 10:52:05
+e979m8qkm04ms7dtralt9n2er6 | 106.101.129.39 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25343, 25343, 0, 0, 'Contact us', 'NULL', '이은실', PASSWORD(''), '01021020410', 'choi5040@gmail.com', '106.101.129.39', '창업 및 전반적인 교육 과정', '', '', 'N', 'N', 'W', 'W00075', '16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이은실',
+										writerIP				=	'106.101.129.39',
+										writerPhone				=	'01021020410',
+										writerMail				=	'choi5040@gmail.com',
+										contents				=	'창업 및 전반적인 교육 과정',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-01-22 13:53:04
+sigrl9radaamdoheqh83atjoih | 116.36.254.79 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26530, 26530, 0, 0, 'Contact us', 'NULL', '김유경', PASSWORD(''), '01086504741', 'dbrud0316@nate.com', '116.36.254.79', '두피문신수업 및 창업관련 문의', '', '', 'N', 'N', 'W', 'W00075', '15,17,23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김유경',
+										writerIP				=	'116.36.254.79',
+										writerPhone				=	'01086504741',
+										writerMail				=	'dbrud0316@nate.com',
+										contents				=	'두피문신수업 및 창업관련 문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,17,23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

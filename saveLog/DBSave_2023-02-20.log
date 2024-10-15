@@ -1,0 +1,89 @@
+
+
+======================================================================
+2023-02-20 15:31:13
+kffj8kbppb2qj3t3992nub3ir6 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 314, 'minwn__', PASSWORD('idoido22'), '김민주', '010-0000-0000', '0000@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김민주',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-0000-0000',
+										userMail			=	'0000@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-20 15:32:27
+kffj8kbppb2qj3t3992nub3ir6 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23425, 23425, 0, 0, '수강생 실제후기', '314', '김민주', PASSWORD(''), '', '', '175.209.112.103', '처음 상담하러 왔을때부터 원장님께서 환하게 맞이해주시고 
+친절하게 하나하나 설명해 주셔서 첫인상부터 좋았고 
+강사님께서도 꼼꼼하고 놓치기 쉬운 부분까지 
+세심하게 알려주려고 하고 수강생들하고 친근하게 지내는 
+분위기가 정말 좋았어요. 무엇보다 반영구하면서 필요한 
+교육 프로그램이 정말 잘 형성되어있다고 느꼈어요!
+항상 하나라도 더 알려주시려는 모습에 항상 감사하다고 생각하고 있었어요
+원장님,강사님 사랑해요 감사합니다!!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김민주',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음 상담하러 왔을때부터 원장님께서 환하게 맞이해주시고 
+친절하게 하나하나 설명해 주셔서 첫인상부터 좋았고 
+강사님께서도 꼼꼼하고 놓치기 쉬운 부분까지 
+세심하게 알려주려고 하고 수강생들하고 친근하게 지내는 
+분위기가 정말 좋았어요. 무엇보다 반영구하면서 필요한 
+교육 프로그램이 정말 잘 형성되어있다고 느꼈어요!
+항상 하나라도 더 알려주시려는 모습에 항상 감사하다고 생각하고 있었어요
+원장님,강사님 사랑해요 감사합니다!!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-02-20 15:47:09
+0h66ii5clvomhm28g53ja98p63 | 125.249.182.34 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23427, 23427, 0, 0, 'Contact us', 'NULL', '장은주', PASSWORD(''), '01077382919', '', '125.249.182.34', '반영구(눈썹,헤어라인) 수강 개월수,비용 궁금합니다.', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'장은주',
+										writerIP				=	'125.249.182.34',
+										writerPhone				=	'01077382919',
+										writerMail				=	'',
+										contents				=	'반영구(눈썹,헤어라인) 수강 개월수,비용 궁금합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-10-29 19:28:33
+06u23tl78ivng66pt9frssmi6k | 211.194.113.98 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25805, 25805, 0, 0, 'Contact us', 'NULL', '사홍화', PASSWORD(''), '01071393420', 'skho3420@ naver.com', '211.194.113.98', 'smp상담', '', '', 'N', 'N', 'W', 'W00075', '15', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'사홍화',
+										writerIP				=	'211.194.113.98',
+										writerPhone				=	'01071393420',
+										writerMail				=	'skho3420@ naver.com',
+										contents				=	'smp상담',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

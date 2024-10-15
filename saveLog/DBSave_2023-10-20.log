@@ -1,0 +1,34 @@
+
+
+======================================================================
+2023-10-20 15:55:36
+41bkgjh919rvkjtdeoe45epo4k | 121.173.190.122 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25730, 25730, 0, 0, 'Contact us', 'NULL', '김태연', PASSWORD(''), '01091841872', '91841872@naver.com', '121.173.190.122', '안녕하세요~
+처음으로 smp배워보려고 합니다. 
+언제부터 가능하지 궁금합니다.', '', '', 'N', 'N', 'W', 'W00075', '15,20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김태연',
+										writerIP				=	'121.173.190.122',
+										writerPhone				=	'01091841872',
+										writerMail				=	'91841872@naver.com',
+										contents				=	'안녕하세요~
+처음으로 smp배워보려고 합니다. 
+언제부터 가능하지 궁금합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

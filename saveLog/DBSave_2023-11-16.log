@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-11-16 08:10:26
+e4al1b925k3erg8c4kmf3moacf | 180.65.100.136 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25927, 25927, 0, 0, 'Contact us', 'NULL', '박정숙', PASSWORD(''), '01053305277', 'cyi2315@naver.com', '180.65.100.136', '처음  학원  등록해서  배워보려구요', '', '', 'N', 'N', 'W', 'W00075', '15,16,17', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박정숙',
+										writerIP				=	'180.65.100.136',
+										writerPhone				=	'01053305277',
+										writerMail				=	'cyi2315@naver.com',
+										contents				=	'처음  학원  등록해서  배워보려구요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

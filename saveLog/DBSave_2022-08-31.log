@@ -1,0 +1,120 @@
+
+
+======================================================================
+2022-08-31 06:29:35
+mh6itllh3gaph4kjj2mf9t4a6e | 121.162.153.139 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 274, 'ENH0HmGlJhXEL2T6nivugaP-vKxxXTDn4X2ZVfpoXpg', '이진복', '010-2325-0531', 'webtick@naver.com', '', '', '', '', '', '2', '2', 'ENH0HmGlJhXEL2T6nivugaP-vKxxXTDn4X2ZVfpoXpg')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이진복',
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-08-31 09:51:12
+hcvav6a5lq3frt8osvjn544a9g | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 274, 'EIXgbMgAwNE41LMNRsftoCM6bV7-_EIAeQWQ0Ag4LwI', '이승현테스트', '010-8489-1409', '1409ggg@naver.com', '', '', '', '', '', '2', '2', 'EIXgbMgAwNE41LMNRsftoCM6bV7-_EIAeQWQ0Ag4LwI')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이승현테스트',
+										userMobile			=	'010-8489-1409',
+										userMail			=	'1409ggg@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-08-31 10:03:11
+hcvav6a5lq3frt8osvjn544a9g | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 275, '2410291719', '이승현테스트', '010-8489-1409', 'is-that-all@hanmail.net', '', '', '', '', '', '2', '3', '2410291719')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이승현테스트',
+										userMobile			=	'010-8489-1409',
+										userMail			=	'is-that-all@hanmail.net',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-08-31 10:41:09
+ng7utt81mdqbvomb03k2hgvdb1 | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 276, '1205467413581043', '윤혁', '010-1000-2000', 'test@naver.com', '', '', '', '', '', '2', '4', '1205467413581043')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'윤혁',
+										userMobile			=	'010-1000-2000',
+										userMail			=	'test@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-08-31 11:00:13
+1sesp7jmrde7pe6q2bq6ek6qg5 | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 276, '5359572497493240', '정재현', '010-1000-2000', 'lightmusic3@naver.com', '', '', '', '', '', '2', '4', '5359572497493240')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'정재현',
+										userMobile			=	'010-1000-2000',
+										userMail			=	'lightmusic3@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-08-31 11:33:41
+lo3rnb3ftaga12al9t1eda1ng5 | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 277, '5360877324034435', '이승현 페북 테스트', '010-8489-1409', '1409ggg@naver.com', '', '', '', '', '', '2', '4', '5360877324034435')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이승현 페북 테스트',
+										userMobile			=	'010-8489-1409',
+										userMail			=	'1409ggg@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									

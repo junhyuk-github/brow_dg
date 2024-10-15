@@ -1,0 +1,103 @@
+
+
+======================================================================
+2022-09-23 17:32:03
+af7nc96eqp82mldubkkqk862j1 | 112.221.74.61 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21841, 21841, 0, 0, 'Contact us', 'NULL', '한영은', PASSWORD(''), '01031857655', '', '112.221.74.61', '마스터 과정을 배우고 싶은데 이쪽 분야는 처음인데 
+마스터부터 시작해도 되는지, 가격, 시간표, 국비지원은 
+가능한지', '', '', 'N', 'N', 'M', 'W00075', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'한영은',
+										writerIP				=	'112.221.74.61',
+										writerPhone				=	'01031857655',
+										writerMail				=	'',
+										contents				=	'마스터 과정을 배우고 싶은데 이쪽 분야는 처음인데 
+마스터부터 시작해도 되는지, 가격, 시간표, 국비지원은 
+가능한지',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-09-23 19:54:52
+61l2p1ltrm7fdlmlk13c88svgc | 175.195.97.167 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 283, 'always5105', PASSWORD('antico092594'), '조현서', '010-5203-5105', 'always5105@naver.com', '720125', '2', '16908', '경기 용인시 기흥구 구교동로 17', '102동1903호', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'조현서',
+										userPWD				=	PASSWORD('antico092594'),
+										userMobile			=	'010-5203-5105',
+										userMail			=	'always5105@naver.com',
+										userBirth			=	'720125',
+										userJob				=	'2',
+										userZip				=	'16908',
+										userAddr1			=	'경기 용인시 기흥구 구교동로 17',
+										userAddr2			=	'102동1903호'
+									
+
+
+======================================================================
+2022-09-23 21:32:16
+61l2p1ltrm7fdlmlk13c88svgc | 175.195.97.167 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21844, 21844, 0, 0, '수강생 실제후기', '283', '조현서', PASSWORD(''), '', '', '175.195.97.167', '아주 오래전 부터 하고 싶었어요^^ 코로나 상황에서 여러 학원이 경영이 안되어 서울로 학생을 보내는 곳이 많더군요. 그래서 강남의 학원을 알아보던 중 톡스 앤 브로우를 알게 되었습니다.
+여러 학원을 상담 받을떄마다 과한 가격에 프로그램은 엉성 한더군요
+톡스 앤 브로우는 다르더군요^^
+원장님의 정확한 안내가 마음에 들었구요. 합리적 가격에 한번 더 놀랬지요.
+제가 상담 받았던 곳들보다 가격이 맘에 들었습니다. 
+프로그램도 아주 맘에 흡족했습니다.
+딸 같은 젊은 친구들에게서 응원도 많이 받고 읏샤읏샤  용기도 얻었지요.
+톡스 앤 브로우는  다양한 정보와 세미나도 개최하고  원장님 브로우 강사님 피부강사님 모두 예쁘세요^^
+립 써비스 아닙니다.거기다가 마음 씀씀이도 고우시더군요.덕분에 저도 안하던 운동도 해보고 거울을 한번 더 보게 되더군요.
+원장님 배려에 늘 감사한 마음입니다.그리고 브로우 강사님 제가 급한 마음 먹을떄 천천히~천천히~하며 하나하나 짚어 주셔시고 끝까지 응원해주셔서 감사합니다.
+같이 배우던 동기님들 서로에게 연습 연습 연습 밖에 없어 하면서 같이 하며
+내가 더 잘해 라며 뽑내지도 않고 부족한 부분 응원해주셔서 감사해요.
+함께여서 즐겁고 감사한 날이었습니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'조현서',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'아주 오래전 부터 하고 싶었어요^^ 코로나 상황에서 여러 학원이 경영이 안되어 서울로 학생을 보내는 곳이 많더군요. 그래서 강남의 학원을 알아보던 중 톡스 앤 브로우를 알게 되었습니다.
+여러 학원을 상담 받을떄마다 과한 가격에 프로그램은 엉성 한더군요
+톡스 앤 브로우는 다르더군요^^
+원장님의 정확한 안내가 마음에 들었구요. 합리적 가격에 한번 더 놀랬지요.
+제가 상담 받았던 곳들보다 가격이 맘에 들었습니다. 
+프로그램도 아주 맘에 흡족했습니다.
+딸 같은 젊은 친구들에게서 응원도 많이 받고 읏샤읏샤  용기도 얻었지요.
+톡스 앤 브로우는  다양한 정보와 세미나도 개최하고  원장님 브로우 강사님 피부강사님 모두 예쁘세요^^
+립 써비스 아닙니다.거기다가 마음 씀씀이도 고우시더군요.덕분에 저도 안하던 운동도 해보고 거울을 한번 더 보게 되더군요.
+원장님 배려에 늘 감사한 마음입니다.그리고 브로우 강사님 제가 급한 마음 먹을떄 천천히~천천히~하며 하나하나 짚어 주셔시고 끝까지 응원해주셔서 감사합니다.
+같이 배우던 동기님들 서로에게 연습 연습 연습 밖에 없어 하면서 같이 하며
+내가 더 잘해 라며 뽑내지도 않고 부족한 부분 응원해주셔서 감사해요.
+함께여서 즐겁고 감사한 날이었습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

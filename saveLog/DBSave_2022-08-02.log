@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-08-02 21:50:57
+5mltqt19tvvjeg4sqhab99ln6q | 49.50.168.92 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('M00053', '45', 21314, 21314, 0, 0, 'Contact us', 'NULL', '문의', PASSWORD(''), '01058050570', '', '49.164.170.183', '비용 사후관리 토탈', '', '', 'N', 'N', 'M', 'M00053', '11,12,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'문의',
+										writerIP				=	'49.50.168.92',
+										writerPhone				=	'01058050570',
+										writerMail				=	'',
+										contents				=	'비용 사후관리 토탈',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'M00053',
+										gubun					=	'11,12,13',
+										bbsState				=	'200'
+									

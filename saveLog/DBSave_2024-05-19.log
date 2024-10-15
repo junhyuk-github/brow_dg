@@ -1,0 +1,60 @@
+
+
+======================================================================
+2024-05-19 13:23:03
+7gdq7haflms68lm1r32gp6q2q8 | 115.136.138.108 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 27697, 27697, 0, 0, 'Contact us', 'NULL', '오미진', PASSWORD(''), '01079403359', 'catswave@naver.com', '115.136.138.108', '.', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'오미진',
+										writerIP				=	'115.136.138.108',
+										writerPhone				=	'01079403359',
+										writerMail				=	'catswave@naver.com',
+										contents				=	'.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-05-19 19:42:13
+bu0kos8ou78rb070bnc17b9cro | 223.38.73.127 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 27698, 27698, 0, 0, 'Contact us', 'NULL', '이지혜', PASSWORD(''), '01036725414', 'wlgp3351@naver.com', '223.38.73.127', '수강 문의 드립니다', '', '', 'N', 'N', 'W', 'W00075', '24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이지혜',
+										writerIP				=	'223.38.73.127',
+										writerPhone				=	'01036725414',
+										writerMail				=	'wlgp3351@naver.com',
+										contents				=	'수강 문의 드립니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

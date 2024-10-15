@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-12-13 21:56:43
+hag4d2jh4a6fpme31pnl0h04m4 | 110.12.242.22 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26194, 26194, 0, 0, 'Contact us', 'NULL', '용연지', PASSWORD(''), '01049485364', 'geun323@gmail.com', '110.12.242.22', 'smp 전문가 과정문의', '', '', 'N', 'N', 'W', 'W00075', '17', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'용연지',
+										writerIP				=	'110.12.242.22',
+										writerPhone				=	'01049485364',
+										writerMail				=	'geun323@gmail.com',
+										contents				=	'smp 전문가 과정문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'17',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

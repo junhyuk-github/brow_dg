@@ -1,0 +1,21 @@
+
+
+======================================================================
+2024-01-18 22:35:17
+vrhv7c704pol8lm1j80q3i9o2g | 223.39.250.154 | /m/member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommenderCode) VALUES
+										('B', 409, 'ifBlxVKNcUic2M4Z5cDMUI3zBXyxFIDuZ_g_syOnwNQ', '전은경', '010-6206-7140', 'jek5778@naver.com', '', '', '', '', '', '2', '2', 'ifBlxVKNcUic2M4Z5cDMUI3zBXyxFIDuZ_g_syOnwNQ', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'전은경',
+										userMobile			=	'010-6206-7140',
+										userMail			=	'jek5778@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	'',
+										recommenderCode		=	''
+									

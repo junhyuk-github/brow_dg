@@ -1,0 +1,129 @@
+
+
+======================================================================
+2022-08-12 08:56:45
+ljr7jq5omk0qmehu9l2qvecici | 49.236.150.68 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21390, 21390, 0, 0, 'Contact us', 'NULL', 'test', PASSWORD(''), '01049215060', '', '106.245.163.119', 'ss', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'test',
+										writerIP				=	'49.236.150.68',
+										writerPhone				=	'01049215060',
+										writerMail				=	'',
+										contents				=	'ss',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-08-12 08:58:45
+ljr7jq5omk0qmehu9l2qvecici | 49.236.150.68 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21391, 21391, 0, 0, 'Contact us', 'NULL', '윤혁', PASSWORD(''), '01049215060', '', '106.245.163.119', 'ㅁㄴㅇㄻㄴㄹㅇ', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'윤혁',
+										writerIP				=	'49.236.150.68',
+										writerPhone				=	'01049215060',
+										writerMail				=	'',
+										contents				=	'ㅁㄴㅇㄻㄴㄹㅇ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-08-12 09:34:44
+rrcnndgf5p25mfjf7of6l060pb | 211.109.227.146 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21392, 21392, 0, 0, 'Contact us', 'NULL', '트라이업', PASSWORD(''), '01011112222', '', '211.109.227.146', '테스트', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업',
+										writerIP				=	'211.109.227.146',
+										writerPhone				=	'01011112222',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-08-12 09:44:18
+rrcnndgf5p25mfjf7of6l060pb | 211.109.227.146 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21393, 21393, 0, 0, 'Contact us', 'NULL', '트라이업_테스트', PASSWORD(''), '01011112222', '', '211.109.227.146', '테스트', '', '', 'N', 'N', 'M', 'W00075', '12,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업_테스트',
+										writerIP				=	'211.109.227.146',
+										writerPhone				=	'01011112222',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12,13',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-08-12 09:57:22
+rrcnndgf5p25mfjf7of6l060pb | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 265, 'triup15', PASSWORD('zkdldi11wl'), '트라이업11', '010-1111-1111', '1409ggg@naver.com', '', '', '01489', '서울 도봉구 마들로 325', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업11',
+										userPWD				=	PASSWORD('zkdldi11wl'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1409ggg@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'01489',
+										userAddr1			=	'서울 도봉구 마들로 325',
+										userAddr2			=	''
+									

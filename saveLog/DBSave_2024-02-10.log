@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-02-10 15:36:52
+tmoefus0injo6mcjvv09il0mcn | 118.235.4.188 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26726, 26726, 0, 0, 'Contact us', 'NULL', '윤희준', PASSWORD(''), '01085470197', 'dbsgmlwnss@naver.com', '118.235.4.188', '수강 문의합니다', '', '', 'N', 'N', 'W', 'W00075', '15,18', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'윤희준',
+										writerIP				=	'118.235.4.188',
+										writerPhone				=	'01085470197',
+										writerMail				=	'dbsgmlwnss@naver.com',
+										contents				=	'수강 문의합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,18',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

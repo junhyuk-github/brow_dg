@@ -1,0 +1,89 @@
+
+
+======================================================================
+2023-02-21 08:07:51
+n08du2pj7ufm80j7tq2pghifkl | 118.235.6.120 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23433, 23433, 0, 0, 'Contact us', 'NULL', '표영은', PASSWORD(''), '010-4826-5517', '', '118.235.6.120', '커리큘럼이랑 강의 시간 수강비 문의 드리고 싶어서 
+남깁니다 !!', '', '', 'N', 'N', 'M', 'W00075', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'표영은',
+										writerIP				=	'118.235.6.120',
+										writerPhone				=	'010-4826-5517',
+										writerMail				=	'',
+										contents				=	'커리큘럼이랑 강의 시간 수강비 문의 드리고 싶어서 
+남깁니다 !!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-02-21 15:35:37
+gnir107h0e3du77ni75ptv12qb | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 315, 'jjjjin', PASSWORD('idoido22'), '김진희', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김진희',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-21 15:42:23
+gnir107h0e3du77ni75ptv12qb | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23438, 23438, 0, 0, '수강생 실제후기', '315', '김진희', PASSWORD(''), '', '', '175.209.112.103', '저에게 톡스앤필 브로우는 배움의 즐거움을 알게해준 학원이에요!
+막연하게 반영구에 도전했는데 저의 또 다른 재능을 찾은 느낌이랄까요?
+제가 어떤걸 잘하는지 어떤 부분이 부족한지 족집게처럼 콕 찝어서 
+알려주셔서 제가 발전하는데에 큰 도움이 되었습니다!
+노력은 배신하지 않는다라고 항상 얘기해주셨는데 진짜 많은 힘이 되었어요
+자신있고 당당한 반영구 전문가가 되기 위해서 앞으로도 더 많은 노력을 하려고 합니다!
+늘 감사합니다~~~!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김진희',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'저에게 톡스앤필 브로우는 배움의 즐거움을 알게해준 학원이에요!
+막연하게 반영구에 도전했는데 저의 또 다른 재능을 찾은 느낌이랄까요?
+제가 어떤걸 잘하는지 어떤 부분이 부족한지 족집게처럼 콕 찝어서 
+알려주셔서 제가 발전하는데에 큰 도움이 되었습니다!
+노력은 배신하지 않는다라고 항상 얘기해주셨는데 진짜 많은 힘이 되었어요
+자신있고 당당한 반영구 전문가가 되기 위해서 앞으로도 더 많은 노력을 하려고 합니다!
+늘 감사합니다~~~!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

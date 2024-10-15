@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-03-11 23:12:50
+4rbprn9ge6frbah19jf3rcpo8a | 124.5.58.232 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26971, 26971, 0, 0, 'Contact us', 'NULL', '박예진', PASSWORD(''), '01093327944', 'yj040105@naver.com', '124.5.58.232', '두피문신 수강 문의', '', '', 'N', 'N', 'W', 'W00075', '24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박예진',
+										writerIP				=	'124.5.58.232',
+										writerPhone				=	'01093327944',
+										writerMail				=	'yj040105@naver.com',
+										contents				=	'두피문신 수강 문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

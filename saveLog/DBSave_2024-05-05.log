@@ -1,0 +1,32 @@
+
+
+======================================================================
+2024-05-05 02:33:17
+tfdnv44u4q5agrfkn7u68pg1rc | 118.235.12.65 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 27593, 27593, 0, 0, 'Contact us', 'NULL', '전서영', PASSWORD(''), '01062358180', '818-y@kakao.com', '118.235.12.65', '가르마, 정수리 부분 숱이 없어 휑해보여요. 숱많아보이게 됐음 
+좋겠어요', '', '', 'N', 'N', 'W', 'W00075', '31,32,34,36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'전서영',
+										writerIP				=	'118.235.12.65',
+										writerPhone				=	'01062358180',
+										writerMail				=	'818-y@kakao.com',
+										contents				=	'가르마, 정수리 부분 숱이 없어 휑해보여요. 숱많아보이게 됐음 
+좋겠어요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,32,34,36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

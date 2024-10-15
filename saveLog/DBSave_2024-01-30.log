@@ -1,0 +1,32 @@
+
+
+======================================================================
+2024-01-30 12:42:57
+do8vtscsfl7ehfqhkg2hk5e0jg | 221.155.141.164 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26632, 26632, 0, 0, 'Contact us', 'NULL', '고정숙', PASSWORD(''), '01032511911', 'baba8256@naver.com', '221.155.141.164', '두피문신 관심있어서 수강및 창업 문의합니다.
+교육과정과 교육비 상세 부탁드립니다.', '', '', 'N', 'N', 'W', 'W00075', '16,18,20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'고정숙',
+										writerIP				=	'221.155.141.164',
+										writerPhone				=	'01032511911',
+										writerMail				=	'baba8256@naver.com',
+										contents				=	'두피문신 관심있어서 수강및 창업 문의합니다.
+교육과정과 교육비 상세 부탁드립니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16,18,20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

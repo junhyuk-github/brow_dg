@@ -1,0 +1,182 @@
+
+
+======================================================================
+2022-12-13 10:09:08
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 299, '__hyemin', PASSWORD('idoido22'), '김혜민', '010-5555-5555', '555@naver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김혜민',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-5555-5555',
+										userMail			=	'555@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-13 10:37:42
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22661, 22661, 0, 0, '수강생 실제후기', '299', '김혜민', PASSWORD(''), '', '', '175.209.112.103', '정말 저는 톡스앤필 브로우를 선택하길 참 잘했다는 생각을 많이해요!
+원장님,강사님 다 너무 친절하세요. 질문에도 빠르게 답변해주시고
+제가 모르고 넘어가는 부분이나 부족한 부분들 다 캐치해서 바로 잡아주고
+피드백 해주셔서 더 잘 배울 수 있는 것 같아요. 
+그리고 학원 분위기도 너무 좋아요~ 가족같이 챙겨주셔서 항상 감사한 마음으로 
+학원 다니고 있습니다!^^!!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김혜민',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'정말 저는 톡스앤필 브로우를 선택하길 참 잘했다는 생각을 많이해요!
+원장님,강사님 다 너무 친절하세요. 질문에도 빠르게 답변해주시고
+제가 모르고 넘어가는 부분이나 부족한 부분들 다 캐치해서 바로 잡아주고
+피드백 해주셔서 더 잘 배울 수 있는 것 같아요. 
+그리고 학원 분위기도 너무 좋아요~ 가족같이 챙겨주셔서 항상 감사한 마음으로 
+학원 다니고 있습니다!^^!!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-13 11:25:06
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 300, 'jinjin87', PASSWORD('idoido22'), '이윤진', '010-1234-1234', '132@hanmail.net', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이윤진',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1234-1234',
+										userMail			=	'132@hanmail.net',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-13 11:43:36
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22663, 22663, 0, 0, '수강생 실제후기', '300', '이윤진', PASSWORD(''), '', '', '175.209.112.103', '더 늦기전에 전문적인 기술을 배워야겠다고 마음먹고 찾아보면서 수도 없이 고민을 했어요.
+너무 늦은건 아닐까.. 내가 잘 할 수 있을까...많이 두렵기도 하고 막막하기도 했지만
+워낙 뷰티쪽에 관심이 많고 반영구라는 분야에 너무 끌리더라구요.
+수업을 받으면서 내가 아직 늦지 않았구나 배우는게 너무 즐겁다 라고 느끼면서 
+제 스스로 자신감을 가지게 되었어요. 
+어쩌면 톡스앤필 브로우에 등록 후 수업을 받고있는 이 시점이 
+제 인생의 터닝포인트라고 생각됩니다. 
+앞으로도 초심 잃지 않고 잘 배우도록 하겠습니다.선생님들께 항상 감사해요.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이윤진',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'더 늦기전에 전문적인 기술을 배워야겠다고 마음먹고 찾아보면서 수도 없이 고민을 했어요.
+너무 늦은건 아닐까.. 내가 잘 할 수 있을까...많이 두렵기도 하고 막막하기도 했지만
+워낙 뷰티쪽에 관심이 많고 반영구라는 분야에 너무 끌리더라구요.
+수업을 받으면서 내가 아직 늦지 않았구나 배우는게 너무 즐겁다 라고 느끼면서 
+제 스스로 자신감을 가지게 되었어요. 
+어쩌면 톡스앤필 브로우에 등록 후 수업을 받고있는 이 시점이 
+제 인생의 터닝포인트라고 생각됩니다. 
+앞으로도 초심 잃지 않고 잘 배우도록 하겠습니다.선생님들께 항상 감사해요.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-13 12:07:18
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '22663'
+
+
+======================================================================
+2022-12-13 12:07:18
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '22663'
+
+
+======================================================================
+2022-12-13 12:07:18
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '22663'
+
+
+======================================================================
+2022-12-13 12:07:26
+m6tsn019b0ampa6qo7bsfbk8fl | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22663, 22663, 0, 0, '수강생 실제후기', '300', '이윤진', PASSWORD(''), '', '', '175.209.112.103', '더 늦기전에 전문적인 기술을 배워야겠다고 마음먹고 찾아보면서 수도 없이 고민을 했어요.
+너무 늦은건 아닐까.. 내가 잘 할 수 있을까...많이 두렵기도 하고 막막하기도 했지만
+워낙 뷰티쪽에 관심이 많고 반영구라는 분야에 너무 끌리더라구요.
+수업을 받으면서 내가 아직 늦지 않았구나 배우는게 너무 즐겁다 라고 느끼면서
+제 스스로 자신감을 가지게 되었어요.
+어쩌면 톡스앤필 브로우에 등록 후 수업을 받고있는 이 시점이
+제 인생의 터닝포인트라고 생각됩니다.
+앞으로도 초심 잃지 않고 잘 배우도록 하겠습니다.선생님들께 너무 감사해요.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이윤진',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'더 늦기전에 전문적인 기술을 배워야겠다고 마음먹고 찾아보면서 수도 없이 고민을 했어요.
+너무 늦은건 아닐까.. 내가 잘 할 수 있을까...많이 두렵기도 하고 막막하기도 했지만
+워낙 뷰티쪽에 관심이 많고 반영구라는 분야에 너무 끌리더라구요.
+수업을 받으면서 내가 아직 늦지 않았구나 배우는게 너무 즐겁다 라고 느끼면서
+제 스스로 자신감을 가지게 되었어요.
+어쩌면 톡스앤필 브로우에 등록 후 수업을 받고있는 이 시점이
+제 인생의 터닝포인트라고 생각됩니다.
+앞으로도 초심 잃지 않고 잘 배우도록 하겠습니다.선생님들께 너무 감사해요.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-09-28 11:43:11
+v3h24khkm5tro5ecc51ugoktul | 106.101.64.162 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25593, 25593, 0, 0, 'Contact us', 'NULL', '한덕현', PASSWORD(''), '01051239351', '', '106.101.64.162', '시술문의드려요', '', '', 'N', 'N', 'W', 'W00075', '31,33,35', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'한덕현',
+										writerIP				=	'106.101.64.162',
+										writerPhone				=	'01051239351',
+										writerMail				=	'',
+										contents				=	'시술문의드려요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,33,35',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,74 @@
+
+
+======================================================================
+2023-02-15 10:36:21
+kmbld1kd11tbcm63fdjrleuooq | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 312, 'susu__', PASSWORD('idoido22'), '이수인', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이수인',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-15 10:57:36
+kmbld1kd11tbcm63fdjrleuooq | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23347, 23347, 0, 0, '수강생 실제후기', '312', '이수인', PASSWORD(''), '', '', '175.209.112.103', '반영구를 배우려고 마음먹고 인터넷 검색을 정말 많이했어요.
+그 중 톡스앤필 브로우를 보게되었고 여기다 싶어서
+바로 상담 예약을 하고 방문해서 등록했던 기억이나요
+처음엔 자신만만하게 등록했는데 제가 생각했던것보다
+더 실력이 많이 필요한 분야구나 싶었어요. 
+자신감이 점차 떨어질때쯤 강사님,원장님께서 
+저의 자신감,자존감 끌어 올려주시면서 더 노력할수있게 이끌어주셨어요.
+저한테 맞는 수준에서 차근차근 진도 나가고 놓치는 것 없게끔 
+꼼꼼하게 체크해주시고 알려주셔서 그 만큼 더 흥미가 생기고 
+더 열심히 배울 수 있었어요. 이제는 스스로 자신감을 가질 수 있을 만큼
+실력 또한 많이 늘어서 포트폴리오만 봐도 너무 행복합니다.  
+항상 적극적으로 수강생 먼저 챙겨주시는 모습에 늘 감동받았어요
+톡스앤필 브로우를 선택하길 잘했다는 생각이 정말 많이 들어요.
+진심으로 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이수인',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구를 배우려고 마음먹고 인터넷 검색을 정말 많이했어요.
+그 중 톡스앤필 브로우를 보게되었고 여기다 싶어서
+바로 상담 예약을 하고 방문해서 등록했던 기억이나요
+처음엔 자신만만하게 등록했는데 제가 생각했던것보다
+더 실력이 많이 필요한 분야구나 싶었어요. 
+자신감이 점차 떨어질때쯤 강사님,원장님께서 
+저의 자신감,자존감 끌어 올려주시면서 더 노력할수있게 이끌어주셨어요.
+저한테 맞는 수준에서 차근차근 진도 나가고 놓치는 것 없게끔 
+꼼꼼하게 체크해주시고 알려주셔서 그 만큼 더 흥미가 생기고 
+더 열심히 배울 수 있었어요. 이제는 스스로 자신감을 가질 수 있을 만큼
+실력 또한 많이 늘어서 포트폴리오만 봐도 너무 행복합니다.  
+항상 적극적으로 수강생 먼저 챙겨주시는 모습에 늘 감동받았어요
+톡스앤필 브로우를 선택하길 잘했다는 생각이 정말 많이 들어요.
+진심으로 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-01-06 18:05:27
+q08fv4a2e9vcc8290rdp2oms30 | 211.187.4.19 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26410, 26410, 0, 0, 'Contact us', 'NULL', '강진주', PASSWORD(''), '01049664546', 'kjj334@nate.com', '211.187.4.19', '수강문의', '', '', 'N', 'N', 'W', 'W00075', '15,16,17', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'강진주',
+										writerIP				=	'211.187.4.19',
+										writerPhone				=	'01049664546',
+										writerMail				=	'kjj334@nate.com',
+										contents				=	'수강문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

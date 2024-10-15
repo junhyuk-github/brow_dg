@@ -1,0 +1,40 @@
+
+
+======================================================================
+2024-03-31 01:04:15
+tpq858b7l2d0m5oe4e1o3h94su | 113.199.32.208 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 27191, 27191, 0, 0, 'Contact us', 'NULL', '이지원', PASSWORD(''), '01098782362', 'wldnjs1518@naver.com', '113.199.32.208', '안녕하세요:)
+어머니 대신 문의드립니다~
+50대이신 어머니가 산후후유증으로 정수리머리가 빠지신 후에 다시 
+머리가 안나신 상황입니다ㅎㅎㅎ 스트레스가 더욱 심해지셔서 
+smp시술을 알아보고 있는 중인데요
+시술 가격을 알 수 있을까요??', '', '', 'N', 'N', 'W', 'W00075', '32', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이지원',
+										writerIP				=	'113.199.32.208',
+										writerPhone				=	'01098782362',
+										writerMail				=	'wldnjs1518@naver.com',
+										contents				=	'안녕하세요:)
+어머니 대신 문의드립니다~
+50대이신 어머니가 산후후유증으로 정수리머리가 빠지신 후에 다시 
+머리가 안나신 상황입니다ㅎㅎㅎ 스트레스가 더욱 심해지셔서 
+smp시술을 알아보고 있는 중인데요
+시술 가격을 알 수 있을까요??',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

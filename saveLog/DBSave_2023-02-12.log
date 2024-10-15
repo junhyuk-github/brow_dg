@@ -1,0 +1,29 @@
+
+
+======================================================================
+2023-02-12 20:52:16
+mluv3astquu45ui2jt2sovg5f5 | 58.224.68.215 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23334, 23334, 0, 0, 'Contact us', 'NULL', '유지현', PASSWORD(''), '01029920600', '', '58.224.68.215', '반영구 눈썹문신이랑 smp 문의드려요 
+방문 상담 가능할까요???', '', '', 'N', 'N', 'M', 'W00075', '12,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'유지현',
+										writerIP				=	'58.224.68.215',
+										writerPhone				=	'01029920600',
+										writerMail				=	'',
+										contents				=	'반영구 눈썹문신이랑 smp 문의드려요 
+방문 상담 가능할까요???',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12,13',
+										bbsState				=	'200'
+									

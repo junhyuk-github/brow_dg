@@ -1,0 +1,38 @@
+
+
+======================================================================
+2024-06-13 13:03:46
+vcqsas3dtku3d89djd9m3cun33 | 106.245.163.125 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 27931, 27931, 0, 0, 'Contact us', 'NULL', '황서은', PASSWORD(''), '01031003718', 'ciel77733@gmail.com', '106.245.163.125', 'BBG 직원 황서은  입니다
+
+직원가 예약으로 7월 6일 토요일 OR 7월 20일 토요일 오후 시간대에 예약 및 시술 가능할까요?
+
+확인되시면 답변 부탁드립니다^^', '', '', 'N', 'N', 'W', 'W00075', '32,36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황서은',
+										writerIP				=	'106.245.163.125',
+										writerPhone				=	'01031003718',
+										writerMail				=	'ciel77733@gmail.com',
+										contents				=	'BBG 직원 황서은  입니다
+
+직원가 예약으로 7월 6일 토요일 OR 7월 20일 토요일 오후 시간대에 예약 및 시술 가능할까요?
+
+확인되시면 답변 부탁드립니다^^',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32,36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

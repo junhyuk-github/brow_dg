@@ -1,0 +1,46 @@
+
+
+======================================================================
+2023-11-05 21:57:13
+9h5n7eck57kh3fa1ef63nb2jjq | 14.33.235.206 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25854, 25854, 0, 0, 'Event', 'NULL', '도원탁', PASSWORD(''), '01089986400', 'doberload@naver.com', '14.33.235.206', '안녕하세요 우연히 유튜브보다가 이런 이벤트가 있어서 참여하게 되었습니다.
+저는 현제 조각가로 활동하고있으며 와이프의 인테리어 일을 도우며 살고있는 탈모인 입니다.
+사실 머리숱이 빠져도 크게 신경쓰지 않고 모자쓰고 다니며. 이게 나의 운명이구나 하며 받아드리며 살았습니다.
+하지만 갑자기 늘어난 세치와 더불어 횡해진 머리숱이 사람을 더 초라해보이게 만드는 일부분 인것을 인지하게 되었고 
+수많은 고민을 하고 있는 중입니다.
+전체적으로 숱이 없는 편이라서 모발이식을 하기에도 애매하다 판단하여 smp시술을 고려하고 있었습니다.
+이곳저곳 알아보고 있었는데 저렴한 가격에 시술을 할수 있다면 좋겠다라는 생각이 들어 신청하게 되었습니다.
+장황한 사연을 만들어낼것도 없고 탈모인등의 고통은 다 같을거라고 생각합니다. 
+토스앤필과 저에게 좋은 기회가 되었으면 좋겠습니다', '', '', 'N', 'N', 'W', 'W00075', '', '', '상관없음', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'도원탁',
+										writerIP				=	'14.33.235.206',
+										writerPhone				=	'01089986400',
+										writerMail				=	'doberload@naver.com',
+										contents				=	'안녕하세요 우연히 유튜브보다가 이런 이벤트가 있어서 참여하게 되었습니다.
+저는 현제 조각가로 활동하고있으며 와이프의 인테리어 일을 도우며 살고있는 탈모인 입니다.
+사실 머리숱이 빠져도 크게 신경쓰지 않고 모자쓰고 다니며. 이게 나의 운명이구나 하며 받아드리며 살았습니다.
+하지만 갑자기 늘어난 세치와 더불어 횡해진 머리숱이 사람을 더 초라해보이게 만드는 일부분 인것을 인지하게 되었고 
+수많은 고민을 하고 있는 중입니다.
+전체적으로 숱이 없는 편이라서 모발이식을 하기에도 애매하다 판단하여 smp시술을 고려하고 있었습니다.
+이곳저곳 알아보고 있었는데 저렴한 가격에 시술을 할수 있다면 좋겠다라는 생각이 들어 신청하게 되었습니다.
+장황한 사연을 만들어낼것도 없고 탈모인등의 고통은 다 같을거라고 생각합니다. 
+토스앤필과 저에게 좋은 기회가 되었으면 좋겠습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'상관없음',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									

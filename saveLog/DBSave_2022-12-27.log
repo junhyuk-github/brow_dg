@@ -1,0 +1,164 @@
+
+
+======================================================================
+2022-12-27 14:24:25
+pqabhh2u1m4b1sqe2iuj1n6n2j | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 301, 'hye___', PASSWORD('idoido22'), '박혜지', '010-1111-1111', 'hye___@maver.com', '', '', '11700', '경기 의정부시 경의로 108', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'박혜지',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'hye___@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'11700',
+										userAddr1			=	'경기 의정부시 경의로 108',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-27 16:06:29
+pqabhh2u1m4b1sqe2iuj1n6n2j | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22826, 22826, 0, 0, '수강생 실제후기', '301', '박혜지', PASSWORD(''), '', '', '175.209.112.103', '처음 시작할때는 너무 어렵다고만 생각하고 하루 하루 걱정만 가득했는데
+지금은 진짜 안배웠으면 어쩔뻔했나 하면서 너무 만족중 입니다!
+항상 강사님,원장님께서 말씀해주셨던 꾸준한 연습! 그리고 할수있다는 자신감! 
+그리고 꼼꼼한 피드백까지.. 덕분에 저는 많이 성장하게 된 것 같아요.
+톡스앤필 브로우 감사합니다! 진짜 열심히해서 꼭 더 성공할거에요!!!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'박혜지',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음 시작할때는 너무 어렵다고만 생각하고 하루 하루 걱정만 가득했는데
+지금은 진짜 안배웠으면 어쩔뻔했나 하면서 너무 만족중 입니다!
+항상 강사님,원장님께서 말씀해주셨던 꾸준한 연습! 그리고 할수있다는 자신감! 
+그리고 꼼꼼한 피드백까지.. 덕분에 저는 많이 성장하게 된 것 같아요.
+톡스앤필 브로우 감사합니다! 진짜 열심히해서 꼭 더 성공할거에요!!!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-27 16:22:20
+pqabhh2u1m4b1sqe2iuj1n6n2j | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 302, 'yzyz_z', PASSWORD('idoido22'), '최연지', '010-2222-2222', '0000@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'최연지',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-2222-2222',
+										userMail			=	'0000@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-27 17:53:06
+pqabhh2u1m4b1sqe2iuj1n6n2j | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22832, 22832, 0, 0, '수강생 실제후기', '302', '최연지', PASSWORD(''), '', '', '175.209.112.103', '수강을 받으면서 원장님과 강사님의 열정, 그리고 배려에 항상 힘을 많이 받습니다.
+저의 속도에 맞춰서 이끌어주시고 세심하게 알려주셔서 너무 너무 감사드려요.
+지금보다 더 열심히 배워서 꼭 선생님들처럼 멋진 전문가가 되고 싶어요.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'최연지',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'수강을 받으면서 원장님과 강사님의 열정, 그리고 배려에 항상 힘을 많이 받습니다.
+저의 속도에 맞춰서 이끌어주시고 세심하게 알려주셔서 너무 너무 감사드려요.
+지금보다 더 열심히 배워서 꼭 선생님들처럼 멋진 전문가가 되고 싶어요.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-27 18:05:36
+pqabhh2u1m4b1sqe2iuj1n6n2j | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 303, '1111_1', PASSWORD('idoido22'), '유하나', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'유하나',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-27 18:18:22
+pqabhh2u1m4b1sqe2iuj1n6n2j | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22833, 22833, 0, 0, '수강생 실제후기', '303', '유하나', PASSWORD(''), '', '', '175.209.112.103', '첫 방문했을때 가격도 합리적이지만 너무 정성스럽게 상담해주셔서 그때부터 감동 받았어요.
+첫 인상부터 너무 좋았고, 다니면서 더더욱 이곳이 좋아지더라구요.
+원장님,강사님께 항상 감사해요. 정말 많이 노력해서 더 멋진 실력으로 보답하고 싶어요.
+그리고 특강,세미나를 통해서 또 많이 배워가니까 정말 후에도 저에게 많은 도움이 될 것 같습니다.
+감사하고 또 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'유하나',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'첫 방문했을때 가격도 합리적이지만 너무 정성스럽게 상담해주셔서 그때부터 감동 받았어요.
+첫 인상부터 너무 좋았고, 다니면서 더더욱 이곳이 좋아지더라구요.
+원장님,강사님께 항상 감사해요. 정말 많이 노력해서 더 멋진 실력으로 보답하고 싶어요.
+그리고 특강,세미나를 통해서 또 많이 배워가니까 정말 후에도 저에게 많은 도움이 될 것 같습니다.
+감사하고 또 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

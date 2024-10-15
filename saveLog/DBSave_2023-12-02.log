@@ -1,0 +1,32 @@
+
+
+======================================================================
+2023-12-02 09:35:23
+kg9kjgfqt1vtjf691i8mout9nm | 182.227.107.173 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26108, 26108, 0, 0, 'Contact us', 'NULL', '장서우', PASSWORD(''), '01026141016', 'jangseou-@naver.com', '182.227.107.173', '11월 27일 월요일에 상담 신청 부탁드립니다. 전화대신 문자로 
+주시면 확인하겠습니다.', '', '', 'N', 'N', 'W', 'W00075', '19', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'장서우',
+										writerIP				=	'182.227.107.173',
+										writerPhone				=	'01026141016',
+										writerMail				=	'jangseou-@naver.com',
+										contents				=	'11월 27일 월요일에 상담 신청 부탁드립니다. 전화대신 문자로 
+주시면 확인하겠습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'19',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

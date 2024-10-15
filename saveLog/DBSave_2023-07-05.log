@@ -1,0 +1,378 @@
+
+
+======================================================================
+2023-07-05 10:22:57
+1l92mogus784crgc7ink0bimgr | 118.235.14.6 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24753, 24753, 0, 0, 'Contact us', 'NULL', '트라이업1', PASSWORD(''), '01084891409', '', '118.235.14.6', '테스트', '', '', 'N', 'N', 'M', 'W00075', '18,19,20,21', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업1',
+										writerIP				=	'118.235.14.6',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'18,19,20,21',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:31:48
+hunkvmq6ih4ctaeup2vg2dbp6b | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24754, 24754, 0, 0, 'Contact us', 'NULL', '트라이업2', PASSWORD(''), '01084891409', '', '211.243.232.180', '테스틍으ㅡ응', '', '', 'N', 'N', 'M', 'W00075', '15,20,21', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업2',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스틍으ㅡ응',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15,20,21',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:39:02
+p000fnbl0m8frmhdscmvi1jfq8 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24755, 24755, 0, 0, 'Contact us', 'NULL', '황지영테스트', PASSWORD(''), '01012345678', '', '211.243.232.180', 'test', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01012345678',
+										writerMail				=	'',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:44:40
+p000fnbl0m8frmhdscmvi1jfq8 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24756, 24756, 0, 0, 'Contact us', 'NULL', '황지영테스트', PASSWORD(''), '01012345678', '', '211.243.232.180', 'test', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01012345678',
+										writerMail				=	'',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:45:09
+9uua11dc8rjk5rb35af2ovclh6 | 211.243.232.180 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24757, 24757, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '테스트', '', '211.243.232.180', '테스트', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'테스트',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:45:13
+p000fnbl0m8frmhdscmvi1jfq8 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24758, 24758, 0, 0, 'Contact us', 'NULL', '황지영테스트', PASSWORD(''), '01012345678', '', '211.243.232.180', 'test', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01012345678',
+										writerMail				=	'',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:45:42
+9uua11dc8rjk5rb35af2ovclh6 | 211.243.232.180 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24759, 24759, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '테스트', '', '211.243.232.180', '테스트', '', '', 'N', 'N', 'M', 'W00075', '20', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'테스트',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:47:18
+hunkvmq6ih4ctaeup2vg2dbp6b | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24760, 24760, 0, 0, 'Contact us', 'NULL', '트라이업3', PASSWORD(''), '01084891409', '', '211.243.232.180', '테스트', '', '', 'N', 'N', 'M', 'W00075', '15,18', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업3',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15,18',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:48:16
+p000fnbl0m8frmhdscmvi1jfq8 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24761, 24761, 0, 0, 'Contact us', 'NULL', '황지영테스트', PASSWORD(''), '01012345678', '', '211.243.232.180', 'test', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01012345678',
+										writerMail				=	'',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:48:26
+9uua11dc8rjk5rb35af2ovclh6 | 211.243.232.180 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24762, 24762, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '테스트', '', '211.243.232.180', '테스트', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'테스트',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:49:44
+p000fnbl0m8frmhdscmvi1jfq8 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24763, 24763, 0, 0, 'Contact us', 'NULL', '황지영테스트', PASSWORD(''), '01012345678', '', '211.243.232.180', 'test', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'황지영테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01012345678',
+										writerMail				=	'',
+										contents				=	'test',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 10:51:23
+hunkvmq6ih4ctaeup2vg2dbp6b | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24764, 24764, 0, 0, 'Contact us', 'NULL', '트라이업4', PASSWORD(''), '01084891409', '', '211.243.232.180', '테스트', '', '', 'N', 'N', 'M', 'W00075', '18,19', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업4',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'18,19',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 14:13:22
+ufbjm1bci41ei5iojmg0dhd4bq | 118.235.14.240 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24766, 24766, 0, 0, 'Contact us', 'NULL', '트라이업4', PASSWORD(''), '010-8489-1409', '', '118.235.14.240', '테스트', '', '', 'N', 'N', 'M', 'W00075', '21,22', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업4',
+										writerIP				=	'118.235.14.240',
+										writerPhone				=	'010-8489-1409',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'21,22',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-05 15:16:40
+hunkvmq6ih4ctaeup2vg2dbp6b | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24767, 24767, 0, 0, 'Contact us', 'NULL', '트라이업5테스트', PASSWORD(''), '01084891409', '', '211.243.232.180', '테스트입니다.', '', '', 'N', 'N', 'M', 'W00075', '18,19,22', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업5테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트입니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'18,19,22',
+										bbsState				=	'200'
+									

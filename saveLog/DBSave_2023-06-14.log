@@ -1,0 +1,40 @@
+
+
+======================================================================
+2023-06-14 12:51:41
+0geoi8ahlmum8o0b0r57ghtjti | 167.1.173.21 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 360, '20602220544773', 'Nancy Smithman', '010-4881-6707', 'divinemae.villadares@fantasticsupport.net', '', '', '', '', '', '2', '4', '20602220544773')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'Nancy Smithman',
+										userMobile			=	'010-4881-6707',
+										userMail			=	'divinemae.villadares@fantasticsupport.net',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-06-14 13:44:11
+i9n37vtkdi8sp5ecjk72n1h390 | 203.177.113.161 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 361, '46002220182526', 'Mary Putnamsky', '010-123-5648', 'ssjqfnbats_1653897958@tfbnw.net', '', '', '', '', '', '2', '4', '46002220182526')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'Mary Putnamsky',
+										userMobile			=	'010-123-5648',
+										userMail			=	'ssjqfnbats_1653897958@tfbnw.net',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'',
+										userAddr1			=	'',
+										userAddr2			=	''
+									

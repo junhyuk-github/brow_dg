@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-12-21 17:42:01
+6gc7o9vvekhrqch16tcladqh4u | 106.101.65.6 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22760, 22760, 0, 0, 'Contact us', 'NULL', '임윤주', PASSWORD(''), '01047755315', '', '106.101.65.6', '반영구 교육 관현 알고싶어서 문의드립니다.', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'임윤주',
+										writerIP				=	'106.101.65.6',
+										writerPhone				=	'01047755315',
+										writerMail				=	'',
+										contents				=	'반영구 교육 관현 알고싶어서 문의드립니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

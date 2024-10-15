@@ -1,0 +1,145 @@
+
+
+======================================================================
+2022-07-29 05:20:48
+ | 58.234.165.96 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										(259, 'webdevis', PASSWORD('tjrgus2003'), '개발자', '010-2325-0531', 'webtick@gmail.com', '720624', '', '08334', '서울 구로구 개봉로 4', '1111', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userPWD				=	PASSWORD('tjrgus2003'),
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'720624',
+										userJob				=	'',
+										userZip				=	'08334',
+										userAddr1			=	'서울 구로구 개봉로 4',
+										userAddr2			=	'1111'
+									
+
+
+======================================================================
+2022-07-29 05:28:44
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										(259, 'webdevis', '개발자', '010-2325-0531', 'webtick@gmail.com', '720624', 'default', '08334', '서울 구로구 개봉로 4', '1111', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'720624',
+										userJob				=	'default',
+										userZip				=	'08334',
+										userAddr1			=	'서울 구로구 개봉로 4',
+										userAddr2			=	'1111'
+									
+
+
+======================================================================
+2022-07-29 05:34:24
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										(259, 'webdevis', '개발자', '010-2325-0531', 'webtick@gmail.com', '720624', 'default', '08334', '서울 구로구 개봉로 4', '1111', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'720624',
+										userJob				=	'default',
+										userZip				=	'08334',
+										userAddr1			=	'서울 구로구 개봉로 4',
+										userAddr2			=	'1111'
+									
+
+
+======================================================================
+2022-07-29 05:37:31
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										(260, 'webdevis1', PASSWORD('tjrgus2003'), '개발자', '010-2325-0531', 'webtick@gmail.com', '720624', '7', '08334', '서울 구로구 개봉로 4', '1111', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userPWD				=	PASSWORD('tjrgus2003'),
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'720624',
+										userJob				=	'7',
+										userZip				=	'08334',
+										userAddr1			=	'서울 구로구 개봉로 4',
+										userAddr2			=	'1111'
+									
+
+
+======================================================================
+2022-07-29 06:52:32
+mh6itllh3gaph4kjj2mf9t4a6e | 121.162.153.139 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 259, 'webdevis', PASSWORD('tjrgus2003'), '개발자', '010-2325-0531', 'webtick@gmail.com', '950115', '6', '08334', '서울 구로구 개봉로 4', '1111', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userPWD				=	PASSWORD('tjrgus2003'),
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'950115',
+										userJob				=	'6',
+										userZip				=	'08334',
+										userAddr1			=	'서울 구로구 개봉로 4',
+										userAddr2			=	'1111'
+									
+
+
+======================================================================
+2022-07-29 06:59:47
+mh6itllh3gaph4kjj2mf9t4a6e | 121.162.153.139 | /m/member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 259, 'webdevis', PASSWORD('tjrgus2003'), '개발자', '010-2325-0531', 'webtick@gmail.com', '950115', '2', '08334', '서울 구로구 개봉로 4', '1111', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userPWD				=	PASSWORD('tjrgus2003'),
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'950115',
+										userJob				=	'2',
+										userZip				=	'08334',
+										userAddr1			=	'서울 구로구 개봉로 4',
+										userAddr2			=	'1111'
+									
+
+
+======================================================================
+2022-07-29 12:58:57
+97g327o5da0k38i5dafje4vlri | 211.109.227.146 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 259, 'lightmusic4', PASSWORD('music387'), '정재현', '010-3396-4596', 'lightmusic6@triupcorp.com', '', '', '08386', '서울 구로구 가리봉동 124-38', '101호', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'정재현',
+										userPWD				=	PASSWORD('music387'),
+										userMobile			=	'010-3396-4596',
+										userMail			=	'lightmusic6@triupcorp.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'08386',
+										userAddr1			=	'서울 구로구 가리봉동 124-38',
+										userAddr2			=	'101호'
+									

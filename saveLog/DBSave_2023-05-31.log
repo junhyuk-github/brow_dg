@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-05-31 18:51:42
+tsk7s31vvbpv48cqgj4nqghtde | 1.222.116.83 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24456, 24456, 0, 0, 'Contact us', 'NULL', '최혜민', PASSWORD(''), '010-2999-1626', '', '1.222.116.83', '아티스트 과정 수강료 및 일정 문의', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'최혜민',
+										writerIP				=	'1.222.116.83',
+										writerPhone				=	'010-2999-1626',
+										writerMail				=	'',
+										contents				=	'아티스트 과정 수강료 및 일정 문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-01-28 13:46:59
+lj3m9c2678fhlfq1gh339kbu3n | 211.217.101.208 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23175, 23175, 0, 0, 'Contact us', 'NULL', '정수진', PASSWORD(''), '01074846677', '', '211.217.101.208', '반영구 눈썹배우고싶어서 문의합니다', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'정수진',
+										writerIP				=	'211.217.101.208',
+										writerPhone				=	'01074846677',
+										writerMail				=	'',
+										contents				=	'반영구 눈썹배우고싶어서 문의합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

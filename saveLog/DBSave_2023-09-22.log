@@ -1,0 +1,32 @@
+
+
+======================================================================
+2023-09-22 11:59:54
+b54qh72uu7d83m4c60uqqa3sqq | 58.121.140.54 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25554, 25554, 0, 0, 'Contact us', 'NULL', '최정심', PASSWORD(''), '01091183802', 'jschoi64@hanmail.net', '58.121.140.54', '문신 유지 기간
+가격', '', '', 'N', 'N', 'W', 'W00075', '32', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'최정심',
+										writerIP				=	'58.121.140.54',
+										writerPhone				=	'01091183802',
+										writerMail				=	'jschoi64@hanmail.net',
+										contents				=	'문신 유지 기간
+가격',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

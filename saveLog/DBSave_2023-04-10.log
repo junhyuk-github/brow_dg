@@ -1,0 +1,141 @@
+
+
+======================================================================
+2023-04-10 11:58:27
+fu3oqr071fctlhufmmogm2b9ud | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 348, 'alsruddk', PASSWORD('idoido22'), '민경아', '010-111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'민경아',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-04-10 12:12:28
+fu3oqr071fctlhufmmogm2b9ud | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23930, 23930, 0, 0, '수강생 실제후기', '348', '민경아', PASSWORD(''), '', '', '175.209.112.103', '오래 고민했고, 다른 학원들도 많이 알아보고 결정한 톡스앤필브로우에요.
+자세하고 정확한 상담에 믿음이 가서 등록을 했어요~
+모든 과정을 다 배우고 싶을 만큼 탄탄한 커리큘럼이 만족스럽습니다.
+선생님들도 다 너무 친절해요. 개개인 진도에 잘 맞춰주시고 제가 놓치고 넘어가는 부분들 빠르게 캐치해서 바로 잡아주셔서 편안하게 잘 배우고 있습니다. 앞으로도 잘 부탁드려요~', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'민경아',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'오래 고민했고, 다른 학원들도 많이 알아보고 결정한 톡스앤필브로우에요.
+자세하고 정확한 상담에 믿음이 가서 등록을 했어요~
+모든 과정을 다 배우고 싶을 만큼 탄탄한 커리큘럼이 만족스럽습니다.
+선생님들도 다 너무 친절해요. 개개인 진도에 잘 맞춰주시고 제가 놓치고 넘어가는 부분들 빠르게 캐치해서 바로 잡아주셔서 편안하게 잘 배우고 있습니다. 앞으로도 잘 부탁드려요~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-04-10 12:13:59
+fu3oqr071fctlhufmmogm2b9ud | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '23930'
+
+
+======================================================================
+2023-04-10 12:13:59
+fu3oqr071fctlhufmmogm2b9ud | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '23930'
+
+
+======================================================================
+2023-04-10 12:13:59
+fu3oqr071fctlhufmmogm2b9ud | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '23930'
+
+
+======================================================================
+2023-04-10 12:15:12
+fu3oqr071fctlhufmmogm2b9ud | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23930, 23930, 0, 0, '수강생 실제후기', '348', '민경아', PASSWORD(''), '', '', '175.209.112.103', '오래 고민했고, 다른 학원들도 많이 알아보고 결정한 톡스앤필브로우에요.
+자세하고 정확한 상담에 믿음이 가서 등록을 했어요~
+모든 과정을 다 배우고 싶을 만큼 탄탄한 커리큘럼이 만족스럽습니다.
+선생님들도 다 너무 친절해요. 
+개개인 눈높이에 맞게 잘 맞춰주시고, 제가 놓치고 넘어가는 부분들에 대해서도 빠르게 캐치해서 
+바로 잡아주셔서 편안하게 잘 배우고 있습니다. 앞으로도 잘 부탁드려요~', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'민경아',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'오래 고민했고, 다른 학원들도 많이 알아보고 결정한 톡스앤필브로우에요.
+자세하고 정확한 상담에 믿음이 가서 등록을 했어요~
+모든 과정을 다 배우고 싶을 만큼 탄탄한 커리큘럼이 만족스럽습니다.
+선생님들도 다 너무 친절해요. 
+개개인 눈높이에 맞게 잘 맞춰주시고, 제가 놓치고 넘어가는 부분들에 대해서도 빠르게 캐치해서 
+바로 잡아주셔서 편안하게 잘 배우고 있습니다. 앞으로도 잘 부탁드려요~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-04-10 19:30:59
+gpbed9ev07rac2etqa7f78m0gg | 117.111.1.246 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23940, 23940, 0, 0, 'Contact us', 'NULL', '고선영', PASSWORD(''), '010 3244 2705', '', '117.111.1.246', '해외거주중인데요. 
+혹시 2주 마스터 속성이 가능할까요?', '', '', 'N', 'N', 'M', 'W00075', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'고선영',
+										writerIP				=	'117.111.1.246',
+										writerPhone				=	'010 3244 2705',
+										writerMail				=	'',
+										contents				=	'해외거주중인데요. 
+혹시 2주 마스터 속성이 가능할까요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12',
+										bbsState				=	'200'
+									

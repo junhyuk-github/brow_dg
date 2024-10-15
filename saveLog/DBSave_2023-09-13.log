@@ -1,0 +1,62 @@
+
+
+======================================================================
+2023-09-13 03:52:19
+92dkum0am3q38c0vb83sh1lqg8 | 118.235.5.130 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25411, 25411, 0, 0, 'Event', 'NULL', '박근영', PASSWORD(''), '01073713725', 'skygyeh@naver.com', '118.235.5.130', '가르마쪽이랑 양쪽 이마부위에 모발이 가늘고 숫이 많이 없습니다', '', '', 'N', 'N', 'W', 'W00075', '', '', '올해가기전에', '911', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'박근영',
+										writerIP				=	'118.235.5.130',
+										writerPhone				=	'01073713725',
+										writerMail				=	'skygyeh@naver.com',
+										contents				=	'가르마쪽이랑 양쪽 이마부위에 모발이 가늘고 숫이 많이 없습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'올해가기전에',
+										hopeTreat				=	'911',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-09-13 11:41:36
+p4sk4j6p89muqagmd701i6rjei | 220.82.79.67 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25421, 25421, 0, 0, 'Event', 'NULL', '김태환', PASSWORD(''), '01054917234', 'k905230@naver.com', '220.82.79.67', '30여년 간 경찰로 생활해 오면서 도둑놈, 사기꾼 기타 등등 잡아오다보니 세월이 흐른 것을 몰랐습니다. 요즘 들어 거울을 보니 
+머리가 텅 비어 있는 것이 보여 이벤트에 지원합니다.', '', '', 'N', 'N', 'W', 'W00075', '', '', '10월 중', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'김태환',
+										writerIP				=	'220.82.79.67',
+										writerPhone				=	'01054917234',
+										writerMail				=	'k905230@naver.com',
+										contents				=	'30여년 간 경찰로 생활해 오면서 도둑놈, 사기꾼 기타 등등 잡아오다보니 세월이 흐른 것을 몰랐습니다. 요즘 들어 거울을 보니 
+머리가 텅 비어 있는 것이 보여 이벤트에 지원합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'10월 중',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									

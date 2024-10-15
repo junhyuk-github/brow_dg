@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-03-29 18:59:39
+t77uq02drm1423et03di07fnvv | 218.153.151.93 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23811, 23811, 0, 0, 'Contact us', 'NULL', '이수진', PASSWORD(''), '01076536003', '', '218.153.151.93', '교육시간, 금액, 과정', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이수진',
+										writerIP				=	'218.153.151.93',
+										writerPhone				=	'01076536003',
+										writerMail				=	'',
+										contents				=	'교육시간, 금액, 과정',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

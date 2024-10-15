@@ -1,0 +1,21 @@
+
+
+======================================================================
+2023-08-14 10:57:45
+pfd7pmaj5ktn4trjeikvqm5o55 | 211.243.232.180 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 364, 'thdwns', PASSWORD('thdwns123'), 'thdwns', '010-8660-5737', 'joon@triupcorp.com', '961113', '7', '06098', '서울 강남구 언주로130길 14', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'thdwns',
+										userPWD				=	PASSWORD('thdwns123'),
+										userMobile			=	'010-8660-5737',
+										userMail			=	'joon@triupcorp.com',
+										userBirth			=	'961113',
+										userJob				=	'7',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	''
+									

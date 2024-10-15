@@ -1,0 +1,356 @@
+
+
+======================================================================
+2024-01-04 16:27:00
+vq7qtgib1lolj5ar1pevd7qr6m | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26382, 26382, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '01011111111', '1111111@naver.com', '211.243.232.180', '문의문의', '', '', 'N', 'N', 'W', 'W00075', '23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01011111111',
+										writerMail				=	'1111111@naver.com',
+										contents				=	'문의문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 16:27:54
+vra9tl6fkc5p4a82sf74sgs2jo | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26383, 26383, 0, 0, 'Contact us', 'NULL', '트라이업 심수빈 테스트', PASSWORD(''), '01073351399', 's_uuub@naver.com', '211.243.232.180', '테스트입니다', '', '', 'N', 'N', 'W', 'W00075', '23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업 심수빈 테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01073351399',
+										writerMail				=	's_uuub@naver.com',
+										contents				=	'테스트입니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 16:28:02
+jgmvk498tbjl8j8bih0jdpkmvg | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26384, 26384, 0, 0, 'Contact us', 'NULL', '안예주 테스트', PASSWORD(''), '01059150962', 'DDD@naver.com', '211.243.232.180', 'DD', '', '', 'N', 'N', 'W', 'W00075', '15,23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'안예주 테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01059150962',
+										writerMail				=	'DDD@naver.com',
+										contents				=	'DD',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 16:28:41
+vra9tl6fkc5p4a82sf74sgs2jo | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26385, 26385, 0, 0, 'Contact us', 'NULL', '트라이업 심수빈 테스트', PASSWORD(''), '01073351399', 's_uuub@naver.com', '211.243.232.180', 'ddd', '', '', 'N', 'N', 'W', 'W00075', '23,24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업 심수빈 테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01073351399',
+										writerMail				=	's_uuub@naver.com',
+										contents				=	'ddd',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23,24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 16:28:42
+vq7qtgib1lolj5ar1pevd7qr6m | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26386, 26386, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '01011111111', '1111@naver.com', '211.243.232.180', '문의문의', '', '', 'N', 'N', 'W', 'W00075', '24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01011111111',
+										writerMail				=	'1111@naver.com',
+										contents				=	'문의문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 16:28:44
+jgmvk498tbjl8j8bih0jdpkmvg | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26387, 26387, 0, 0, 'Contact us', 'NULL', '안예주 테스트', PASSWORD(''), '01059150962', 'ㅓㅓㅗ@naver.com', '211.243.232.180', 'ㅓ', '', '', 'N', 'N', 'W', 'W00075', '23,24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'안예주 테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01059150962',
+										writerMail				=	'ㅓㅓㅗ@naver.com',
+										contents				=	'ㅓ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23,24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 17:12:39
+jgmvk498tbjl8j8bih0jdpkmvg | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26389, 26389, 0, 0, 'Contact us', 'NULL', '테스트 안예주', PASSWORD(''), '01059150962', '', '211.243.232.180', 'ㅇㅇㅇ', '', '', 'N', 'N', 'W', 'W00075', '23,24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트 안예주',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01059150962',
+										writerMail				=	'',
+										contents				=	'ㅇㅇㅇ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23,24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 17:12:46
+vq7qtgib1lolj5ar1pevd7qr6m | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26390, 26390, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '01011111111', '1111@naver.com', '211.243.232.180', '문의핑', '', '', 'N', 'N', 'W', 'W00075', '23,24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01011111111',
+										writerMail				=	'1111@naver.com',
+										contents				=	'문의핑',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23,24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 17:13:33
+vq7qtgib1lolj5ar1pevd7qr6m | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26391, 26391, 0, 0, 'Contact us', 'NULL', '테스트', PASSWORD(''), '01011111111', '1111@naver.com', '211.243.232.180', '문의문의', '', '', 'N', 'N', 'W', 'W00075', '23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01011111111',
+										writerMail				=	'1111@naver.com',
+										contents				=	'문의문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 17:13:49
+73i67vkepf8jnn4lheila6c94t | 211.234.201.116 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26392, 26392, 0, 0, 'Contact us', 'NULL', '앙얘주', PASSWORD(''), '01059150962', '', '211.234.201.116', 'ㄴ', '', '', 'N', 'N', 'W', 'W00075', '23,24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'앙얘주',
+										writerIP				=	'211.234.201.116',
+										writerPhone				=	'01059150962',
+										writerMail				=	'',
+										contents				=	'ㄴ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'23,24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-04 20:37:54
+kpsi8tahj6qh4pr9hqj16fa3kh | 180.65.133.187 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26396, 26396, 0, 0, 'Contact us', 'NULL', '서성현', PASSWORD(''), '0109479911', 'clooni00 @naver.com', '180.65.133.187', '매장 매니저 일을 하다 돈벌이가 쉽지 않아 옮겨 
+다니며서도 3년이라는 시간 동안에 이렇다할 벌이를 
+못하고 있습니다 결혼하고 나서부터 일이 안풀려 계속 
+돈도 못벌고 그렇다 보니 2세 계획도 없어지게되고 
+지금도 여러가지로 시도는 해보고 있지만 이렇다할 
+성과 없이 시간만 흐르는거 같습니다 뭔가 배워서 
+하는걸 고민중인데 외모 꾸미는거에 관심이 많아 
+미용쪽으로 눈썹이나 두피문신 쪽으로 일을 해보면 
+잘할수 있지 않을까 싶은 생각입니다 택배를 해야 
+될까 하는 생각도 했지만 무릎수술후 성치 않은 
+몸으로 할수 있을까란 두려운 마음이 앞섭니다 수강 
+기회를 주신다면 열심히 배워보고 싶은데 살면서 
+어디에 당첨된적도 한번 없는 제가 기회를 주신다면 
+열심히 해보고 싶습니다 감사합니다', '', '', 'N', 'N', 'W', 'W00075', '16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'서성현',
+										writerIP				=	'180.65.133.187',
+										writerPhone				=	'0109479911',
+										writerMail				=	'clooni00 @naver.com',
+										contents				=	'매장 매니저 일을 하다 돈벌이가 쉽지 않아 옮겨 
+다니며서도 3년이라는 시간 동안에 이렇다할 벌이를 
+못하고 있습니다 결혼하고 나서부터 일이 안풀려 계속 
+돈도 못벌고 그렇다 보니 2세 계획도 없어지게되고 
+지금도 여러가지로 시도는 해보고 있지만 이렇다할 
+성과 없이 시간만 흐르는거 같습니다 뭔가 배워서 
+하는걸 고민중인데 외모 꾸미는거에 관심이 많아 
+미용쪽으로 눈썹이나 두피문신 쪽으로 일을 해보면 
+잘할수 있지 않을까 싶은 생각입니다 택배를 해야 
+될까 하는 생각도 했지만 무릎수술후 성치 않은 
+몸으로 할수 있을까란 두려운 마음이 앞섭니다 수강 
+기회를 주신다면 열심히 배워보고 싶은데 살면서 
+어디에 당첨된적도 한번 없는 제가 기회를 주신다면 
+열심히 해보고 싶습니다 감사합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

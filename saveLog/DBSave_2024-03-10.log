@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-03-10 20:36:54
+0v0133irn88oijvh91kg0cseko | 58.122.102.51 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26961, 26961, 0, 0, 'Contact us', 'NULL', '김윤경', PASSWORD(''), '01048735009', '', '58.122.102.51', '어떤 수업이 있으며 수업료는 얼마인지요', '', '', 'N', 'N', 'W', 'W00075', '16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김윤경',
+										writerIP				=	'58.122.102.51',
+										writerPhone				=	'01048735009',
+										writerMail				=	'',
+										contents				=	'어떤 수업이 있으며 수업료는 얼마인지요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

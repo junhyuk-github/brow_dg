@@ -1,0 +1,105 @@
+
+
+======================================================================
+2023-08-29 13:30:57
+35cfs9vtg0q0rd480qa6o6gi55 | 125.251.72.254 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25268, 25268, 0, 0, 'Contact us', 'NULL', '신나래', PASSWORD(''), '01089568476', 'zhzhsjtvkdl@naver.com', '125.251.72.254', '반영구 종합 과정과 속눈썹펌 금액문의', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'신나래',
+										writerIP				=	'125.251.72.254',
+										writerPhone				=	'01089568476',
+										writerMail				=	'zhzhsjtvkdl@naver.com',
+										contents				=	'반영구 종합 과정과 속눈썹펌 금액문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-29 16:49:19
+0l73pb1crdlcsn9dgj1t3t8tsl | 14.52.28.131 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1693295359030', NOW(), '2023-08-29 16:49:19', '01082942659', '나혜은', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 967168', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 967168', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-29 17:23:17
+0l73pb1crdlcsn9dgj1t3t8tsl | 14.52.28.131 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1693297397853', NOW(), '2023-08-29 17:23:17', '01082942659', 'ㅇㄹㅇㄹ', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 581848', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 581848', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-29 17:32:04
+0l73pb1crdlcsn9dgj1t3t8tsl | 14.52.28.131 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1693297924673', NOW(), '2023-08-29 17:32:04', '01082942659', '나혜은', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 312474', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 312474', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-29 18:06:03
+0l73pb1crdlcsn9dgj1t3t8tsl | 14.52.28.131 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1693299963343', NOW(), '2023-08-29 18:06:03', '01082942659', '나혜은', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 472388', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 472388', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-29 18:31:12
+0l73pb1crdlcsn9dgj1t3t8tsl | 14.52.28.131 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1693301472968', NOW(), '2023-08-29 18:31:12', '01082942659', 'ㅇㄹㅇㄹ', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 907863', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 907863', '', 'W00075')
+									

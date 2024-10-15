@@ -1,0 +1,36 @@
+
+
+======================================================================
+2024-04-22 14:16:06
+l162l6s274bsc6e0t32rcg8keb | 219.255.104.143 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 27446, 27446, 0, 0, 'Contact us', 'NULL', '양인모', PASSWORD(''), '01047017562', 'inmo.yang@ajubio.com', '219.255.104.143', '3년전 모발이식 하였고, 부작용으로 약물은 복용하고 있지 않습니다.
+M자와 정수리 부분이 특히 심한데
+하게되면 위판(?) 전체를 두피문신 하고자 합니다.
+비용과 시술시간이 궁금합니다.', '', '', 'N', 'N', 'W', 'W00075', '31,32,36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'양인모',
+										writerIP				=	'219.255.104.143',
+										writerPhone				=	'01047017562',
+										writerMail				=	'inmo.yang@ajubio.com',
+										contents				=	'3년전 모발이식 하였고, 부작용으로 약물은 복용하고 있지 않습니다.
+M자와 정수리 부분이 특히 심한데
+하게되면 위판(?) 전체를 두피문신 하고자 합니다.
+비용과 시술시간이 궁금합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,32,36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

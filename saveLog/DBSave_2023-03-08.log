@@ -1,0 +1,60 @@
+
+
+======================================================================
+2023-03-08 17:46:07
+afps6g11e49rpvk43lq0av8dik | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 333, 'hjhj____', PASSWORD('idoido22'), '김현주', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김현주',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-08 17:50:41
+afps6g11e49rpvk43lq0av8dik | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23592, 23592, 0, 0, '수강생 실제후기', '333', '김현주', PASSWORD(''), '', '', '175.209.112.103', '원장님,강사님 두 분 모두 반영구에 대한
+자부심이 느껴져서 신뢰가 가고
+세부적인 커리큘럼이 좋아요.
+체계적으로 교육이 이루어지는 느낌..
+그리고 무엇보다 꼼꼼하고 친절하게 
+알려주셔서 더 단계적으로 잘 배워나가는것 같아요.
+이해하기 쉽게 잘 알려주셔서 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김현주',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'원장님,강사님 두 분 모두 반영구에 대한
+자부심이 느껴져서 신뢰가 가고
+세부적인 커리큘럼이 좋아요.
+체계적으로 교육이 이루어지는 느낌..
+그리고 무엇보다 꼼꼼하고 친절하게 
+알려주셔서 더 단계적으로 잘 배워나가는것 같아요.
+이해하기 쉽게 잘 알려주셔서 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

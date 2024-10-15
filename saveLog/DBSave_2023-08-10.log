@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-08-10 23:04:26
+j30fpt189vvh1r14ru3g642lvn | 112.155.187.186 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 25032, 25032, 0, 0, 'Contact us', 'NULL', '정재경', PASSWORD(''), '01042075557', '', '112.155.187.186', '창업클래스', '', '', 'N', 'N', 'M', 'W00075', '16', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'정재경',
+										writerIP				=	'112.155.187.186',
+										writerPhone				=	'01042075557',
+										writerMail				=	'',
+										contents				=	'창업클래스',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										bbsState				=	'200'
+									

@@ -1,0 +1,66 @@
+
+
+======================================================================
+2023-03-07 17:41:19
+5nc2arhpl39kul2lbfdgkuiej0 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 332, 'soso_x', PASSWORD('idoido22'), '김소현', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김소현',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-07 17:53:07
+5nc2arhpl39kul2lbfdgkuiej0 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23587, 23587, 0, 0, '수강생 실제후기', '332', '김소현', PASSWORD(''), '', '', '175.209.112.103', '일단 처음 학원에 상담하러 왔을때 학원 내부가 너무 
+깔끔하고 예뻤어요. 근데 상담도 잘해주시고 첫 인상부터 
+너무 좋았던 기억이 있어요. 별다른 고민 없이 제 직감을 믿고 
+등록했는데 저는 10000000% 만족입니다.ㅎㅎ
+학원 분위기도 너무 좋고 선생님들도 친절하고 자세하게
+알려주셔서 감사했어요!  
+얼른 잘 배워서 마스터가 되고 싶다고 생각했는데 
+어느덧 이렇게 졸업을 하네요! 
+지금도 앞으로도 열심히 실력을 키워서 당당하고 멋진
+선생님들처럼 반영구 전문가가 될거에요!~♡', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김소현',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'일단 처음 학원에 상담하러 왔을때 학원 내부가 너무 
+깔끔하고 예뻤어요. 근데 상담도 잘해주시고 첫 인상부터 
+너무 좋았던 기억이 있어요. 별다른 고민 없이 제 직감을 믿고 
+등록했는데 저는 10000000% 만족입니다.ㅎㅎ
+학원 분위기도 너무 좋고 선생님들도 친절하고 자세하게
+알려주셔서 감사했어요!  
+얼른 잘 배워서 마스터가 되고 싶다고 생각했는데 
+어느덧 이렇게 졸업을 하네요! 
+지금도 앞으로도 열심히 실력을 키워서 당당하고 멋진
+선생님들처럼 반영구 전문가가 될거에요!~♡',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

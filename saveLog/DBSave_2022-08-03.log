@@ -1,0 +1,20 @@
+
+
+======================================================================
+2022-08-03 12:45:55
+ad4hdm8s53ope5pvt4kjlpld5n | 211.109.227.146 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 260, 'triup11', '트라이업테스트', '010-8489-1409', '1409ggg@naver.com', '', 'default', '06044', '서울 강남구 학동로1길 18', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'트라이업테스트',
+										userMobile			=	'010-8489-1409',
+										userMail			=	'1409ggg@naver.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'06044',
+										userAddr1			=	'서울 강남구 학동로1길 18',
+										userAddr2			=	''
+									

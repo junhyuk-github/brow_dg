@@ -1,0 +1,60 @@
+
+
+======================================================================
+2023-03-31 11:18:05
+eejkms2bbe05t3qald670l0dov | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 342, 'dnjsrud', PASSWORD('idoido22'), '김원경', '010-111-111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김원경',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-31 11:41:33
+eejkms2bbe05t3qald670l0dov | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23824, 23824, 0, 0, '수강생 실제후기', '342', '김원경', PASSWORD(''), '', '', '175.209.112.103', '반영구 배우고싶다고만 생각하고 엄두도 못내다가 큰맘먹고 검색하면서 알아보고
+이곳저곳 상담도 많이 받아봤는데 톡스앤필브로우 상담때부터 아 여기다! 
+이곳이라면 아무 지식도 없고 똥손인 나도 할수있겠다! 라는 무한한 자신감이 생겼어요
+제가 걱정하는 부분들, 궁금한것들에 대해서 공감해주고 진정성있게 상담을 해주셔서 더 그런 마음을 
+느꼈던것같아요. 커리큘럼도 잘짜여져 있고 학원 분위기도 너무 좋아서 믿음이 가는 그런 곳이에요.
+특강이나 카페 등 항상 수강생들하고 더 많이 소통하고 알려주시려는 마음이 항상 진심으로 느껴졌어요.
+처음 무한한 자신감은 어디가고 겁먹고 어려운 순간도 많았지만 초심 잃지않게 잘 이끌어주셔서 감사합니다!♥', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김원경',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구 배우고싶다고만 생각하고 엄두도 못내다가 큰맘먹고 검색하면서 알아보고
+이곳저곳 상담도 많이 받아봤는데 톡스앤필브로우 상담때부터 아 여기다! 
+이곳이라면 아무 지식도 없고 똥손인 나도 할수있겠다! 라는 무한한 자신감이 생겼어요
+제가 걱정하는 부분들, 궁금한것들에 대해서 공감해주고 진정성있게 상담을 해주셔서 더 그런 마음을 
+느꼈던것같아요. 커리큘럼도 잘짜여져 있고 학원 분위기도 너무 좋아서 믿음이 가는 그런 곳이에요.
+특강이나 카페 등 항상 수강생들하고 더 많이 소통하고 알려주시려는 마음이 항상 진심으로 느껴졌어요.
+처음 무한한 자신감은 어디가고 겁먹고 어려운 순간도 많았지만 초심 잃지않게 잘 이끌어주셔서 감사합니다!♥',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

@@ -1,0 +1,60 @@
+
+
+======================================================================
+2024-03-05 11:15:27
+r0u3d1asgflb0m0f6h17ikh378 | 220.78.165.187 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26917, 26917, 0, 0, 'Contact us', 'NULL', '문혜림', PASSWORD(''), '01076681789', 'aorwnrjf@nate.com', '220.78.165.187', '이번주 토요일에 가서 상담 받아 보려고 하는데 괜찮을싸요?', '', '', 'N', 'N', 'W', 'W00075', '15', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'문혜림',
+										writerIP				=	'220.78.165.187',
+										writerPhone				=	'01076681789',
+										writerMail				=	'aorwnrjf@nate.com',
+										contents				=	'이번주 토요일에 가서 상담 받아 보려고 하는데 괜찮을싸요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-03-05 22:40:08
+gs0mb2p93b6qarmhuenhftbmpe | 182.219.153.78 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26928, 26928, 0, 0, 'Contact us', 'NULL', '이수연', PASSWORD(''), '01085901041', 'romance2su@naver.com', '182.219.153.78', '수강일정, 시간표, 수강료 및 커리큘럼', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이수연',
+										writerIP				=	'182.219.153.78',
+										writerPhone				=	'01085901041',
+										writerMail				=	'romance2su@naver.com',
+										contents				=	'수강일정, 시간표, 수강료 및 커리큘럼',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,130 @@
+
+
+======================================================================
+2023-02-16 16:27:13
+5escv30p557gv6t13hbubhn515 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 313, 'hyhypp', PASSWORD('idoido22'), '박혜영', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'박혜영',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-16 16:30:35
+5escv30p557gv6t13hbubhn515 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23367, 23367, 0, 0, '수강생 실제후기', '313', '박혜영', PASSWORD(''), '', '', '175.209.112.103', '반영구 시술을 받기만 해보고 배운다는건 상상도 못했었어요.
+근데 어느 때처럼 집안일 하다가 문득 나도 나의 일을 하고 싶다라는 마음이 들더라구요..
+젊을때 생각도 나고 더 늦기 전에 뭐라도 배워보자 싶어서 긴 고민 끝에 
+반영구 학원을 등록하게 되었습니다. 처음엔 나이도 많고 반영구에 대해 아무런 지식이 없어서
+할 수 있을까 걱정도 많이 하고 힘들었지만 그런 저에게 늦지 않았다고 오히려 더 잘할 수 있다고 
+용기주신 선생님들...그렇게 하나씩 배워갈 때마다 제가 할 수 있는 일이 생겨 
+나도 일을 할 수 있다는 사실에 연습도 더 많이 하게 되고 열정이 생기더라구요.
+그 모습을 가족들도 알아주니 요즘 많이 행복합니다.
+그저 주부로서 살아가던 저를 반영구 전문가로 성장하도록 애써준 선생님들께 감사합니다. 
+모두 선생님들 덕분이에요. 아직 갈 길은 멀었지만 항상 용기내 보려고 합니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'박혜영',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구 시술을 받기만 해보고 배운다는건 상상도 못했었어요.
+근데 어느 때처럼 집안일 하다가 문득 나도 나의 일을 하고 싶다라는 마음이 들더라구요..
+젊을때 생각도 나고 더 늦기 전에 뭐라도 배워보자 싶어서 긴 고민 끝에 
+반영구 학원을 등록하게 되었습니다. 처음엔 나이도 많고 반영구에 대해 아무런 지식이 없어서
+할 수 있을까 걱정도 많이 하고 힘들었지만 그런 저에게 늦지 않았다고 오히려 더 잘할 수 있다고 
+용기주신 선생님들...그렇게 하나씩 배워갈 때마다 제가 할 수 있는 일이 생겨 
+나도 일을 할 수 있다는 사실에 연습도 더 많이 하게 되고 열정이 생기더라구요.
+그 모습을 가족들도 알아주니 요즘 많이 행복합니다.
+그저 주부로서 살아가던 저를 반영구 전문가로 성장하도록 애써준 선생님들께 감사합니다. 
+모두 선생님들 덕분이에요. 아직 갈 길은 멀었지만 항상 용기내 보려고 합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-02-16 16:31:00
+5escv30p557gv6t13hbubhn515 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '23367'
+
+
+======================================================================
+2023-02-16 16:31:00
+5escv30p557gv6t13hbubhn515 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '23367'
+
+
+======================================================================
+2023-02-16 16:31:00
+5escv30p557gv6t13hbubhn515 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '23367'
+
+
+======================================================================
+2023-02-16 16:36:20
+5escv30p557gv6t13hbubhn515 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23367, 23367, 0, 0, '수강생 실제후기', '313', '박혜영', PASSWORD(''), '', '', '175.209.112.103', '반영구 시술을 받기만 해보고 배운다는건 상상도 못했는데..
+그저 평범한 주부로 어느 때처럼 집안일을 하다가 문득 나도 나의 일을 하고 싶다고 마음이 들면서
+젊을때 생각도 나고..더 늦기 전에 뭐라도 배워보자 싶었습니다. 그렇게 긴 고민 끝에 반영구 학원을 
+등록하게 되었네요. 처음엔 나이도 많고 반영구에 대해 아무런 지식이 없어서 할 수 있을까 걱정도 
+되고 많이 힘들어했어요. 그런 저에게 늦지 않았다고 오히려 더 잘할 수 있다고 용기주신 선생님들...
+그렇게 하나씩 배워갈 때마다 제가 할 수 있는 일이 생겨 나도 일을 할 수 있다는 사실에 연습도 
+더 많이 하게 되고 열정이 생기더라구요. 그 모습을 가족들도 알아주니 요즘 많이 행복합니다.
+그저 우물안 개구리처럼 살아가던 저를 반영구 전문가로 성장하도록 애써준 선생님들께 감사합니다.
+모두 선생님들 덕분이에요. 아직 갈 길은 멀었지만 항상 용기내 보려고 합니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'박혜영',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구 시술을 받기만 해보고 배운다는건 상상도 못했는데..
+그저 평범한 주부로 어느 때처럼 집안일을 하다가 문득 나도 나의 일을 하고 싶다고 마음이 들면서
+젊을때 생각도 나고..더 늦기 전에 뭐라도 배워보자 싶었습니다. 그렇게 긴 고민 끝에 반영구 학원을 
+등록하게 되었네요. 처음엔 나이도 많고 반영구에 대해 아무런 지식이 없어서 할 수 있을까 걱정도 
+되고 많이 힘들어했어요. 그런 저에게 늦지 않았다고 오히려 더 잘할 수 있다고 용기주신 선생님들...
+그렇게 하나씩 배워갈 때마다 제가 할 수 있는 일이 생겨 나도 일을 할 수 있다는 사실에 연습도 
+더 많이 하게 되고 열정이 생기더라구요. 그 모습을 가족들도 알아주니 요즘 많이 행복합니다.
+그저 우물안 개구리처럼 살아가던 저를 반영구 전문가로 성장하도록 애써준 선생님들께 감사합니다.
+모두 선생님들 덕분이에요. 아직 갈 길은 멀었지만 항상 용기내 보려고 합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

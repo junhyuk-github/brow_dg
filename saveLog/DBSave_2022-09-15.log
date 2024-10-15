@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-09-15 23:49:20
+stbqip5n78uaen8rvm3552i83k | 49.174.202.169 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21752, 21752, 0, 0, 'Contact us', 'NULL', '크리스틴', PASSWORD(''), '01087948351', '', '49.174.202.169', '아카데미 대해 질문 있습니다 ^^~', '', '', 'N', 'N', 'M', 'W00075', '11,12,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'크리스틴',
+										writerIP				=	'49.174.202.169',
+										writerPhone				=	'01087948351',
+										writerMail				=	'',
+										contents				=	'아카데미 대해 질문 있습니다 ^^~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11,12,13',
+										bbsState				=	'200'
+									

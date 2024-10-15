@@ -1,0 +1,324 @@
+
+
+======================================================================
+2022-07-27 04:58:16
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21226, 21226, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'fdghdfghdfgh', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'fdghdfghdfgh',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 04:58:21
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21227, 21227, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'fdghdfghdfgh', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'fdghdfghdfgh',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 04:59:35
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21228, 21228, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'fdghdfghdfgh', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'fdghdfghdfgh',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 05:00:26
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21229, 21229, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'fdghdfghdfgh', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'fdghdfghdfgh',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 05:01:36
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21230, 21230, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'fdghdfghdfgh', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'fdghdfghdfgh',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 05:02:06
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21231, 21231, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'ertwertw', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'ertwertw',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 05:07:15
+ | 58.234.165.96 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21232, 21232, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'sdrfgsdfg', '', '', 'N', 'N', '', 'C00001', '1,2,3,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'sdrfgsdfg',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,2,3,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 05:37:25
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21224, 21224, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'ㅇㅀㄴㅇㄺㅎ', '', '', 'N', 'N', '', 'C00001', '1,4', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'ㅇㅀㄴㅇㄺㅎ',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'1,4',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 05:41:41
+ | 58.234.165.96 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21224, 21224, 0, 0, 'Contact us', 'NULL', '이진복', PASSWORD(''), '01023250531', '', '', 'ㅎ로ㅓㅇㄹ호', '', '', 'N', 'N', '', 'C00001', '11,14', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이진복',
+										writerIP				=	'58.234.165.96',
+										writerPhone				=	'01023250531',
+										writerMail				=	'',
+										contents				=	'ㅎ로ㅓㅇㄹ호',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'11,14',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 09:32:11
+ | 211.109.227.146 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21226, 21226, 0, 0, 'Contact us', 'NULL', '트라이업_테스트', PASSWORD(''), '01084891409', '', '', '수강 신청하려면 어떻게 하나요?', '', '', 'N', 'N', '', 'C00001', '11,14', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업_테스트',
+										writerIP				=	'211.109.227.146',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'수강 신청하려면 어떻게 하나요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'11,14',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 09:33:49
+ | 211.109.227.146 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21227, 21227, 0, 0, 'Contact us', 'NULL', '트라이업_테스트', PASSWORD(''), '01084891409', '', '', 'DSAFSDF', '', '', 'N', 'N', '', 'C00001', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업_테스트',
+										writerIP				=	'211.109.227.146',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'DSAFSDF',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'12',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2022-07-27 15:55:06
+ | 118.235.12.156 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21231, 21231, 0, 0, 'Contact us', 'NULL', '트라이업', PASSWORD(''), '01011113333', '', '', '수강문의 테스트', '', '', 'N', 'N', '', 'C00001', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업',
+										writerIP				=	'118.235.12.156',
+										writerPhone				=	'01011113333',
+										writerMail				=	'',
+										contents				=	'수강문의 테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

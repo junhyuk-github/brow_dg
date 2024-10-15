@@ -1,0 +1,38 @@
+
+
+======================================================================
+2024-01-08 13:58:04
+d5ind6bcmvcbcloo955j5jido9 | 211.234.192.171 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26419, 26419, 0, 0, 'Contact us', 'NULL', '이지혜', PASSWORD(''), '01099388636', 'jihye121922@naver.com', '211.234.192.171', '배우고싶고다시 새로운 시작을하고싶지만 
+금액적인부분이너무 부담이되는상황입니다.
+할인된다는 금액에 재료비가포함인건지 궁금합니다.
+기술적인부분은 워낙 잘알려주실거란 믿음이있기에.
+비용적인부분이 제일궁금한점 죄송합니다.', '', '', 'N', 'N', 'W', 'W00075', '17,20,24', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이지혜',
+										writerIP				=	'211.234.192.171',
+										writerPhone				=	'01099388636',
+										writerMail				=	'jihye121922@naver.com',
+										contents				=	'배우고싶고다시 새로운 시작을하고싶지만 
+금액적인부분이너무 부담이되는상황입니다.
+할인된다는 금액에 재료비가포함인건지 궁금합니다.
+기술적인부분은 워낙 잘알려주실거란 믿음이있기에.
+비용적인부분이 제일궁금한점 죄송합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'17,20,24',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,58 @@
+
+
+======================================================================
+2023-04-07 15:03:40
+k03vm6u7hf0jdedlcbs2jgpoee | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 347, 'dlasnfl', PASSWORD('idoido22'), '임누리', '010-1111-111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'임누리',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-04-07 17:26:40
+k03vm6u7hf0jdedlcbs2jgpoee | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23917, 23917, 0, 0, '수강생 실제후기', '347', '임누리', PASSWORD(''), '', '', '175.209.112.103', '원장님과 강사님의 애정이 느껴지는 아카데미에요.
+다들 반영구에 대한 열정과 자부심이 느껴져서 더 믿음이가요.
+항상 반갑게 맞이해주고 어려운 부분도 친절하게 알려줘서 좋아요.
+배울수록 흥미가 생기고 저도 더 열정이 생기는것 같아요.
+잘 배워서 반영구 전문가로 더 발전해나가고 싶어요~~
+항상 잘 가르쳐줘서 감사합니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'임누리',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'원장님과 강사님의 애정이 느껴지는 아카데미에요.
+다들 반영구에 대한 열정과 자부심이 느껴져서 더 믿음이가요.
+항상 반갑게 맞이해주고 어려운 부분도 친절하게 알려줘서 좋아요.
+배울수록 흥미가 생기고 저도 더 열정이 생기는것 같아요.
+잘 배워서 반영구 전문가로 더 발전해나가고 싶어요~~
+항상 잘 가르쳐줘서 감사합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

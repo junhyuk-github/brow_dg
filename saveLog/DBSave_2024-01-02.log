@@ -1,0 +1,64 @@
+
+
+======================================================================
+2024-01-02 01:13:46
+d8ha26tg1cg7nfov4u706q0vgk | 210.113.77.137 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26363, 26363, 0, 0, 'Contact us', 'NULL', '김금화', PASSWORD(''), '01063210226', 'rlawldb82@naver.com', '210.113.77.137', '수강문의', '', '', 'N', 'N', 'W', 'W00075', '16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김금화',
+										writerIP				=	'210.113.77.137',
+										writerPhone				=	'01063210226',
+										writerMail				=	'rlawldb82@naver.com',
+										contents				=	'수강문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-02 19:18:07
+trjetcuidssdh0j4oja5g802j7 | 180.65.133.187 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26370, 26370, 0, 0, 'Contact us', 'NULL', '서성현', PASSWORD(''), '01094799114', 'clooni00 @naver.com', '180.65.133.187', '두피문신이랑 누썹문신으로 샵을 차리고 싶습니다 
+어디서 강습 받는지 시간이나 언제부터 되는지 
+궁금삽니다', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'서성현',
+										writerIP				=	'180.65.133.187',
+										writerPhone				=	'01094799114',
+										writerMail				=	'clooni00 @naver.com',
+										contents				=	'두피문신이랑 누썹문신으로 샵을 차리고 싶습니다 
+어디서 강습 받는지 시간이나 언제부터 되는지 
+궁금삽니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

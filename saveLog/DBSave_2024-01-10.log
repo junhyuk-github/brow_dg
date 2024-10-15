@@ -1,0 +1,94 @@
+
+
+======================================================================
+2024-01-10 05:20:47
+src3rlfbhvbd1vm7229ekipi94 | 121.133.54.176 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26429, 26429, 0, 0, 'Contact us', 'NULL', '박서윤', PASSWORD(''), '01072899389', 'hrcj2358 @never.com', '121.133.54.176', '수강문의 드립니다', '', '', 'N', 'N', 'W', 'W00075', '15,16,17,19,21,23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박서윤',
+										writerIP				=	'121.133.54.176',
+										writerPhone				=	'01072899389',
+										writerMail				=	'hrcj2358 @never.com',
+										contents				=	'수강문의 드립니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17,19,21,23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2024-01-10 12:56:58
+792in8vumb1t4flqek5n260aec | 106.101.130.71 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26432, 26432, 0, 0, 'Contact us', 'NULL', '최지원', PASSWORD(''), '01093808099', 'cjw9099@naver.com', '106.101.130.71', '지금 현직 미용사로 근무하고있습니다
+
+하지만 성공하고싶은 욕심과 욕망이 강해서 지금 보다 더 
+성장하고 제것을 만들고싶기에 미술 미용 전부다 오랜기간 
+공부했고 한데비해 열정으로 재미있고 즐겁게 하진못했네요 
+정말 자신있고 재밋게 나에게맞는 일을 뭘 찾을수있는일이 
+뭐가있을까 고민하다 반영구란것을 알게되었네요
+
+같은미용이고 다들 지금 이미 자리잡고 한 주변사람들에 비해 
+뒤쳐지진않을까 내것을 이젠 해야할텐데 매일매일 생각에  
+고민끝에 일단 도전 여러가지 배워보고 해보자 
+생각하게되어서 반영구를 알아보다 두피문신이 제가 정말 
+잘할수있는 직업이될수있지 않을까 해서 닫는데 까진 열심히 
+해보려 합니다 
+
+알아보던중 이런 이벤트가 있어서 생활 걱정덜하게 새롭게 
+배워볼수 있는 기회가 있지않을까 하는마음에 신청해봅니다 
+ㅎㅎ~~~', '', '', 'N', 'N', 'W', 'W00075', '16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'최지원',
+										writerIP				=	'106.101.130.71',
+										writerPhone				=	'01093808099',
+										writerMail				=	'cjw9099@naver.com',
+										contents				=	'지금 현직 미용사로 근무하고있습니다
+
+하지만 성공하고싶은 욕심과 욕망이 강해서 지금 보다 더 
+성장하고 제것을 만들고싶기에 미술 미용 전부다 오랜기간 
+공부했고 한데비해 열정으로 재미있고 즐겁게 하진못했네요 
+정말 자신있고 재밋게 나에게맞는 일을 뭘 찾을수있는일이 
+뭐가있을까 고민하다 반영구란것을 알게되었네요
+
+같은미용이고 다들 지금 이미 자리잡고 한 주변사람들에 비해 
+뒤쳐지진않을까 내것을 이젠 해야할텐데 매일매일 생각에  
+고민끝에 일단 도전 여러가지 배워보고 해보자 
+생각하게되어서 반영구를 알아보다 두피문신이 제가 정말 
+잘할수있는 직업이될수있지 않을까 해서 닫는데 까진 열심히 
+해보려 합니다 
+
+알아보던중 이런 이벤트가 있어서 생활 걱정덜하게 새롭게 
+배워볼수 있는 기회가 있지않을까 하는마음에 신청해봅니다 
+ㅎㅎ~~~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

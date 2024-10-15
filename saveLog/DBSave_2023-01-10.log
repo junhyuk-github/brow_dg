@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-01-10 18:48:59
+2adon5b89q0tfuv6kuhfspr99t | 119.193.205.23 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23001, 23001, 0, 0, 'Contact us', 'NULL', '구나연', PASSWORD(''), '01034413222', '', '119.193.205.23', '눈썹반영구 교육문의', '', '', 'N', 'N', 'M', 'W00075', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'구나연',
+										writerIP				=	'119.193.205.23',
+										writerPhone				=	'01034413222',
+										writerMail				=	'',
+										contents				=	'눈썹반영구 교육문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12',
+										bbsState				=	'200'
+									

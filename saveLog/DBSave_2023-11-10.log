@@ -1,0 +1,15 @@
+
+
+======================================================================
+2023-11-10 15:40:56
+ioq1vkqleug7520u1dcs71a0ek | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1699598456304', NOW(), '2023-11-10 15:40:56', '01027151114', '송재두', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 413895', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 413895', '', 'W00075')
+									

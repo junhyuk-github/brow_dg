@@ -1,0 +1,103 @@
+/* ******************** NotoSansKR ******************** */
+ @font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(/common/fonts/NotoSansKR-Thin.woff2) format('woff2'), url(/common/fonts/NotoSansKR-Thin.woff) format('woff'), url(/common/fonts/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url(/common/fonts/NotoSansKR-Light.woff2) format('woff2'), url(/common/fonts/NotoSansKR-Light.woff) format('woff'),  url(/common/fonts/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/common/fonts/NotoSansKR-Regular.woff2) format('woff2'), url(/common/fonts/NotoSansKR-Regular.woff) format('woff'), url(/common/fonts/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	src: url(/common/fonts/NotoSansKR-Medium.woff2) format('woff2'), url(/common/fonts/NotoSansKR-Medium.woff) format('woff'), url(/common/fonts/NotoSansKR-Medium.otf) format('opentype');
+}
+ @font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 600;
+	src: url(/common/fonts/NotoSansKR-Bold.woff2) format('woff2'), url(/common/fonts/NotoSansKR-Bold.woff) format('woff'), url(/common/fonts/NotoSansKR-Bold.otf) format('opentype');
+}
+
+/* ******************** //NotoSansKR ******************** */
+
+/* reset */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, textarea, button,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, menu,
+nav, output, ruby, section, summary, time, mark, audio, video
+{ margin:0;padding:0;border:0; word-break: keep-all;}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section { display: block;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content:none;}
+table {border-collapse:collapse;border-spacing:0;}
+a {text-decoration:none;color:inherit;}
+a:hover {text-decoration:none;}
+legend,figcaption, hr {display:none;}
+th {font-weight: inherit}
+em {font-style:normal;}
+input {vertical-align:middle;}
+p,h3,h2,h1{letter-spacing: normal;}
+section{width:100%;}
+video{object-fit: fill;}
+caption{position:unset;width:0;height:0;margin:0;padding:0;background:none;line-height:0;text-indent: -9999px;overflow: hidden;font-size: 0 ;}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input,textarea,button,select { 
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #2A2A2A;
+}
+
+input, select, textarea {
+    vertical-align: middle;
+}
+
+input, select, textarea:focus {
+    outline: none;
+}
+/*
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+}
+select::-ms-expand {
+	display:none
+}
+*/
+button { 
+	background-color: transparent;
+	cursor: pointer;
+}
+
+div:focus, 
+button:focus { 
+	outline: 0;
+}

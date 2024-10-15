@@ -1,0 +1,32 @@
+
+
+======================================================================
+2024-04-30 15:13:32
+qau0pkvkqtl7qklp4nd35muflm | 39.7.25.245 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 27554, 27554, 0, 0, 'Contact us', 'NULL', '김길하', PASSWORD(''), '01072348802', 'gilak1501@gmail.com', '39.7.25.245', '반영구문신 관련하여 창업을 원합니다. 관련된 자세한 상담을 
+받아보고 싶습니다.', '', '', 'N', 'N', 'W', 'W00075', '16,19,20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김길하',
+										writerIP				=	'39.7.25.245',
+										writerPhone				=	'01072348802',
+										writerMail				=	'gilak1501@gmail.com',
+										contents				=	'반영구문신 관련하여 창업을 원합니다. 관련된 자세한 상담을 
+받아보고 싶습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16,19,20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,32 @@
+
+
+======================================================================
+2023-10-21 13:46:34
+3nflqvn46ba3609okfp55so4dt | 121.167.222.195 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25736, 25736, 0, 0, 'Event', 'NULL', '고기웅', PASSWORD(''), '01071383947', 'oneheart7@naver.com', '121.167.222.195', '목사입니다. 앞에는 좀 괜찮은데. 뒤로 돌아서면 위쪽 가운데가 훵합니다.  그래서 좀 거부감이 듭니다.  
+커버하면 원거리에선 시각적으로 괜찮을거 같아서 사연보냅니다.', '', '', 'N', 'N', 'W', 'W00075', '', '', '고기웅', '911', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'고기웅',
+										writerIP				=	'121.167.222.195',
+										writerPhone				=	'01071383947',
+										writerMail				=	'oneheart7@naver.com',
+										contents				=	'목사입니다. 앞에는 좀 괜찮은데. 뒤로 돌아서면 위쪽 가운데가 훵합니다.  그래서 좀 거부감이 듭니다.  
+커버하면 원거리에선 시각적으로 괜찮을거 같아서 사연보냅니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'고기웅',
+										hopeTreat				=	'911',
+										bbsState				=	'200'
+									

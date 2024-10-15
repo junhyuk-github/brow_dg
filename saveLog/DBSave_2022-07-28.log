@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-07-28 11:10:26
+ | 211.109.227.146 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('C00001', '45', 21245, 21245, 0, 0, 'Contact us', 'NULL', '트라이업', PASSWORD(''), '01011112222', '', '', '테스트입니다', '', '', 'N', 'N', '', 'C00001', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업',
+										writerIP				=	'211.109.227.146',
+										writerPhone				=	'01011112222',
+										writerMail				=	'',
+										contents				=	'테스트입니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'',
+										applyCorp				=	'C00001',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

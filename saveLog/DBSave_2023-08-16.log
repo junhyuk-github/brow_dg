@@ -1,0 +1,287 @@
+
+
+======================================================================
+2023-08-16 12:35:39
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/_findPWDProc.php
+
+
+									SELECT	userIdx, userID, userName, userMobile
+									FROM tbl_academyMember
+									WHERE userID = 'tiqmekfn' AND userMobile = '010-6729-3233' AND isOut = 'N'
+									
+
+
+======================================================================
+2023-08-16 12:36:53
+ircsm385kktgt1q1b5gmdak79k | 211.243.232.180 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 362, 'tiqmekfn', PASSWORD('tkaclf23548'), '이영환', '010-6729-3233', 'lyhti@triupcorp.com', '910913', '3', '06098', '서울 강남구 언주로130길 14', '2층 트라이업', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이영환',
+										userPWD				=	PASSWORD('tkaclf23548'),
+										userMobile			=	'010-6729-3233',
+										userMail			=	'lyhti@triupcorp.com',
+										userBirth			=	'910913',
+										userJob				=	'3',
+										userZip				=	'06098',
+										userAddr1			=	'서울 강남구 언주로130길 14',
+										userAddr2			=	'2층 트라이업'
+									
+
+
+======================================================================
+2023-08-16 12:57:51
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692158271306', NOW(), '2023-08-16 12:57:51', '', '', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #297972', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #297972', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 12:58:20
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692158300498', NOW(), '2023-08-16 12:58:20', '', '', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #570368', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #570368', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 13:00:29
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692158429558', NOW(), '2023-08-16 13:00:29', '', '', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #024587', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #024587', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 13:01:39
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692158499657', NOW(), '2023-08-16 13:01:39', '', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #266140', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #266140', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 13:02:09
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692158529419', NOW(), '2023-08-16 13:02:09', '', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #577769', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #577769', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:01:13
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162073205', NOW(), '2023-08-16 14:01:13', '', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #060905', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #060905', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:01:35
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162095615', NOW(), '2023-08-16 14:01:35', '', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #618083', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #618083', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:05:33
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('5', '1692162333227', NOW(), '2023-08-16 14:05:33', '', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #767104', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #767104', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:05:56
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('5', '1692162356503', NOW(), '2023-08-16 14:05:56', '', '송준1245', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #104910', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #104910', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:08:20
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162500853', NOW(), '2023-08-16 14:08:20', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #376557', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : #376557', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:09:34
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162574550', NOW(), '2023-08-16 14:09:34', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 201515', 'bizp_2023080315443719470286624', '', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 201515', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:13:50
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162830992', NOW(), '2023-08-16 14:13:50', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 548626', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 548626', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:16:08
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162968745', NOW(), '2023-08-16 14:16:08', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 510517', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 510517', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:16:34
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692162994080', NOW(), '2023-08-16 14:16:34', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 944426', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 944426', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:18:04
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692163084269', NOW(), '2023-08-16 14:18:04', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 034371', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 034371', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:19:13
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692163153066', NOW(), '2023-08-16 14:19:13', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 776402', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 776402', '', 'W00075')
+									
+
+
+======================================================================
+2023-08-16 14:19:49
+chjef02lcclpphe140jkbc8spp | 211.243.232.180 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1692163189842', NOW(), '2023-08-16 14:19:49', '01086605737', '송준', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 441635', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 441635', '', 'W00075')
+									

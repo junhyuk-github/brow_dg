@@ -1,0 +1,62 @@
+
+
+======================================================================
+2023-01-30 11:31:24
+9c4an1mbgv8uqcladlbim4m8fp | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 307, '33_33_s', PASSWORD('idoido22'), '신주현', '010-3333-3333', '3333@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '5층', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'신주현',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-3333-3333',
+										userMail			=	'3333@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	'5층'
+									
+
+
+======================================================================
+2023-01-30 12:11:11
+9c4an1mbgv8uqcladlbim4m8fp | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23183, 23183, 0, 0, '수강생 실제후기', '307', '신주현', PASSWORD(''), '', '', '175.209.112.103', '지인 추천으로 반영구를 배우고자 마음먹고
+여기저기 알아보는 중에 처음 상담받은 곳이 톡스앤필 브로우 였어요!
+상담받은 날 고민없이 바로 등록했어요!
+진정성이 느껴지는 상담이었고 학원 분위기, 체계적인 커리큘럼 
+다 너무 마음에 들었습니다. 사실 첫 날 등록하고 집에서 너무 고민없이 결제했나?
+생각은 했지만 첫 수업받고 등록하길 정말 잘했다 생각했어요!
+선생님께서 제 눈높이에 맞게 잘 이끌어주셔서 한층 한층 더 성장하는게 느껴집니다.
+앞으로 더 노력해서 잘할거에요! 잘 부탁드립니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'신주현',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'지인 추천으로 반영구를 배우고자 마음먹고
+여기저기 알아보는 중에 처음 상담받은 곳이 톡스앤필 브로우 였어요!
+상담받은 날 고민없이 바로 등록했어요!
+진정성이 느껴지는 상담이었고 학원 분위기, 체계적인 커리큘럼 
+다 너무 마음에 들었습니다. 사실 첫 날 등록하고 집에서 너무 고민없이 결제했나?
+생각은 했지만 첫 수업받고 등록하길 정말 잘했다 생각했어요!
+선생님께서 제 눈높이에 맞게 잘 이끌어주셔서 한층 한층 더 성장하는게 느껴집니다.
+앞으로 더 노력해서 잘할거에요! 잘 부탁드립니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

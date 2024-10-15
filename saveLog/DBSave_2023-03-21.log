@@ -1,0 +1,124 @@
+
+
+======================================================================
+2023-03-21 18:51:39
+il2r28110bcbbpmrelp471agti | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 338, 'jeni__', PASSWORD('idoido22'), '김재은', '010-111-1111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김재은',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-1111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-21 18:51:52
+il2r28110bcbbpmrelp471agti | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23734, 23734, 0, 0, '수강생 실제후기', '338', '김재은', PASSWORD(''), '', '', '175.209.112.103', '여러 학원을 방문해서 상담을 받으면서
+비교도 많이하고 고민도 많이해봤는데
+처음 상담 받았던 톡스앤필 브로우가 제일
+마음에 와닿아서 등록했어요~!
+상담때도 부담 안주고 편히 선택 할수있도록
+배려해준다는 느낌을 받았습니다.
+처음이라 당연히 어려울거라고 겁나기도했는데 다행히
+선생님이 단계적으로 차근차근 섬세하게 알려주셔서 생각보다 어려움 없이
+잘 배우고있는것 같아요. 앞으로 더 열심히 배워서 더 빨리
+반영구 마스터 할거에요~ 잘부탁드립니다 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김재은',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'여러 학원을 방문해서 상담을 받으면서
+비교도 많이하고 고민도 많이해봤는데
+처음 상담 받았던 톡스앤필 브로우가 제일
+마음에 와닿아서 등록했어요~!
+상담때도 부담 안주고 편히 선택 할수있도록
+배려해준다는 느낌을 받았습니다.
+처음이라 당연히 어려울거라고 겁나기도했는데 다행히
+선생님이 단계적으로 차근차근 섬세하게 알려주셔서 생각보다 어려움 없이
+잘 배우고있는것 같아요. 앞으로 더 열심히 배워서 더 빨리
+반영구 마스터 할거에요~ 잘부탁드립니다 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-03-21 18:51:59
+il2r28110bcbbpmrelp471agti | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '23734'
+
+
+======================================================================
+2023-03-21 18:51:59
+il2r28110bcbbpmrelp471agti | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '23734'
+
+
+======================================================================
+2023-03-21 18:51:59
+il2r28110bcbbpmrelp471agti | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '23734'
+
+
+======================================================================
+2023-03-21 18:53:16
+il2r28110bcbbpmrelp471agti | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23734, 23734, 0, 0, '수강생 실제후기', '338', '김재은', PASSWORD(''), '', '', '175.209.112.103', '여러 학원을 방문해서 상담을 받으면서 비교도 많이 하고 고민도 많이 해봤는데
+처음 상담 받았던 톡스앤필 브로우가 제일 마음에 와닿아서 등록했어요~!
+상담 때도 부담 안주고 편하게 선택 할 수 있도록 배려해준다는 느낌을 받았습니다.
+처음이라 당연히 어려울거 알아서 겁나기도 했는데 다행히 선생님이 단계적으로 
+차근차근 섬세하게 알려주셔서 제 생각보다 어려움 없이 잘 배우고 있는 것 같아요. 
+앞으로 더 열심히 배워서 더 빨리 반영구 마스터 할거에요~ 잘부탁드립니다 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김재은',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'여러 학원을 방문해서 상담을 받으면서 비교도 많이 하고 고민도 많이 해봤는데
+처음 상담 받았던 톡스앤필 브로우가 제일 마음에 와닿아서 등록했어요~!
+상담 때도 부담 안주고 편하게 선택 할 수 있도록 배려해준다는 느낌을 받았습니다.
+처음이라 당연히 어려울거 알아서 겁나기도 했는데 다행히 선생님이 단계적으로 
+차근차근 섬세하게 알려주셔서 제 생각보다 어려움 없이 잘 배우고 있는 것 같아요. 
+앞으로 더 열심히 배워서 더 빨리 반영구 마스터 할거에요~ 잘부탁드립니다 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

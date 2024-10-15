@@ -1,0 +1,58 @@
+
+
+======================================================================
+2023-03-03 17:06:09
+v3dhhd3uk0ik0tq7ghck2jur1b | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 331, 'choi___', PASSWORD('idoido22'), '최아름', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'최아름',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-03 17:06:36
+v3dhhd3uk0ik0tq7ghck2jur1b | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23561, 23561, 0, 0, '수강생 실제후기', '331', '최아름', PASSWORD(''), '', '', '175.209.112.103', '처음 상담할때부터 친절하고 자세하게 설명해주셔서
+너무 좋았어요! 커리큘럼도 세부적으로 잘 나뉘어져 있고
+교육받는 내내 정말 알차다라는 느낌을 받았어요~!
+여러 특강을 통해서도 많이 배웠습니다~
+특히 창업을 준비하는 과정에서 많이 힘들었는데
+저에게 꼭 필요한 이야기들, 용기주셔서 너무 감사했습니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'최아름',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음 상담할때부터 친절하고 자세하게 설명해주셔서
+너무 좋았어요! 커리큘럼도 세부적으로 잘 나뉘어져 있고
+교육받는 내내 정말 알차다라는 느낌을 받았어요~!
+여러 특강을 통해서도 많이 배웠습니다~
+특히 창업을 준비하는 과정에서 많이 힘들었는데
+저에게 꼭 필요한 이야기들, 용기주셔서 너무 감사했습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

@@ -1,0 +1,44 @@
+
+
+======================================================================
+2023-09-29 23:52:04
+mleret8tiqo9elvvjbhfhipu42 | 223.38.28.215 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25596, 25596, 0, 0, 'Contact us', 'NULL', '김민준', PASSWORD(''), '01050185240', '', '223.38.28.215', '만33세 남성입니진
+머리에 탈모가 진행되서
+ 두피 문신을 고려  중인데
+몇번에 걸쳐서 해야 하는지
+금액은 얼마인지 
+한번에 결제를 해야 하는지 등등
+눈썹 문신도 예전에 했었는데 다시 해야되구요
+두피 문신이 처음 이라 궁금 한점이 많습니다', '', '', 'N', 'N', 'W', 'W00075', '31,32,36,38', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김민준',
+										writerIP				=	'223.38.28.215',
+										writerPhone				=	'01050185240',
+										writerMail				=	'',
+										contents				=	'만33세 남성입니진
+머리에 탈모가 진행되서
+ 두피 문신을 고려  중인데
+몇번에 걸쳐서 해야 하는지
+금액은 얼마인지 
+한번에 결제를 해야 하는지 등등
+눈썹 문신도 예전에 했었는데 다시 해야되구요
+두피 문신이 처음 이라 궁금 한점이 많습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,32,36,38',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

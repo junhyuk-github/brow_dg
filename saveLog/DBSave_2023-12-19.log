@@ -1,0 +1,60 @@
+
+
+======================================================================
+2023-12-19 12:26:00
+8o9kh52qbvqb3fv03gmfe94bf1 | 223.33.164.73 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26241, 26241, 0, 0, 'Contact us', 'NULL', '권근영', PASSWORD(''), '01088810643', '', '223.33.164.73', '두피 시술을 배워보고 싶습니다', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'권근영',
+										writerIP				=	'223.33.164.73',
+										writerPhone				=	'01088810643',
+										writerMail				=	'',
+										contents				=	'두피 시술을 배워보고 싶습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-12-19 15:54:06
+2gfs8ro9dq317adcjqmnrm429v | 112.147.171.162 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26244, 26244, 0, 0, 'Contact us', 'NULL', 'jinny', PASSWORD(''), '01092766880', 'littlejin7@hotmail.com', '112.147.171.162', '기간이랑 금액문의요', '', '', 'N', 'N', 'W', 'W00075', '17', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'jinny',
+										writerIP				=	'112.147.171.162',
+										writerPhone				=	'01092766880',
+										writerMail				=	'littlejin7@hotmail.com',
+										contents				=	'기간이랑 금액문의요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'17',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

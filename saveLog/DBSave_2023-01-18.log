@@ -1,0 +1,60 @@
+
+
+======================================================================
+2023-01-18 16:50:23
+1h7qrbls2fc5014cea21uho533 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 304, 'se_1212', PASSWORD('idoido22'), '이세린', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이세린',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-01-18 17:08:22
+1h7qrbls2fc5014cea21uho533 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23071, 23071, 0, 0, '수강생 실제후기', '304', '이세린', PASSWORD(''), '', '', '175.209.112.103', '처음 배울 땐 너무 떨렸고 배우는 와중에는 난 언제 잘할까 
+진짜 내가 잘할 수 있을까 조급했는데 끝나고 나서 실전에 나온 지금은
+나 잘 배워서 잘하고 있구나 정말 잘했구나 생각합니다 !!
+진짜 선생님들 덕분에 자신감을 가지고 일하고 있어요.
+어려운 부분 생길 때마다 늘 조급해 하지 않게 문제점도 파악해서 
+피드백 해주시고 응원 해주셔서 감사합니다!!
+저도 얼른 더 성장해서 강사님 ,원장님 처럼 프로가 되고싶어요♥', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이세린',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음 배울 땐 너무 떨렸고 배우는 와중에는 난 언제 잘할까 
+진짜 내가 잘할 수 있을까 조급했는데 끝나고 나서 실전에 나온 지금은
+나 잘 배워서 잘하고 있구나 정말 잘했구나 생각합니다 !!
+진짜 선생님들 덕분에 자신감을 가지고 일하고 있어요.
+어려운 부분 생길 때마다 늘 조급해 하지 않게 문제점도 파악해서 
+피드백 해주시고 응원 해주셔서 감사합니다!!
+저도 얼른 더 성장해서 강사님 ,원장님 처럼 프로가 되고싶어요♥',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

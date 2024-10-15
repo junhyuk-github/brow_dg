@@ -1,0 +1,64 @@
+
+
+======================================================================
+2023-02-22 17:18:14
+9oelk6gsev472i904s8uhvugvv | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 316, 'hh_yyy', PASSWORD('idoido22'), '남희연', '010-2222-2222', '222@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'남희연',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-2222-2222',
+										userMail			=	'222@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-02-22 17:18:43
+9oelk6gsev472i904s8uhvugvv | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23455, 23455, 0, 0, '수강생 실제후기', '316', '남희연', PASSWORD(''), '', '', '175.209.112.103', '상담때부터 원장님께서 친절하고 디테일하게 
+설명해주셔서 그런지 느낌이 너무 좋아 고민없이 등록했습니다!
+다양한 특강으로 더 재미나게 배울수 있었어요!
+개별진도로 스케줄도 자유롭게 조율 가능했던 점이 
+직장인이었던 저에게는 안성맞춤이었어요!
+체계적인 교육 프로그램으로 꼼꼼하게 하나하나 배우다보니
+벌써 창업을 코앞에 두고 있어요!
+언제든 어려운 부분 있으면 총알같이 피드백 해주시는
+원장님 강사님 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'남희연',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'상담때부터 원장님께서 친절하고 디테일하게 
+설명해주셔서 그런지 느낌이 너무 좋아 고민없이 등록했습니다!
+다양한 특강으로 더 재미나게 배울수 있었어요!
+개별진도로 스케줄도 자유롭게 조율 가능했던 점이 
+직장인이었던 저에게는 안성맞춤이었어요!
+체계적인 교육 프로그램으로 꼼꼼하게 하나하나 배우다보니
+벌써 창업을 코앞에 두고 있어요!
+언제든 어려운 부분 있으면 총알같이 피드백 해주시는
+원장님 강사님 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

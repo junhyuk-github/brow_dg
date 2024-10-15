@@ -1,0 +1,58 @@
+
+
+======================================================================
+2023-03-02 16:15:36
+3rs7r9mgi1o4btknne95smr8pp | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 330, 'sysyzzz', PASSWORD('idoido22'), '윤선영', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'윤선영',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-02 18:48:58
+3rs7r9mgi1o4btknne95smr8pp | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23543, 23543, 0, 0, '수강생 실제후기', '330', '윤선영', PASSWORD(''), '', '', '175.209.112.103', '하나라도 더 제대로 알려주시려는 원장님과 강사님의
+마음이 느껴져서 더 열심히 배우게 되는 곳!
+제가 진짜 질문이 많은 편이라 귀찮다고 느끼실 법도 한데 
+늘 기다렸다는 듯이 친절하게 피드백 해주셔서 감동 또 감동...♥
+기술의 노하우 뿐만 아니라 실전에서 활용할 수 있는 깨알 같은 노하우들도 
+많이 알려주셔서 정말 많은 도움이 되고 있어요!!!감사합니다~~~', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'윤선영',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'하나라도 더 제대로 알려주시려는 원장님과 강사님의
+마음이 느껴져서 더 열심히 배우게 되는 곳!
+제가 진짜 질문이 많은 편이라 귀찮다고 느끼실 법도 한데 
+늘 기다렸다는 듯이 친절하게 피드백 해주셔서 감동 또 감동...♥
+기술의 노하우 뿐만 아니라 실전에서 활용할 수 있는 깨알 같은 노하우들도 
+많이 알려주셔서 정말 많은 도움이 되고 있어요!!!감사합니다~~~',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

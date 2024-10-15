@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-11-13 18:31:43
+245rcq1daecn5o8qknhpmbvrrd | 211.36.145.11 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22363, 22363, 0, 0, 'Contact us', 'NULL', '박주희', PASSWORD(''), '01089599889', '', '211.36.145.11', '반영구 기초부터 궁금합니다', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박주희',
+										writerIP				=	'211.36.145.11',
+										writerPhone				=	'01089599889',
+										writerMail				=	'',
+										contents				=	'반영구 기초부터 궁금합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

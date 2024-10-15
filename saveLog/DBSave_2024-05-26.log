@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-05-26 00:45:22
+q6o3q4o5a2ll9b0jibe8a67u1c | 210.106.214.132 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 27790, 27790, 0, 0, 'Contact us', 'NULL', '윤소영', PASSWORD(''), '01024934496', 'Midalssasoon@gmail.com', '210.106.214.132', '두피문신 수강신청 문의 합니다', '', '', 'N', 'N', 'W', 'W00075', '15,16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'윤소영',
+										writerIP				=	'210.106.214.132',
+										writerPhone				=	'01024934496',
+										writerMail				=	'Midalssasoon@gmail.com',
+										contents				=	'두피문신 수강신청 문의 합니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

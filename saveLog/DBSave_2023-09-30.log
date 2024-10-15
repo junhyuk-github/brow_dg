@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-09-30 00:16:07
+4gh3vpo2cjtf2v0gf79v4fu9vu | 106.101.129.171 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25597, 25597, 0, 0, 'Contact us', 'NULL', '이혜승', PASSWORD(''), '01056609003', 'alhs90@naver.com', '106.101.129.171', '수강문의', '', '', 'N', 'N', 'W', 'W00075', '15', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이혜승',
+										writerIP				=	'106.101.129.171',
+										writerPhone				=	'01056609003',
+										writerMail				=	'alhs90@naver.com',
+										contents				=	'수강문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

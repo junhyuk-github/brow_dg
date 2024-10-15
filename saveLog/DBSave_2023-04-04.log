@@ -1,0 +1,54 @@
+
+
+======================================================================
+2023-04-04 16:57:20
+kp8so65elf8okqp6cehqicg2tk | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 344, 'dbfkdbfk', PASSWORD('idoido22'), '최유라', '010-111-1111', '11@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'최유라',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-1111',
+										userMail			=	'11@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-04-04 17:03:45
+kp8so65elf8okqp6cehqicg2tk | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23872, 23872, 0, 0, '수강생 실제후기', '344', '최유라', PASSWORD(''), '', '', '175.209.112.103', '안녕하세요. 저는 항상 톡스앤필 브로우 학원을 선택한건 제 스스로도 잘했다고
+생각하게 되요. 선생님들 너무 친절하시고 꼼꼼하셔서 작은 디테일하나
+놓치지않고 바로 잡아주셔서 시작한지 오래되지 않았지만 실력이 많이 향상되고 있다는걸
+몸소 느낍니다. 너무너무 감사합니다.^^', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'최유라',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'안녕하세요. 저는 항상 톡스앤필 브로우 학원을 선택한건 제 스스로도 잘했다고
+생각하게 되요. 선생님들 너무 친절하시고 꼼꼼하셔서 작은 디테일하나
+놓치지않고 바로 잡아주셔서 시작한지 오래되지 않았지만 실력이 많이 향상되고 있다는걸
+몸소 느낍니다. 너무너무 감사합니다.^^',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

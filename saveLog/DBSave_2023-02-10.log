@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-02-10 22:16:49
+d1nk48dds69ioajsq9fjtms2li | 118.235.11.31 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23326, 23326, 0, 0, 'Contact us', 'NULL', '김규연', PASSWORD(''), '01031629713', '', '118.235.11.31', '기본수강료가 어떻게되나요?', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김규연',
+										writerIP				=	'118.235.11.31',
+										writerPhone				=	'01031629713',
+										writerMail				=	'',
+										contents				=	'기본수강료가 어떻게되나요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

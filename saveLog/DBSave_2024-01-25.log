@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-01-25 12:01:53
+tnjo8n0ufiqvo78am7funltqqo | 118.235.13.49 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26574, 26574, 0, 0, 'Contact us', 'NULL', '윳경덥', PASSWORD(''), '01065698765', 'dicky119@NAVER.com', '118.235.13.49', '두피문신 전과정', '', '', 'N', 'N', 'W', 'W00075', '17,20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'윳경덥',
+										writerIP				=	'118.235.13.49',
+										writerPhone				=	'01065698765',
+										writerMail				=	'dicky119@NAVER.com',
+										contents				=	'두피문신 전과정',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'17,20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

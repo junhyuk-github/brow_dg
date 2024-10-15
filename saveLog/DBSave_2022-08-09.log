@@ -1,0 +1,21 @@
+
+
+======================================================================
+2022-08-09 10:53:06
+99j1b5262hhelibqqbik8c9bon | 49.50.168.92 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 263, 'heji1111', PASSWORD('hj1215'), '조혜진 원장', '010-4608-5060', 'heji1111@naver.com', '841111', '5', '06134', '서울 강남구 테헤란로1길 17', '5,6층', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'조혜진 원장',
+										userPWD				=	PASSWORD('hj1215'),
+										userMobile			=	'010-4608-5060',
+										userMail			=	'heji1111@naver.com',
+										userBirth			=	'841111',
+										userJob				=	'5',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	'5,6층'
+									

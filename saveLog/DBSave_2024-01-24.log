@@ -1,0 +1,213 @@
+
+
+======================================================================
+2024-01-24 23:34:56
+4713u2l8l4945fs9lvunb7pe6d | 121.131.117.102 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1706106896067', NOW(), '2024-01-24 23:34:56', '01053029580', '이승원', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 109357', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 109357', '', 'W00075')
+									
+
+
+======================================================================
+2024-01-24 23:36:23
+4713u2l8l4945fs9lvunb7pe6d | 121.131.117.102 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 410, 'himonsil', PASSWORD('lsw009580'), '이승원', '010-5302-9580', 'himonsil@gmail.com', '721221', '4', '03780', '서울 서대문구 신촌로 149', '105호', '2', '1', '', 'vr96xq9f', '')
+					
+
+
+======================================================================
+2024-01-24 23:51:45
+s2l0lqce770uueb4ii02j5adnr | 121.131.117.102 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 26570, 26570, 0, 0, 'Contact us', '410', '이승원', PASSWORD(''), '01053029580', 'himonsil@gmail.com', '121.131.117.102', '안녕하세요? 
+이벤트
+접수가 되지않아
+이곳에
+응모해봅니다.
+우선 이렇게 좋은 이벤트에
+참여할 기회를 주셔서
+감사합니다.
+
+저는 신촌에서
+헤어꼬뜰레라는
+1인 미용실을 하고 있습니다.
+
+한동안 
+몸이 아파서쉬어가며 
+일을하다가
+다시 
+열심히해보려하니
+코로나로
+세상이 바뀌었더군요.
+
+이대 신촌 상권은
+다 죽어가는데
+어떻게 해야할지
+뭘해야할지
+막막하고
+
+열심히
+일은한다고하는데
+각종 월세에
+세금에
+대출에
+빚만 늘어나서
+한쪽 마비도 오고
+
+사실 당당히
+돈내고 배우고
+싶은데
+
+사정이
+너무 
+여의치 않아
+돌파구를
+찾던중
+이벤트를
+알게되어
+지원해봅니다.
+
+오래된 단골들은
+많으나
+단가를
+올리기도 어렵고
+
+또
+상권사정상
+많이 떠나시기도해서
+
+막막합니다.
+
+두피문신과 반영구를
+통해
+매출 증진을해볼까하여
+배워보려고 했으나
+너무
+비싸서
+여의치 않아
+창피를
+무릅쓰고
+지원합니다.
+
+봉사도
+많이해서
+형편이 어려우신
+분들
+도와드리고 싶습니다.
+
+
+훌륭한 투자가
+되실수 있도록
+최선을 다하겠습니다.', '', '', 'N', 'N', 'W', 'W00075', '38', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이승원',
+										writerIP				=	'121.131.117.102',
+										writerPhone				=	'01053029580',
+										writerMail				=	'himonsil@gmail.com',
+										contents				=	'안녕하세요? 
+이벤트
+접수가 되지않아
+이곳에
+응모해봅니다.
+우선 이렇게 좋은 이벤트에
+참여할 기회를 주셔서
+감사합니다.
+
+저는 신촌에서
+헤어꼬뜰레라는
+1인 미용실을 하고 있습니다.
+
+한동안 
+몸이 아파서쉬어가며 
+일을하다가
+다시 
+열심히해보려하니
+코로나로
+세상이 바뀌었더군요.
+
+이대 신촌 상권은
+다 죽어가는데
+어떻게 해야할지
+뭘해야할지
+막막하고
+
+열심히
+일은한다고하는데
+각종 월세에
+세금에
+대출에
+빚만 늘어나서
+한쪽 마비도 오고
+
+사실 당당히
+돈내고 배우고
+싶은데
+
+사정이
+너무 
+여의치 않아
+돌파구를
+찾던중
+이벤트를
+알게되어
+지원해봅니다.
+
+오래된 단골들은
+많으나
+단가를
+올리기도 어렵고
+
+또
+상권사정상
+많이 떠나시기도해서
+
+막막합니다.
+
+두피문신과 반영구를
+통해
+매출 증진을해볼까하여
+배워보려고 했으나
+너무
+비싸서
+여의치 않아
+창피를
+무릅쓰고
+지원합니다.
+
+봉사도
+많이해서
+형편이 어려우신
+분들
+도와드리고 싶습니다.
+
+
+훌륭한 투자가
+되실수 있도록
+최선을 다하겠습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'38',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

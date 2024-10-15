@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-03-26 16:41:59
+1hua09jsqesrvgm8ami0k3ngqp | 1.235.106.128 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 27144, 27144, 0, 0, 'Contact us', 'NULL', '염승혜', PASSWORD(''), '01091080058', 'hiro50@naver.com', '1.235.106.128', '가격문의드립니다', '', '', 'N', 'N', 'W', 'W00075', '31,34', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'염승혜',
+										writerIP				=	'1.235.106.128',
+										writerPhone				=	'01091080058',
+										writerMail				=	'hiro50@naver.com',
+										contents				=	'가격문의드립니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'31,34',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

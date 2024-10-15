@@ -1,0 +1,75 @@
+
+
+======================================================================
+2023-08-03 08:42:07
+dp3057gsu3rn6qt1f9dcb2t8ln | 39.118.199.80 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24985, 24985, 0, 0, 'Contact us', 'NULL', '윤주하', PASSWORD(''), '01053047554', '', '39.118.199.80', '수강료문의', '', '', 'N', 'N', 'M', 'W00075', '16', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'윤주하',
+										writerIP				=	'39.118.199.80',
+										writerPhone				=	'01053047554',
+										writerMail				=	'',
+										contents				=	'수강료문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-08-03 14:23:25
+1a4qiv6pou7rjd0cienm4805gj | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 363, 'gksthf6565', PASSWORD('gksthf6565'), '김한솔', '010-5537-3736', 'hskim22222@naver.com@naver.com', '', '', '08721', '서울 관악구 봉천동 673-100', '.', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김한솔',
+										userPWD				=	PASSWORD('gksthf6565'),
+										userMobile			=	'010-5537-3736',
+										userMail			=	'hskim22222@naver.com@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'08721',
+										userAddr1			=	'서울 관악구 봉천동 673-100',
+										userAddr2			=	'.'
+									
+
+
+======================================================================
+2023-08-03 14:24:05
+1a4qiv6pou7rjd0cienm4805gj | 175.209.112.103 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24996, 24996, 0, 0, 'Contact us', '363', '김한솔', PASSWORD(''), '010-5537-3736', '', '175.209.112.103', '테스트', '', '', 'N', 'N', 'M', 'W00075', '16', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김한솔',
+										writerIP				=	'175.209.112.103',
+										writerPhone				=	'010-5537-3736',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'16',
+										bbsState				=	'200'
+									

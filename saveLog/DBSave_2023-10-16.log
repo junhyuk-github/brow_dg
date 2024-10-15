@@ -1,0 +1,64 @@
+
+
+======================================================================
+2023-10-16 12:00:46
+rdhonktlmpbe16t6u5drickm8a | 211.110.179.35 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25684, 25684, 0, 0, 'Contact us', 'NULL', '양미경', PASSWORD(''), '01046746110', '', '211.110.179.35', '가격 기간', '', '', 'N', 'N', 'W', 'W00075', '22', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'양미경',
+										writerIP				=	'211.110.179.35',
+										writerPhone				=	'01046746110',
+										writerMail				=	'',
+										contents				=	'가격 기간',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'22',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-10-16 17:08:12
+apcm3edalsfdfe9vlu5vc6pcb1 | 211.234.197.218 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25686, 25686, 0, 0, 'Contact us', 'NULL', '이채연', PASSWORD(''), '01096170987', 'yijooh@hanmail.net', '211.234.197.218', '수업 시간표를 알고싶습니다.
+수업하는 장소는 홈페이지에 있는 주소인가요?
+수강을 원하면 언제든 시작할수 있는걸까요?', '', '', 'N', 'N', 'W', 'W00075', '15', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'이채연',
+										writerIP				=	'211.234.197.218',
+										writerPhone				=	'01096170987',
+										writerMail				=	'yijooh@hanmail.net',
+										contents				=	'수업 시간표를 알고싶습니다.
+수업하는 장소는 홈페이지에 있는 주소인가요?
+수강을 원하면 언제든 시작할수 있는걸까요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

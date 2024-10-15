@@ -1,0 +1,32 @@
+
+
+======================================================================
+2023-11-04 20:25:17
+8tsopv5bc0ndirgcag0e3pv534 | 211.222.189.39 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25852, 25852, 0, 0, 'Event', 'NULL', '한봉용', PASSWORD(''), '01087476720', 'hanby49@naver.com', '211.222.189.39', '머리카락을 심으려 했다가 문신이 더 효과적일것 같아 문의 드립니다.
+시술 기간과 비용에 대하여 알고 싶네요!', '', '', 'N', 'N', 'W', 'W00075', '', '', '23년 12월 또는 24년 01월', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'한봉용',
+										writerIP				=	'211.222.189.39',
+										writerPhone				=	'01087476720',
+										writerMail				=	'hanby49@naver.com',
+										contents				=	'머리카락을 심으려 했다가 문신이 더 효과적일것 같아 문의 드립니다.
+시술 기간과 비용에 대하여 알고 싶네요!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'23년 12월 또는 24년 01월',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									

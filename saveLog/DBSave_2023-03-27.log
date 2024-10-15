@@ -1,0 +1,122 @@
+
+
+======================================================================
+2023-03-27 10:27:21
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 340, 'hana_lee', PASSWORD('idoido22'), '이하나', '010-111-111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이하나',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-111-111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-27 10:28:24
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 340, 'hana_lee', '이하윤', '010-111-111', '111@maver.com', '', 'default', '06134', '서울 강남구 테헤란로1길 17', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이하윤',
+										userMobile			=	'010-111-111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-27 10:42:04
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23786, 23786, 0, 0, '수강생 실제후기', '340', '이하나', PASSWORD(''), '', '', '175.209.112.103', '반영구 뿐만 아니라 실제 현장에서 필요한 것들을 많이 배울 수 있는 곳이라 너무 좋았어요!
+내가 잘하는 부분과 부족한 부분을 정말 섬세하게 봐주시고 피드백 해주셔서 더 알차고 더 빠르게
+배울 수 있었던 것 같아요~ 수강생들을 위해서 작은 것 하나라도 더 알려주려고 하시고 늘 배려해주는  원장님과 강사님 모습에 감사함을 많이 느꼈습니다. 이제 졸업하지만 학원 다니는 기간 동안 너무 좋은 기억이 많아서 졸업하고 나서도 자주 찾아 뵙고 싶은 곳이에요~~~!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이하나',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구 뿐만 아니라 실제 현장에서 필요한 것들을 많이 배울 수 있는 곳이라 너무 좋았어요!
+내가 잘하는 부분과 부족한 부분을 정말 섬세하게 봐주시고 피드백 해주셔서 더 알차고 더 빠르게
+배울 수 있었던 것 같아요~ 수강생들을 위해서 작은 것 하나라도 더 알려주려고 하시고 늘 배려해주는  원장님과 강사님 모습에 감사함을 많이 느꼈습니다. 이제 졸업하지만 학원 다니는 기간 동안 너무 좋은 기억이 많아서 졸업하고 나서도 자주 찾아 뵙고 싶은 곳이에요~~~!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-03-27 10:42:24
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '23786'
+
+
+======================================================================
+2023-03-27 10:42:24
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '23786'
+
+
+======================================================================
+2023-03-27 10:42:24
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '23786'
+
+
+======================================================================
+2023-03-27 10:43:26
+k101giudnlm5gck6vuiccdgjiq | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23786, 23786, 0, 0, '수강생 실제후기', '340', '이하나', PASSWORD(''), '', '', '175.209.112.103', '반영구 뿐만 아니라 실제 현장에서 필요한 것들을 많이 배울 수 있는 곳이라 더욱 좋았어요!
+내가 잘하는 부분과 부족한 부분을 정말 섬세하게 봐주시고 빠르게 피드백 해주셔서 더 알차게 배울 수 있었던 것 같아요~ 수강생들을 위해서 작은 것 하나라도 더 알려주려고 하시고 늘 배려해주는 원장님과 강사님 모습에 감사함을 많이 느꼈습니다. 이제 졸업하지만 학원 다니는 기간 동안 너무 좋은 기억이 많아서 졸업하고 나서도 자주 찾아 뵙고 싶은 곳이에요~~~!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이하나',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'반영구 뿐만 아니라 실제 현장에서 필요한 것들을 많이 배울 수 있는 곳이라 더욱 좋았어요!
+내가 잘하는 부분과 부족한 부분을 정말 섬세하게 봐주시고 빠르게 피드백 해주셔서 더 알차게 배울 수 있었던 것 같아요~ 수강생들을 위해서 작은 것 하나라도 더 알려주려고 하시고 늘 배려해주는 원장님과 강사님 모습에 감사함을 많이 느꼈습니다. 이제 졸업하지만 학원 다니는 기간 동안 너무 좋은 기억이 많아서 졸업하고 나서도 자주 찾아 뵙고 싶은 곳이에요~~~!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

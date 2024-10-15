@@ -1,0 +1,33 @@
+
+
+======================================================================
+2022-12-26 12:07:04
+3p830qnm0v5rsj1f8urj6vv8p5 | 218.153.162.125 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22814, 22814, 0, 0, 'Contact us', 'NULL', '김성연', PASSWORD(''), '01085817546', '', '218.153.162.125', '안녕하세요 가격문의좀하고싶어서요
+
+전화로 물어보고 싶은대 따로 전화연결이 
+되지않아서 전화 주실수 있으신가요?', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김성연',
+										writerIP				=	'218.153.162.125',
+										writerPhone				=	'01085817546',
+										writerMail				=	'',
+										contents				=	'안녕하세요 가격문의좀하고싶어서요
+
+전화로 물어보고 싶은대 따로 전화연결이 
+되지않아서 전화 주실수 있으신가요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

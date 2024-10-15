@@ -1,0 +1,32 @@
+
+
+======================================================================
+2024-03-19 11:24:28
+fivbhdt7n774ov129qaad46s2s | 59.8.158.222 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 27026, 27026, 0, 0, 'Contact us', 'NULL', '김도희', PASSWORD(''), '01051051229', '87dohee1229@hanmail.net', '59.8.158.222', '눈썹 입술 아이라인 헤어 창업 클래스까지 모든 과정 마스터 
+할수있도록 상담 원합니다.', '', '', 'N', 'N', 'W', 'W00075', '16,20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김도희',
+										writerIP				=	'59.8.158.222',
+										writerPhone				=	'01051051229',
+										writerMail				=	'87dohee1229@hanmail.net',
+										contents				=	'눈썹 입술 아이라인 헤어 창업 클래스까지 모든 과정 마스터 
+할수있도록 상담 원합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'16,20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-12-28 16:12:15
+omf07d8mkcbbb6hf3up42vbu7q | 210.222.127.171 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26335, 26335, 0, 0, 'Contact us', 'NULL', '박세련', PASSWORD(''), '01046623930', 'poohsr@hanmail.net', '210.222.127.171', '두피문신을 배워보고싶습니다.', '', '', 'N', 'N', 'W', 'W00075', '20', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박세련',
+										writerIP				=	'210.222.127.171',
+										writerPhone				=	'01046623930',
+										writerMail				=	'poohsr@hanmail.net',
+										contents				=	'두피문신을 배워보고싶습니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

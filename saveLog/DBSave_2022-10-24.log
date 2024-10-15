@@ -1,0 +1,33 @@
+
+
+======================================================================
+2022-10-24 19:40:58
+ilq57j3l3eij11qc3logcqn56c | 175.223.15.205 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22128, 22128, 0, 0, 'Contact us', 'NULL', '현아', PASSWORD(''), '01095539977', '', '175.223.15.205', '얼굴의.   눈썹.  아이라인.  헤어라인 
+입술라인.  속눈썹펌을. 배워서. 
+창업하고. 싶어요ᆢ배우는. 비용이. 
+멀마들까요?', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'현아',
+										writerIP				=	'175.223.15.205',
+										writerPhone				=	'01095539977',
+										writerMail				=	'',
+										contents				=	'얼굴의.   눈썹.  아이라인.  헤어라인 
+입술라인.  속눈썹펌을. 배워서. 
+창업하고. 싶어요ᆢ배우는. 비용이. 
+멀마들까요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

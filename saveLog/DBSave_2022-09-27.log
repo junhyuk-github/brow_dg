@@ -1,0 +1,41 @@
+
+
+======================================================================
+2022-09-27 17:07:49
+isnq5c0lnug7p72msfahhvkdpp | 211.36.137.196 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21863, 21863, 0, 0, 'Contact us', 'NULL', '하요니', PASSWORD(''), '01042006788', '', '211.36.137.196', '중국에서 샵차릴준비하고있는 준비생입니다
+
+반영구는 이미 다 배웠어요
+
+혹시 보톡스 필러시술 비용내고 배울수 있을까요?
+
+중국은 한국과 달리 시술할수만 있으면 시술자격 
+취득할수있는 밥법이 있어서요  배울곳을 찾고 있습니다', '', '', 'N', 'N', 'M', 'W00075', '14', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'하요니',
+										writerIP				=	'211.36.137.196',
+										writerPhone				=	'01042006788',
+										writerMail				=	'',
+										contents				=	'중국에서 샵차릴준비하고있는 준비생입니다
+
+반영구는 이미 다 배웠어요
+
+혹시 보톡스 필러시술 비용내고 배울수 있을까요?
+
+중국은 한국과 달리 시술할수만 있으면 시술자격 
+취득할수있는 밥법이 있어서요  배울곳을 찾고 있습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'14',
+										bbsState				=	'200'
+									

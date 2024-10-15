@@ -1,0 +1,32 @@
+
+
+======================================================================
+2024-04-08 15:16:11
+sb1oqu6ql37m6rg41j99jmndsb | 118.235.13.30 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 27262, 27262, 0, 0, 'Contact us', 'NULL', '김지혜', PASSWORD(''), '01076284838', 'dangle0830@naver.com', '118.235.13.30', '마스터클래스 수강 희망하는데
+혹시 시간표를 알수있을까요~??', '', '', 'N', 'N', 'W', 'W00075', '20,23', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김지혜',
+										writerIP				=	'118.235.13.30',
+										writerPhone				=	'01076284838',
+										writerMail				=	'dangle0830@naver.com',
+										contents				=	'마스터클래스 수강 희망하는데
+혹시 시간표를 알수있을까요~??',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'20,23',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

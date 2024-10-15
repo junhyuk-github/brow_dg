@@ -1,0 +1,249 @@
+
+
+======================================================================
+2023-01-06 06:47:00
+jevbf7el567i22vms79vk91f3p | 124.111.108.166 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22931, 22931, 0, 0, '수강생 실제후기', '261', '트라이업', PASSWORD(''), '', '', '124.111.108.166', '테스트 중입니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'트라이업',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'테스트 중입니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-01-06 06:47:00
+jevbf7el567i22vms79vk91f3p | 124.111.108.166 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '22931', 'NULL', '일본_썸네일.jpg', '20230106064700_img_1.jpg', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'일본_썸네일.jpg',
+													fileName				=	'20230106064700_img_1.jpg',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2023-01-06 06:49:20
+jevbf7el567i22vms79vk91f3p | 124.111.108.166 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22932, 22932, 0, 0, 'Contact us', '261', '트라이업_테스트', PASSWORD(''), '01084891409', '', '124.111.108.166', '테스트 입니다.', '', '', 'N', 'N', 'M', 'W00075', '12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업_테스트',
+										writerIP				=	'124.111.108.166',
+										writerPhone				=	'01084891409',
+										writerMail				=	'',
+										contents				=	'테스트 입니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-01-06 07:22:27
+j6q8hh4bg4oe5frtnkpohclomf | 124.111.108.166 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22936, 22936, 0, 0, '수강생 실제후기', '261', '트라이업', PASSWORD(''), '', '', '124.111.108.166', 'TEST', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'트라이업',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'TEST',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-01-06 07:22:27
+j6q8hh4bg4oe5frtnkpohclomf | 124.111.108.166 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '22936', 'NULL', '애플로고+(1).png', '20230106072227_img_1.png', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'애플로고+(1).png',
+													fileName				=	'20230106072227_img_1.png',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2023-01-06 07:22:43
+j6q8hh4bg4oe5frtnkpohclomf | 124.111.108.166 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '22936'
+
+
+======================================================================
+2023-01-06 07:22:43
+j6q8hh4bg4oe5frtnkpohclomf | 124.111.108.166 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '22936'
+
+
+======================================================================
+2023-01-06 07:22:43
+j6q8hh4bg4oe5frtnkpohclomf | 124.111.108.166 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '22936'
+
+
+======================================================================
+2023-01-06 07:37:20
+jevbf7el567i22vms79vk91f3p | 124.111.108.166 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22938, 22938, 0, 0, '수강생 실제후기', '261', '트라이업', PASSWORD(''), '', '', '124.111.108.166', '테스트', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'트라이업',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-01-06 07:37:20
+jevbf7el567i22vms79vk91f3p | 124.111.108.166 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '22938', 'NULL', '일본_썸네일1.jpg', '20230106073720_img_1.jpg', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'일본_썸네일1.jpg',
+													fileName				=	'20230106073720_img_1.jpg',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2023-01-06 08:43:14
+8bfgke9qmi60l7hu4911imgc8a | 124.111.108.166 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22940, 22940, 0, 0, '수강생 실제후기', '261', '트라이업', PASSWORD(''), '', '', '124.111.108.166', '테스트', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'트라이업',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-01-06 08:43:14
+8bfgke9qmi60l7hu4911imgc8a | 124.111.108.166 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '22940', 'NULL', '일본_썸네일.jpg', '20230106084314_img_1.jpg', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'일본_썸네일.jpg',
+													fileName				=	'20230106084314_img_1.jpg',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2023-01-06 08:43:25
+8bfgke9qmi60l7hu4911imgc8a | 124.111.108.166 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '22940'
+
+
+======================================================================
+2023-01-06 08:43:25
+8bfgke9qmi60l7hu4911imgc8a | 124.111.108.166 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '22940'
+
+
+======================================================================
+2023-01-06 08:43:25
+8bfgke9qmi60l7hu4911imgc8a | 124.111.108.166 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '22940'

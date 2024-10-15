@@ -1,0 +1,21 @@
+
+
+======================================================================
+2022-08-25 15:20:52
+rfjjgtm3kh0pbur8qr3ind0van | 1.244.238.82 | /m/member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 272, 'freebird134', PASSWORD('usm05140916'), '오미숙', '010-8883-7942', 'freebird134 @naver.com', '790301', '5', '26454', '강원 원주시 번재길 32', '102동1201호', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'오미숙',
+										userPWD				=	PASSWORD('usm05140916'),
+										userMobile			=	'010-8883-7942',
+										userMail			=	'freebird134 @naver.com',
+										userBirth			=	'790301',
+										userJob				=	'5',
+										userZip				=	'26454',
+										userAddr1			=	'강원 원주시 번재길 32',
+										userAddr2			=	'102동1201호'
+									

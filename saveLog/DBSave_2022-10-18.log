@@ -1,0 +1,33 @@
+
+
+======================================================================
+2022-10-18 09:04:17
+fg5ns9gu58r0gt4ip2077i2rqh | 106.244.147.203 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22013, 22013, 0, 0, 'Contact us', 'NULL', '조해윤', PASSWORD(''), '01036440909', '', '106.244.147.203', '피부과의원에서 수업을 해주시는 건가요?
+교육대상이 의료인으로 되어 있던데 강의는 의료인만 
+신청이 되는건가요? 
+주말반도 있는지요...', '', '', 'N', 'N', 'M', 'W00075', '12,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'조해윤',
+										writerIP				=	'106.244.147.203',
+										writerPhone				=	'01036440909',
+										writerMail				=	'',
+										contents				=	'피부과의원에서 수업을 해주시는 건가요?
+교육대상이 의료인으로 되어 있던데 강의는 의료인만 
+신청이 되는건가요? 
+주말반도 있는지요...',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12,13',
+										bbsState				=	'200'
+									

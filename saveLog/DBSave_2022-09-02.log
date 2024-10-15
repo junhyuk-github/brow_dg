@@ -1,0 +1,42 @@
+
+
+======================================================================
+2022-09-02 11:03:18
+o5h8qn4mi1na2vg1pirk6tudbt | 14.32.114.220 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 278, 'heji11111', PASSWORD('hj1215'), '조혜진 원장', '010-4608-5060', 'heji1111@naver.com', '', '', '06615', '서울 서초구 서초대로77길 5', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'조혜진 원장',
+										userPWD				=	PASSWORD('hj1215'),
+										userMobile			=	'010-4608-5060',
+										userMail			=	'heji1111@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06615',
+										userAddr1			=	'서울 서초구 서초대로77길 5',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-09-02 11:04:37
+o5h8qn4mi1na2vg1pirk6tudbt | 14.32.114.220 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 279, 'heji0000', PASSWORD('hj1215'), '조혜진 원장', '010-4608-5060', 'heji1111@naver.com', '', '', '06615', '서울 서초구 서초대로77길 5', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'조혜진 원장',
+										userPWD				=	PASSWORD('hj1215'),
+										userMobile			=	'010-4608-5060',
+										userMail			=	'heji1111@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06615',
+										userAddr1			=	'서울 서초구 서초대로77길 5',
+										userAddr2			=	''
+									

@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-04-14 07:45:17
+10jlfg4k2vdc71bp6lmjkrhmvj | 223.38.51.139 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23986, 23986, 0, 0, 'Contact us', 'NULL', '라혜진', PASSWORD(''), '01050244884', '', '223.38.51.139', '수강안내부탁드려요', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'라혜진',
+										writerIP				=	'223.38.51.139',
+										writerPhone				=	'01050244884',
+										writerMail				=	'',
+										contents				=	'수강안내부탁드려요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

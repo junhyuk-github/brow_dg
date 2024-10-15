@@ -1,0 +1,44 @@
+
+
+======================================================================
+2023-09-16 12:23:19
+c8cptpdui1c9gj775ouiqbpn6q | 118.235.5.40 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25476, 25476, 0, 0, 'Contact us', 'NULL', '박종현', PASSWORD(''), '01091096720', 'pjhrko@naver.com', '118.235.5.40', '20대 남성입니다.
+어린시절부터 모질이 얇아 머리가 비어보였는데 점점 더 
+신경이 쓰여 약도 먹어보고 모발이식 병원에도 가봤는데 
+모발이식의 경우 아예 모발이 탈락되는 현상이 진행이 되어야 
+가능하다고 말씀하셔서 못했습니다.
+최근 우연히 SMP를 접하고 관심이 생겼는데 비용과 
+영구적인지 후에 노화로 인해 머리가 더 빠지게 되면 어떻게 
+관리해야하는지 문의드립니다!', '', '', 'N', 'N', 'W', 'W00075', '32,36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'박종현',
+										writerIP				=	'118.235.5.40',
+										writerPhone				=	'01091096720',
+										writerMail				=	'pjhrko@naver.com',
+										contents				=	'20대 남성입니다.
+어린시절부터 모질이 얇아 머리가 비어보였는데 점점 더 
+신경이 쓰여 약도 먹어보고 모발이식 병원에도 가봤는데 
+모발이식의 경우 아예 모발이 탈락되는 현상이 진행이 되어야 
+가능하다고 말씀하셔서 못했습니다.
+최근 우연히 SMP를 접하고 관심이 생겼는데 비용과 
+영구적인지 후에 노화로 인해 머리가 더 빠지게 되면 어떻게 
+관리해야하는지 문의드립니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'32,36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

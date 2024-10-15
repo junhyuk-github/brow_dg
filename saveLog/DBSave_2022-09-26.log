@@ -1,0 +1,27 @@
+
+
+======================================================================
+2022-09-26 14:23:35
+jo3qirh885gm7ta7tbr334a5ng | 211.34.170.98 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21851, 21851, 0, 0, 'Contact us', 'NULL', '정선매', PASSWORD(''), '01039376787', '', '211.34.170.98', '교육비용, 수업기간, 수업시간 등등 문의드립니다', '', '', 'N', 'N', 'M', 'W00075', '11,12', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'정선매',
+										writerIP				=	'211.34.170.98',
+										writerPhone				=	'01039376787',
+										writerMail				=	'',
+										contents				=	'교육비용, 수업기간, 수업시간 등등 문의드립니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11,12',
+										bbsState				=	'200'
+									

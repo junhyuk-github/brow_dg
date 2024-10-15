@@ -1,0 +1,25 @@
+
+
+======================================================================
+2023-10-22 04:05:46
+iuu1onfgk93t6ngle87k344l7q | 58.143.112.67 | /member/memberJoinCertNoProc.php
+
+
+									INSERT INTO BIZ_MSG
+										( MSG_TYPE, CMID, REQUEST_TIME, SEND_TIME, DEST_PHONE, DEST_NAME, SEND_PHONE, MSG_BODY, TEMPLATE_CODE, SENDER_KEY, NATION_CODE, RE_TYPE, RE_BODY, ATTACHED_FILE, CINFO ) VALUES
+										('6', '1697915146402', NOW(), '2023-10-22 04:05:46', '01095014951', '이희정', '025544842', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 051388', 'bizp_2023080315443719470286624', '0715afaff48d6958adf8cc5b153f3ddbffcc5e8e', '82', 'MMS', '[톡스앤필브로우]
+
+- 휴대폰번호 인증번호 : 051388', '', 'W00075')
+									
+
+
+======================================================================
+2023-10-22 04:07:28
+iuu1onfgk93t6ngle87k344l7q | 58.143.112.67 | /member/newJoin02Proc.php
+
+INSERT INTO tbl_academyMember
+						(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID, recommender, recommenderCode) VALUES
+						('B', 407, 'soyou2030', PASSWORD('q1w2e3r4'), '이희정', '010-9501-4951', 'soyou2030@naver.com', '811114', '8', '12760', '경기 광주시 경안로41번길 6', '104동1803호', '2', '1', '', 'j3qocgkj', '')
+					

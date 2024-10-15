@@ -1,0 +1,34 @@
+
+
+======================================================================
+2023-08-26 13:30:31
+u453n2o2pct1dsq5bvi02sabc0 | 118.235.12.3 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 25251, 25251, 0, 0, 'Contact us', 'NULL', '손정민', PASSWORD(''), '01059132357', 's826610@naver.com', '118.235.12.3', 'smp에 관해 배워 shop을 차리고 싶습니다
+미용자격증도 필요하다고 하던데 어떤과정이 필요 한지 알고 
+싶습니다', '', '', 'N', 'N', 'W', 'W00075', '15,16,21', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'손정민',
+										writerIP				=	'118.235.12.3',
+										writerPhone				=	'01059132357',
+										writerMail				=	's826610@naver.com',
+										contents				=	'smp에 관해 배워 shop을 차리고 싶습니다
+미용자격증도 필요하다고 하던데 어떤과정이 필요 한지 알고 
+싶습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,21',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

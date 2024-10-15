@@ -1,0 +1,84 @@
+
+
+======================================================================
+2023-09-07 18:28:25
+qbetp3sokgrd2oopk5j4tl3f4o | 106.101.194.10 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25383, 25383, 0, 0, 'Event', 'NULL', '조호상', PASSWORD(''), '01035981458', 'whghtkd@gmail.com', '106.101.194.10', '안녕하세요 지인분 통하여 유튜브 추천받아서 구독하고 
+영상보다가 이렇게 사연을 남깁니다 머리카락이 많이 얇아지고 
+샴푸도 고민하여 구매하고 쓰고 있지만 계속 더 얇아지는듯하여 
+걱정도 많이 됩니다. 기존에 알던 시술 또는 심는 방법을 통하여 
+해결할까도 생각했지만 이번 기회로 알게된 두피문신을 통하여 
+해결하고 싶습니다. 기회 주시면 너무 좋겠으며 이렇게 좋은 
+이벤트 진행 해주시고 사연 읽어주셔서 정말 감사합니다. 
+오늘도 고생하셨습니다:)', '', '', 'N', 'N', 'W', 'W00075', '', '', '언제든 시간 맞추겠습니다.', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'조호상',
+										writerIP				=	'106.101.194.10',
+										writerPhone				=	'01035981458',
+										writerMail				=	'whghtkd@gmail.com',
+										contents				=	'안녕하세요 지인분 통하여 유튜브 추천받아서 구독하고 
+영상보다가 이렇게 사연을 남깁니다 머리카락이 많이 얇아지고 
+샴푸도 고민하여 구매하고 쓰고 있지만 계속 더 얇아지는듯하여 
+걱정도 많이 됩니다. 기존에 알던 시술 또는 심는 방법을 통하여 
+해결할까도 생각했지만 이번 기회로 알게된 두피문신을 통하여 
+해결하고 싶습니다. 기회 주시면 너무 좋겠으며 이렇게 좋은 
+이벤트 진행 해주시고 사연 읽어주셔서 정말 감사합니다. 
+오늘도 고생하셨습니다:)',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'언제든 시간 맞추겠습니다.',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-09-07 20:54:44
+u1kfauc7m3abodgonfe82flrsj | 211.178.53.157 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25386, 25386, 0, 0, 'Event', 'NULL', '김용훈', PASSWORD(''), '01077280648', '', '211.178.53.157', '40세 남성입니다 20대때 부터 탈모가 진행 되어 정수리 
+부분이 횡합니다 지금도 삭발을 하고 다니지만 모자를 
+쓰고 다니고 아는 친구 외엔 다른 사람을 만나는게 
+힘들정도로 자존감이 떨어진 상태에
+유튜브로 두피문신을 알아보고 있는 찰라 영상을 접하게 
+되어 신청하게 됐습니다', '', '', 'N', 'N', 'W', 'W00075', '', '', '9월중', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'김용훈',
+										writerIP				=	'211.178.53.157',
+										writerPhone				=	'01077280648',
+										writerMail				=	'',
+										contents				=	'40세 남성입니다 20대때 부터 탈모가 진행 되어 정수리 
+부분이 횡합니다 지금도 삭발을 하고 다니지만 모자를 
+쓰고 다니고 아는 친구 외엔 다른 사람을 만나는게 
+힘들정도로 자존감이 떨어진 상태에
+유튜브로 두피문신을 알아보고 있는 찰라 영상을 접하게 
+되어 신청하게 됐습니다',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'9월중',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									

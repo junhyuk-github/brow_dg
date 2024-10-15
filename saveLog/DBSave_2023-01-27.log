@@ -1,0 +1,93 @@
+
+
+======================================================================
+2023-01-27 10:37:52
+e1qvmbad8hjpnej18mfan75h2m | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 306, 'ssoong_2', PASSWORD('idoido22'), '이송이', '010-1111-1111', '1111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이송이',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-01-27 12:00:17
+e1qvmbad8hjpnej18mfan75h2m | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23158, 23158, 0, 0, '수강생 실제후기', '306', '이송이', PASSWORD(''), '', '', '175.209.112.103', '처음이라 긴장도 많이하고 어려워했던 저에게 
+항상 밝은 미소로 어색하지 않게 다가와주신 
+원장님과 강사님,,매번 감사했어요♥
+직장을 다니면서 반영구를 배우는거라 
+자주 오지 못해 일주일에 1번 올 때가 많았는데 
+빠른 기간안에 더 잘할 수 있도록 디테일하게 가르쳐주고 
+유용한 테크닉과 실전에서의 노하우들을 많이 전수해주신 
+덕분에 실력이 점점 늘었던거 같아요~!
+두 분의 칭찬과 조언,격려 저에게 많은 힘이 되었습니다!
+원장님 강사님 항상 감사하고 사랑해요♥', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이송이',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음이라 긴장도 많이하고 어려워했던 저에게 
+항상 밝은 미소로 어색하지 않게 다가와주신 
+원장님과 강사님,,매번 감사했어요♥
+직장을 다니면서 반영구를 배우는거라 
+자주 오지 못해 일주일에 1번 올 때가 많았는데 
+빠른 기간안에 더 잘할 수 있도록 디테일하게 가르쳐주고 
+유용한 테크닉과 실전에서의 노하우들을 많이 전수해주신 
+덕분에 실력이 점점 늘었던거 같아요~!
+두 분의 칭찬과 조언,격려 저에게 많은 힘이 되었습니다!
+원장님 강사님 항상 감사하고 사랑해요♥',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2023-01-27 17:17:53
+s3jpckoeiu81nilcsmur2jtil6 | 125.140.10.241 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23164, 23164, 0, 0, 'Contact us', 'NULL', '현', PASSWORD(''), '010-6768-5920', '', '125.140.10.241', '가격이 어떻게 되나요?', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'현',
+										writerIP				=	'125.140.10.241',
+										writerPhone				=	'010-6768-5920',
+										writerMail				=	'',
+										contents				=	'가격이 어떻게 되나요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

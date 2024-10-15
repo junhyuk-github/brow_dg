@@ -1,0 +1,86 @@
+
+
+======================================================================
+2023-09-15 09:42:18
+7ug875bm4rbg2695mrcu1r3p54 | 222.98.6.79 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '54', 25443, 25443, 0, 0, 'Event', 'NULL', '허고운', PASSWORD(''), '01088672626', 'kobida@naver.com', '222.98.6.79', '사연이랄게 있을까 싶긴한데요
+동탄신도시에 거주 중인 6살 아들 아빠 이고요
+선천적으로 굵기가 가늘게 자라는 머리카락과 
+유전탈모(m자,정수리)로
+(현재 38세) 20대 초반부터 탈모치료를 반복(몇년간 쉬었다 
+다시 치료) 하다가 22년3월 급성골수성백혈병으로 진단 받고 
+여러번의 항암치료와 조혈모세이식으로 인해 항암 중단 1년이 
+지난 현재 신생아 아기들 수준의 머리숱과 굵기로 자라고 
+있습니다
+탈모치료를 다시 시작하기에는 약복용도 부담스럽고(건강상의 
+부작용 같은 이유) 모자의 갯수만 늘어가고 있네요
+주로 정장을 입고 사람을 만나는 영업직이어서 모자를 쓰고는 
+생업에 복귀가 힘든 상황이라서 조심스럽게 사연 신청 
+드려봅니다.', '', '', 'N', 'N', 'W', 'W00075', '', '', '상관 없음', '910', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Event',
+										writerName				=	'허고운',
+										writerIP				=	'222.98.6.79',
+										writerPhone				=	'01088672626',
+										writerMail				=	'kobida@naver.com',
+										contents				=	'사연이랄게 있을까 싶긴한데요
+동탄신도시에 거주 중인 6살 아들 아빠 이고요
+선천적으로 굵기가 가늘게 자라는 머리카락과 
+유전탈모(m자,정수리)로
+(현재 38세) 20대 초반부터 탈모치료를 반복(몇년간 쉬었다 
+다시 치료) 하다가 22년3월 급성골수성백혈병으로 진단 받고 
+여러번의 항암치료와 조혈모세이식으로 인해 항암 중단 1년이 
+지난 현재 신생아 아기들 수준의 머리숱과 굵기로 자라고 
+있습니다
+탈모치료를 다시 시작하기에는 약복용도 부담스럽고(건강상의 
+부작용 같은 이유) 모자의 갯수만 늘어가고 있네요
+주로 정장을 입고 사람을 만나는 영업직이어서 모자를 쓰고는 
+생업에 복귀가 힘든 상황이라서 조심스럽게 사연 신청 
+드려봅니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'',
+										hopeRegion				=	'',
+										hopeDate				=	'상관 없음',
+										hopeTreat				=	'910',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-09-15 14:55:01
+9qh06k7gg9b8lgffpm10gmupiu | 59.16.47.231 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '51', 25453, 25453, 0, 0, 'Contact us', 'NULL', '문윤선', PASSWORD(''), '01077210369', 'kikyelove@naver.com', '59.16.47.231', '두피문신 SMP 시술에 의한 숱채움 문의', '', '', 'N', 'N', 'W', 'W00075', '36', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'문윤선',
+										writerIP				=	'59.16.47.231',
+										writerPhone				=	'01077210369',
+										writerMail				=	'kikyelove@naver.com',
+										contents				=	'두피문신 SMP 시술에 의한 숱채움 문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'36',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

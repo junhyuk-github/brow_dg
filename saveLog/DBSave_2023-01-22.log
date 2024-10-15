@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-01-22 16:05:58
+212c2gurof93f0ufu1rs54oru4 | 106.247.2.84 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23127, 23127, 0, 0, 'Contact us', 'NULL', '유연숙', PASSWORD(''), '01051880024', '', '106.247.2.84', 'smp비용과 수강시간 실기는가능한지요', '', '', 'N', 'N', 'M', 'W00075', '13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'유연숙',
+										writerIP				=	'106.247.2.84',
+										writerPhone				=	'01051880024',
+										writerMail				=	'',
+										contents				=	'smp비용과 수강시간 실기는가능한지요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'13',
+										bbsState				=	'200'
+									

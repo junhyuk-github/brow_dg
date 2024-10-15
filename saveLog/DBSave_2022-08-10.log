@@ -1,0 +1,31 @@
+
+
+======================================================================
+2022-08-10 21:07:24
+p6siubf44hv424p389loi641eu | 49.236.150.68 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21382, 21382, 0, 0, 'Contact us', 'NULL', '신윤경', PASSWORD(''), '01042415171', '', '59.12.117.248', '기본과정수강후 
+전문가아스터문의
+속눈썹연장문의', '', '', 'N', 'N', 'M', 'W00075', '12,13', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'신윤경',
+										writerIP				=	'49.236.150.68',
+										writerPhone				=	'01042415171',
+										writerMail				=	'',
+										contents				=	'기본과정수강후 
+전문가아스터문의
+속눈썹연장문의',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'12,13',
+										bbsState				=	'200'
+									

@@ -1,0 +1,518 @@
+
+
+======================================================================
+2022-12-12 10:10:46
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 293, 'jjjh0423', PASSWORD('idoido22'), '이주희', '010-6628-0135', 'jjjh0423@nate.com', '930423', '9', '11632', '경기 의정부시 백석로52번길 41-18', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'이주희',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-6628-0135',
+										userMail			=	'jjjh0423@nate.com',
+										userBirth			=	'930423',
+										userJob				=	'9',
+										userZip				=	'11632',
+										userAddr1			=	'경기 의정부시 백석로52번길 41-18',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 10:24:13
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22640, 22640, 0, 0, '수강생 실제후기', '293', '이주희', PASSWORD(''), '', '', '175.209.112.103', '오래전부터 생각해오던 일이고, 더 늦기전에 배워야겠다고 생각했어요!
+그래서 학원도 이곳저곳 많이 상담 받으러 다녔는데 어딜 가야할지 정말 막막하던 찰나에
+톡스앤필 브로우를 알게되었고 처음 상담받을때부터 이곳이다 싶었어요!!
+겁도 많고 걱정도 진짜 많은데 항상 할수있다고 응원해주시고 제 눈높이에 맞게 
+세심하고 꼼꼼하게 피드백해주셔서 늘 감사해요. ♥', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이주희',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'오래전부터 생각해오던 일이고, 더 늦기전에 배워야겠다고 생각했어요!
+그래서 학원도 이곳저곳 많이 상담 받으러 다녔는데 어딜 가야할지 정말 막막하던 찰나에
+톡스앤필 브로우를 알게되었고 처음 상담받을때부터 이곳이다 싶었어요!!
+겁도 많고 걱정도 진짜 많은데 항상 할수있다고 응원해주시고 제 눈높이에 맞게 
+세심하고 꼼꼼하게 피드백해주셔서 늘 감사해요. ♥',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 10:26:13
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 294, 'mingming', PASSWORD('idoido22'), '밍밍이', '010-0000-0000', 'mmmm@nate.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'밍밍이',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-0000-0000',
+										userMail			=	'mmmm@nate.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 10:29:52
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 294, 'mingming', '조밍', '010-0000-0000', 'mmmm@nate.com', '', 'default', '06134', '서울 강남구 테헤란로1길 17', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'조밍',
+										userMobile			=	'010-0000-0000',
+										userMail			=	'mmmm@nate.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 10:30:19
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 294, 'mingming', '미여니', '010-0000-0000', 'mmmm@nate.com', '', 'default', '06134', '서울 강남구 테헤란로1길 17', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'미여니',
+										userMobile			=	'010-0000-0000',
+										userMail			=	'mmmm@nate.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 10:43:13
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22642, 22642, 0, 0, '수강생 실제후기', '294', '밍밍이', PASSWORD(''), '', '', '175.209.112.103', '전공하고는 전혀 관련 없는 일이라서 처음 배우려고 마음 먹기까지도 고민이 많았는데
+처음 톡스앤필 브로우에 와서 상담을 받고 아 나도 할 수 있겠다 용기를 얻어
+등록하게 되었어요. 원장님,강사님께 지도 받으면서 희망이 생기고 더 열심히 해야겠다는
+의지가 생겼어요. 항상 친절하게 하나부터 열까지 꼼꼼하게 가르쳐주셔서 감사합니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'밍밍이',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'전공하고는 전혀 관련 없는 일이라서 처음 배우려고 마음 먹기까지도 고민이 많았는데
+처음 톡스앤필 브로우에 와서 상담을 받고 아 나도 할 수 있겠다 용기를 얻어
+등록하게 되었어요. 원장님,강사님께 지도 받으면서 희망이 생기고 더 열심히 해야겠다는
+의지가 생겼어요. 항상 친절하게 하나부터 열까지 꼼꼼하게 가르쳐주셔서 감사합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 10:43:22
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '22642'
+
+
+======================================================================
+2022-12-12 10:43:22
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '22642'
+
+
+======================================================================
+2022-12-12 10:43:22
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '22642'
+
+
+======================================================================
+2022-12-12 10:43:32
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 294, 'mingming', '미여니', '010-0000-0000', 'mmmm@nate.com', '', 'default', '06134', '서울 강남구 테헤란로1길 17', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'미여니',
+										userMobile			=	'010-0000-0000',
+										userMail			=	'mmmm@nate.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 10:43:55
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/userModifyProc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 294, 'mingming', '미여닝', '010-0000-0000', 'mmmm@nate.com', '', 'default', '06134', '서울 강남구 테헤란로1길 17', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'미여닝',
+										userMobile			=	'010-0000-0000',
+										userMail			=	'mmmm@nate.com',
+										userBirth			=	'',
+										userJob				=	'default',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 10:44:20
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22642, 22642, 0, 0, '수강생 실제후기', '294', '미여닝', PASSWORD(''), '', '', '175.209.112.103', '전공하고는 전혀 관련 없는 일이라서 처음 배우려고 마음 먹기까지도 고민이 많았는데
+처음 톡스앤필 브로우에 와서 상담을 받고 아 나도 할 수 있겠다 용기를 얻어
+등록하게 되었어요. 원장님,강사님께 지도 받으면서 희망이 생기고 더 열심히 해야겠다는
+의지가 생겼어요. 항상 친절하게 하나부터 열까지 꼼꼼하게 가르쳐주셔서 감사합니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'미여닝',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'전공하고는 전혀 관련 없는 일이라서 처음 배우려고 마음 먹기까지도 고민이 많았는데
+처음 톡스앤필 브로우에 와서 상담을 받고 아 나도 할 수 있겠다 용기를 얻어
+등록하게 되었어요. 원장님,강사님께 지도 받으면서 희망이 생기고 더 열심히 해야겠다는
+의지가 생겼어요. 항상 친절하게 하나부터 열까지 꼼꼼하게 가르쳐주셔서 감사합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 10:45:00
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '22640'
+
+
+======================================================================
+2022-12-12 10:45:00
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '22640'
+
+
+======================================================================
+2022-12-12 10:45:00
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '22640'
+
+
+======================================================================
+2022-12-12 10:58:16
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22644, 22644, 0, 0, '수강생 실제후기', '293', '이주희', PASSWORD(''), '', '', '175.209.112.103', '겁도 많고 걱정도 진짜 많은데 항상 할 수 있다고 응원해주시고 제 눈높이에 맞게
+세심하고 꼼꼼히 피드백 해주셔서 늘 감사해요.♥
+기술 뿐만 아니라 다양한 세미나를 통해 여러가지를 배우고 경험해 볼 수 있어서 너무 좋았어요.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'이주희',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'겁도 많고 걱정도 진짜 많은데 항상 할 수 있다고 응원해주시고 제 눈높이에 맞게
+세심하고 꼼꼼히 피드백 해주셔서 늘 감사해요.♥
+기술 뿐만 아니라 다양한 세미나를 통해 여러가지를 배우고 경험해 볼 수 있어서 너무 좋았어요.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 11:02:16
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 295, 'zy_1111', PASSWORD('idoido22'), '김지영', '010-0000-0000', '0000@naver.com', '', '', '11632', '경기 의정부시 백석로52번길 41-23', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'김지영',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-0000-0000',
+										userMail			=	'0000@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'11632',
+										userAddr1			=	'경기 의정부시 백석로52번길 41-23',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 11:04:41
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 296, 'hjin_k', PASSWORD('idoido22'), '강희진', '010-1111-1111', '1111@naver.com', '', '', '11700', '경기 의정부시 경의로 108', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'강희진',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'1111@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'11700',
+										userAddr1			=	'경기 의정부시 경의로 108',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 11:14:21
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22645, 22645, 0, 0, '수강생 실제후기', '296', '강희진', PASSWORD(''), '', '', '175.209.112.103', '미용샵 운영을 하고 있었는데 문득 이것 만으로는 안되겠다 싶어서 배우게 되었습니다.
+처음엔 반신반의 했지만 톡스앤필 브로우 에서 배워가며 여기를 선택하길 참 잘했다 느꼈어요.
+교육 커리큘럼도 탄탄하고 개개인 맞춤으로 진도를 봐주시다 보니 나의 부족한 부분에 대해서는 
+고쳐가고 잘하는 부분은 더 살리면서 제 스스로도 실력이 늘고 있다는 것이 느껴져 참 뿌듯할 때가 많습니다.
+항상 수강생들을 위해 배려해주시고 고생하시는 원장님,강사님 너무 감사드립니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'강희진',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'미용샵 운영을 하고 있었는데 문득 이것 만으로는 안되겠다 싶어서 배우게 되었습니다.
+처음엔 반신반의 했지만 톡스앤필 브로우 에서 배워가며 여기를 선택하길 참 잘했다 느꼈어요.
+교육 커리큘럼도 탄탄하고 개개인 맞춤으로 진도를 봐주시다 보니 나의 부족한 부분에 대해서는 
+고쳐가고 잘하는 부분은 더 살리면서 제 스스로도 실력이 늘고 있다는 것이 느껴져 참 뿌듯할 때가 많습니다.
+항상 수강생들을 위해 배려해주시고 고생하시는 원장님,강사님 너무 감사드립니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 11:15:05
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '22645'
+
+
+======================================================================
+2022-12-12 11:15:05
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '22645'
+
+
+======================================================================
+2022-12-12 11:15:05
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '22645'
+
+
+======================================================================
+2022-12-12 11:15:17
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22645, 22645, 0, 0, '수강생 실제후기', '296', '강희진', PASSWORD(''), '', '', '175.209.112.103', '미용샵 운영을 하고 있었는데 문득 이것 만으로는 안되겠다 싶어서 배우게 되었습니다.
+처음엔 반신반의 했지만 톡스앤필 브로우 에서 배워가며 여기를 선택하길 참 잘했다 느꼈어요.
+교육 커리큘럼도 탄탄하고 개개인 맞춤으로 진도를 봐주시다 보니 나의 부족한 부분에 대해서는
+고쳐가고 잘하는 부분은 더 살리면서 제 스스로도 실력이 늘고 있다는 것이 느껴져 참 뿌듯할 때가 많습니다.
+항상 수강생들을 위해 배려해주시고 고생하시는 강사진분들 너무 감사드립니다.', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'강희진',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'미용샵 운영을 하고 있었는데 문득 이것 만으로는 안되겠다 싶어서 배우게 되었습니다.
+처음엔 반신반의 했지만 톡스앤필 브로우 에서 배워가며 여기를 선택하길 참 잘했다 느꼈어요.
+교육 커리큘럼도 탄탄하고 개개인 맞춤으로 진도를 봐주시다 보니 나의 부족한 부분에 대해서는
+고쳐가고 잘하는 부분은 더 살리면서 제 스스로도 실력이 늘고 있다는 것이 느껴져 참 뿌듯할 때가 많습니다.
+항상 수강생들을 위해 배려해주시고 고생하시는 강사진분들 너무 감사드립니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 11:58:51
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22646, 22646, 0, 0, '수강생 실제후기', '295', '김지영', PASSWORD(''), '', '', '175.209.112.103', '기초부터 튼튼하게 잡아주시고 종강 후에도 지속적인 피드백을 받을 수 있었던 덕분에
+창업 초기임에도 불구하고 큰 어려움이나 두려움 없이 샵을 운영하고 있어요!
+항상 진심이 담긴 말 한마디 한마디가 원동력이 되어 목표를 더 크게 가질 수 있었습니다.
+지속적으로 관심 가져주시고 이끌어주셔서 감사합니다. 톡스앤필 브로우 최고 최고! !!♥', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'김지영',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'기초부터 튼튼하게 잡아주시고 종강 후에도 지속적인 피드백을 받을 수 있었던 덕분에
+창업 초기임에도 불구하고 큰 어려움이나 두려움 없이 샵을 운영하고 있어요!
+항상 진심이 담긴 말 한마디 한마디가 원동력이 되어 목표를 더 크게 가질 수 있었습니다.
+지속적으로 관심 가져주시고 이끌어주셔서 감사합니다. 톡스앤필 브로우 최고 최고! !!♥',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-12-12 12:14:14
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 297, 'you_rr', PASSWORD('idoido22'), '유림', '010-2222-2221', '2222@naver.com', '', '', '11700', '경기 의정부시 경의로 108', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'유림',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-2222-2221',
+										userMail			=	'2222@naver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'11700',
+										userAddr1			=	'경기 의정부시 경의로 108',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2022-12-12 12:22:35
+8fs2a9lkcg6pvi53suk40n0u56 | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 22647, 22647, 0, 0, '수강생 실제후기', '297', '유림', PASSWORD(''), '', '', '175.209.112.103', '선생님 정말 꼼꼼 그 자체! 하나를 배워도 정말 제대로 알려주시고
+어려워하면 더 알기 쉽게 맞춰서 설명해주시고 지도해주셔서 좋았어요. 
+늘 배려해주시는 모습에 정말 감동한적도 많아요... 
+아직은 많이 부족하지만 더 열심히 해야겠다고 생각했습니다!
+제 롤모델은 톡스앤필 브로우 선생님들이에요..항상 감사해요♡', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'유림',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'선생님 정말 꼼꼼 그 자체! 하나를 배워도 정말 제대로 알려주시고
+어려워하면 더 알기 쉽게 맞춰서 설명해주시고 지도해주셔서 좋았어요. 
+늘 배려해주시는 모습에 정말 감동한적도 많아요... 
+아직은 많이 부족하지만 더 열심히 해야겠다고 생각했습니다!
+제 롤모델은 톡스앤필 브로우 선생님들이에요..항상 감사해요♡',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

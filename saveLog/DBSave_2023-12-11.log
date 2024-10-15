@@ -1,0 +1,30 @@
+
+
+======================================================================
+2023-12-11 12:43:35
+jp9ebp75sq90qifv0iabnbd4vf | 175.197.73.228 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26167, 26167, 0, 0, 'Contact us', 'NULL', '송현희', PASSWORD(''), '01050184766', 'songh_h@naver.com', '175.197.73.228', '두피문신 수강 문의 드립니다 ( 커리큘럼, 기간, 비용 )', '', '', 'N', 'N', 'W', 'W00075', '15,16', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'송현희',
+										writerIP				=	'175.197.73.228',
+										writerPhone				=	'01050184766',
+										writerMail				=	'songh_h@naver.com',
+										contents				=	'두피문신 수강 문의 드립니다 ( 커리큘럼, 기간, 비용 )',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

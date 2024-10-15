@@ -1,0 +1,50 @@
+
+
+======================================================================
+2023-04-05 14:33:34
+qldpvdq7lekl7qua0tss5qreoc | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 345, 'wldnwldn', PASSWORD('idoido22'), '전지우', '010-1111-111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'전지우',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-04-05 14:46:19
+qldpvdq7lekl7qua0tss5qreoc | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23884, 23884, 0, 0, '수강생 실제후기', '345', '전지우', PASSWORD(''), '', '', '175.209.112.103', '진정성이 느껴지는 친절한 상담, 탄탄한 커리큘럼, 깨끗하고 밝은 학원의 분위기, 꼼꼼하고 섬세한 강사진 분들까지 정말 최고에요.다같이 진도 나가는게 아닌 개별 진도로 진행되는 부분도 정말 큰 장점인 것 같아요!
+저의 부족한 실력을 어떻게든 더 잘하게끔 애써주시고 제 속도에 맞게 이끌어주셔서 정말 감사합니다. ♥', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'전지우',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'진정성이 느껴지는 친절한 상담, 탄탄한 커리큘럼, 깨끗하고 밝은 학원의 분위기, 꼼꼼하고 섬세한 강사진 분들까지 정말 최고에요.다같이 진도 나가는게 아닌 개별 진도로 진행되는 부분도 정말 큰 장점인 것 같아요!
+저의 부족한 실력을 어떻게든 더 잘하게끔 애써주시고 제 속도에 맞게 이끌어주셔서 정말 감사합니다. ♥',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

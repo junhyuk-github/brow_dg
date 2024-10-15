@@ -1,0 +1,48 @@
+
+
+======================================================================
+2023-02-01 17:30:15
+fpfh05990ljojhhim3o1mguhj4 | 106.102.128.187 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 23213, 23213, 0, 0, 'Contact us', 'NULL', '장여경', PASSWORD(''), '01054950689', '', '106.102.128.187', '교육관련 문의, 상담 필요합니다.', '', '', 'N', 'N', 'M', 'W00075', '14', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'장여경',
+										writerIP				=	'106.102.128.187',
+										writerPhone				=	'01054950689',
+										writerMail				=	'',
+										contents				=	'교육관련 문의, 상담 필요합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'14',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-02-01 21:15:26
+ga19139pnblsnd6hmjluqlth6g | 121.173.145.226 | /m/member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 308, 'rhim0929', PASSWORD('rsj760621'), '임성진', '010-8963-1451', 'rhim0929@naver.com', '19761120', '9', '21377', '인천 부평구 부영로 165', '우성1,2,3차 아파트 103동 610호', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'임성진',
+										userPWD				=	PASSWORD('rsj760621'),
+										userMobile			=	'010-8963-1451',
+										userMail			=	'rhim0929@naver.com',
+										userBirth			=	'19761120',
+										userJob				=	'9',
+										userZip				=	'21377',
+										userAddr1			=	'인천 부평구 부영로 165',
+										userAddr2			=	'우성1,2,3차 아파트 103동 610호'
+									

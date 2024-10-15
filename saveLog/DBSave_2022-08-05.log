@@ -1,0 +1,231 @@
+
+
+======================================================================
+2022-08-05 03:55:56
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 263, 'webdevis', PASSWORD('tjrgus2003'), '개발자', '010-2325-0531', 'webtick@gmail.com', '', '', '08277', '서울 구로구 개봉동 170-14', '111', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'개발자',
+										userPWD				=	PASSWORD('tjrgus2003'),
+										userMobile			=	'010-2325-0531',
+										userMail			=	'webtick@gmail.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'08277',
+										userAddr1			=	'서울 구로구 개봉동 170-14',
+										userAddr2			=	'111'
+									
+
+
+======================================================================
+2022-08-05 03:59:53
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21335, 21335, 0, 0, '수강생 실제후기 - [커리큘럼] 아티스트 과정', '263', '개발자', PASSWORD(''), '', '', '58.234.165.96', 'dfhgsreg', '', '', 'N', 'Y', '', '', '1', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기 - [커리큘럼] 아티스트 과정',
+										writerName				=	'개발자',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'dfhgsreg',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'1',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-08-05 04:02:22
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21335, 21335, 0, 0, '수강생 실제후기 - [커리큘럼] 아티스트 과정', '263', '개발자', PASSWORD(''), '', '', '58.234.165.96', 'dfghdfghdfgh', '', '', 'N', 'Y', '', '', '1', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기 - [커리큘럼] 아티스트 과정',
+										writerName				=	'개발자',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'dfghdfghdfgh',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'1',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-08-05 04:02:22
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '21335', 'NULL', '삐약이.jpg', '20220805040222_img_1.jpg', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'삐약이.jpg',
+													fileName				=	'20220805040222_img_1.jpg',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2022-08-05 04:11:20
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21335, 21335, 0, 0, '수강생 실제후기 - [커리큘럼] 아티스트 과정', '263', '개발자', PASSWORD(''), '', '', '58.234.165.96', 'sdfsdf', '', '', 'N', 'Y', '', '', '1', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기 - [커리큘럼] 아티스트 과정',
+										writerName				=	'개발자',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'sdfsdf',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'1',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-08-05 04:11:20
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '21335', 'NULL', '삐약이.jpg', '20220805041120_img_1.jpg', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'삐약이.jpg',
+													fileName				=	'20220805041120_img_1.jpg',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2022-08-05 04:11:41
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/commu/reviewProc.php
+
+DELETE FROM tbl_bbsFile WHERE bIdx = '21335'
+
+
+======================================================================
+2022-08-05 04:11:41
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/commu/reviewProc.php
+
+DELETE FROM tbl_bbscomment WHERE bIdx = '21335'
+
+
+======================================================================
+2022-08-05 04:11:41
+psfmk0iqeegfkkvbqa8n9nvoa5 | 58.234.165.96 | /m/commu/reviewProc.php
+
+DELETE FROM tbl_bbs WHERE idx = '21335'
+
+
+======================================================================
+2022-08-05 09:42:48
+nk348ostgu01h9qkngar96qdr9 | 211.109.227.146 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21335, 21335, 0, 0, '수강생 실제후기 - [커리큘럼] 아티스트 과정', '261', '트라이업', PASSWORD(''), '', '', '211.109.227.146', '트라이업 테스트입니다.', '', '', 'N', 'Y', '', '', '1', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기 - [커리큘럼] 아티스트 과정',
+										writerName				=	'트라이업',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'트라이업 테스트입니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'1',
+										bbsState				=	''
+									
+
+
+======================================================================
+2022-08-05 09:42:48
+nk348ostgu01h9qkngar96qdr9 | 211.109.227.146 | /commu/reviewProc.php
+
+
+												INSERT INTO tbl_bbsFile
+													(corpCode, boardID, bIdx, idx, upFileName, fileName, filePath, fileGubun, fileSort, isList) VALUES
+													('W00075', '48', '21335', 'NULL', '트라이업.png', '20220805094248_img_1.png', '/down/W00075/boardFile/48/', '2', 1, 'N')
+												ON DUPLICATE KEY UPDATE
+													upFileName				=	'트라이업.png',
+													fileName				=	'20220805094248_img_1.png',
+													filePath				=	'/down/W00075/boardFile/48/',
+													fileGubun				=	'2',
+													fileSort				=	1,
+													isList					=	'N'
+												
+
+
+======================================================================
+2022-08-05 09:44:44
+nk348ostgu01h9qkngar96qdr9 | 211.109.227.146 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 21336, 21336, 0, 0, '수강생 실제후기 - [커리큘럼] 스카터 SMP 과정', '261', '트라이업', PASSWORD(''), '', '', '211.109.227.146', '교육이 만족스러워요', '', '', 'N', 'Y', '', '', '3', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기 - [커리큘럼] 스카터 SMP 과정',
+										writerName				=	'트라이업',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'교육이 만족스러워요',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'3',
+										bbsState				=	''
+									

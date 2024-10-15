@@ -1,0 +1,30 @@
+
+
+======================================================================
+2024-03-15 14:41:27
+ho6kqplcn3j57lmsktc0jsgfst | 211.234.195.252 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, hopeRegion, hopeDate, hopeTreat, bbsState) VALUES
+										('W00075', '45', 26995, 26995, 0, 0, 'Contact us', 'NULL', '김보경', PASSWORD(''), '01090340779', 'sabin777777@naver.com', '211.234.195.252', '상담예약', '', '', 'N', 'N', 'W', 'W00075', '15,16,17,18,19,20,21', '', '', '', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김보경',
+										writerIP				=	'211.234.195.252',
+										writerPhone				=	'01090340779',
+										writerMail				=	'sabin777777@naver.com',
+										contents				=	'상담예약',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'W',
+										applyCorp				=	'W00075',
+										gubun					=	'15,16,17,18,19,20,21',
+										hopeRegion				=	'',
+										hopeDate				=	'',
+										hopeTreat				=	'',
+										bbsState				=	'200'
+									

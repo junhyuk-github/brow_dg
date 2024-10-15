@@ -1,0 +1,27 @@
+
+
+======================================================================
+2023-07-29 14:45:44
+bi31mc9uemmuo2oodvqnevsphp | 175.209.112.103 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24959, 24959, 0, 0, 'Contact us', 'NULL', '김한솔', PASSWORD(''), '010-5537-3736', '', '175.209.112.103', '테스트', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김한솔',
+										writerIP				=	'175.209.112.103',
+										writerPhone				=	'010-5537-3736',
+										writerMail				=	'',
+										contents				=	'테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									

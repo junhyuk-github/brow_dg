@@ -1,0 +1,56 @@
+
+
+======================================================================
+2023-03-17 14:28:09
+tk4v7rc79n2ftsebjbt4uqdoql | 175.209.112.103 | /member/join02Proc.php
+
+
+									INSERT INTO tbl_academyMember
+										(gubun, userIdx, userID, userPWD, userName, userMobile, userMail, userBirth, userJob, userZip, userAddr1, userAddr2, userGroup, joinGubun, snsUserID) VALUES
+										('B', 337, 'hammmmm', PASSWORD('idoido22'), '한건아', '010-1111-1111', '111@maver.com', '', '', '06134', '서울 강남구 테헤란로1길 17', '', '3', '1', '')
+									ON DUPLICATE KEY UPDATE
+										userName			=	'한건아',
+										userPWD				=	PASSWORD('idoido22'),
+										userMobile			=	'010-1111-1111',
+										userMail			=	'111@maver.com',
+										userBirth			=	'',
+										userJob				=	'',
+										userZip				=	'06134',
+										userAddr1			=	'서울 강남구 테헤란로1길 17',
+										userAddr2			=	''
+									
+
+
+======================================================================
+2023-03-17 14:28:31
+tk4v7rc79n2ftsebjbt4uqdoql | 175.209.112.103 | /commu/reviewProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '48', 23687, 23687, 0, 0, '수강생 실제후기', '337', '한건아', PASSWORD(''), '', '', '175.209.112.103', '처음에 배우기 시작했을때는 너무 어렵게만 느껴져서 고무판에 연습하는것조차도 
+떨리고 겁나서 스스로 한없이 작아지기만 했었어요..
+하지만 겁내지말라고 할수있다고 많은 용기 불어넣어주신 선생님 ㅠㅠ
+선생님들 덕분에 용기낼 수 있었어요 이제는 겁내지않아요!
+부족한 부분들 꼼꼼하게 체크해서 지도해주고 이끌어주셔서 감사합니다!', '', '', 'N', 'Y', '', '', '', '')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'수강생 실제후기',
+										writerName				=	'한건아',
+										writerIP				=	'',
+										writerPhone				=	'',
+										writerMail				=	'',
+										contents				=	'처음에 배우기 시작했을때는 너무 어렵게만 느껴져서 고무판에 연습하는것조차도 
+떨리고 겁나서 스스로 한없이 작아지기만 했었어요..
+하지만 겁내지말라고 할수있다고 많은 용기 불어넣어주신 선생님 ㅠㅠ
+선생님들 덕분에 용기낼 수 있었어요 이제는 겁내지않아요!
+부족한 부분들 꼼꼼하게 체크해서 지도해주고 이끌어주셔서 감사합니다!',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'Y',
+										applyBrand				=	'',
+										applyCorp				=	'',
+										gubun					=	'',
+										bbsState				=	''
+									

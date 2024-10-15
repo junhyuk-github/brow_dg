@@ -1,0 +1,37 @@
+
+
+======================================================================
+2022-11-16 13:03:47
+5tt7um5f1cdibut7mgnjbpfdib | 165.243.5.20 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 22389, 22389, 0, 0, 'Contact us', 'NULL', '채영', PASSWORD(''), '01020606918', '', '165.243.5.20', '안녕하세요 ^^
+ 반영구와 피부미용쪽으로 취업하고 싶어 수강 찾아보다 
+문의드립니다.
+ 정확한 진로 방향은 잡지 못했으나, 스카터 SMP는 
+수강하고 싶습니다.
+ 다른 분야는 문의 후 고려해보려합니다.', '', '', 'N', 'N', 'M', 'W00075', '11,12,13,14', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'채영',
+										writerIP				=	'165.243.5.20',
+										writerPhone				=	'01020606918',
+										writerMail				=	'',
+										contents				=	'안녕하세요 ^^
+ 반영구와 피부미용쪽으로 취업하고 싶어 수강 찾아보다 
+문의드립니다.
+ 정확한 진로 방향은 잡지 못했으나, 스카터 SMP는 
+수강하고 싶습니다.
+ 다른 분야는 문의 후 고려해보려합니다.',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11,12,13,14',
+										bbsState				=	'200'
+									

@@ -1,0 +1,29 @@
+
+
+======================================================================
+2022-08-30 13:19:30
+qtr3rahkrj0cmmgqcc4kg2o5i3 | 118.235.7.64 | /m/contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 21586, 21586, 0, 0, 'Contact us', 'NULL', '김민영', PASSWORD(''), '01027893774', '', '118.235.7.64', '톡스앤필이 지역마다 많은데 강남지역만 
+가능한건가요?', '', '', 'N', 'N', 'M', 'W00075', '11', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'김민영',
+										writerIP				=	'118.235.7.64',
+										writerPhone				=	'01027893774',
+										writerMail				=	'',
+										contents				=	'톡스앤필이 지역마다 많은데 강남지역만 
+가능한건가요?',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'11',
+										bbsState				=	'200'
+									

@@ -1,0 +1,54 @@
+
+
+======================================================================
+2023-07-25 02:23:17
+pgnma2v0241gl0u8lhpopulrt3 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24914, 24914, 0, 0, 'Contact us', 'NULL', '트라이업 테스트', PASSWORD(''), '01086605737', '', '211.243.232.180', '트라이업 테스트', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업 테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01086605737',
+										writerMail				=	'',
+										contents				=	'트라이업 테스트',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
+
+
+======================================================================
+2023-07-25 02:23:21
+301sl4ababkuak28rr6ug383q9 | 211.243.232.180 | /contact/contactProc.php
+
+
+									INSERT INTO tbl_bbs
+										(corpCode, boardID, idx, boardRef, boardStep, boardLevel, subject, writerIdx, writerName, writerPWD, writerPhone, writerMail, writerIP, contents, startDate, endDate, highYN, isDisplay, applyBrand, applyCorp, gubun, bbsState) VALUES
+										('W00075', '45', 24915, 24915, 0, 0, 'Contact us', 'NULL', '트라이업테스트', PASSWORD(''), '01050059538', '', '211.243.232.180', '1234', '', '', 'N', 'N', 'M', 'W00075', '15', '200')
+									ON DUPLICATE KEY UPDATE
+										subject					=	'Contact us',
+										writerName				=	'트라이업테스트',
+										writerIP				=	'211.243.232.180',
+										writerPhone				=	'01050059538',
+										writerMail				=	'',
+										contents				=	'1234',
+										startDate				=	'',
+										endDate					=	'',
+										hitCount				=	'',
+										highYN					=	'N',
+										isDisplay				=	'N',
+										applyBrand				=	'M',
+										applyCorp				=	'W00075',
+										gubun					=	'15',
+										bbsState				=	'200'
+									
