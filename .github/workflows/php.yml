@@ -6,7 +6,7 @@ on:
     branches: [main]
 
   workflow_dispatch:
-#메인 에 올리기4
+#메인 에 올리기3
 jobs:
   deploy:
     runs-on: self-hosted
